@@ -111,7 +111,7 @@ y haz clic en el botón **play** de **thonny** podrás ingresar los datos direct
 
 Como puedes ver con saber estas 3 simples cosas ya puedes crear variables para almacenar tus datos, usar comandos de entrada (**input()**) y comandos de salida (**print()**) con el cual puedes practicar. En el próximo tutorial, te explicaremos como tomar decisiones usando tus variables.
 
-Si tienes dudas o requieres una guiá más personalizada contactanos a través de nuestra [Página de facebook](facebook.me/rdckgames).
+Si tienes dudas o requieres una guiá más personalizada, contáctanos a través de nuestra [Página de facebook](http://facebook.me/rdckgames).
 
 
 <!--stackedit_data:
