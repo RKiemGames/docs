@@ -1,13 +1,15 @@
-# Programa: formulario de registro.
+# Programación 1
 
-Que aprenderás:
+Creando un formulario de registro.
+
+## Que aprenderás
  1. Conocer que son las variables.
  2. Maneras de ingresar información.
  3. Mostrar la información.
 
 ## ¿Qué necesito?
 
-Para empezar a programar necesitas una aplicación que pueda interpretar tus programas, en esta guiá de ejemplo usaremos un programa llamado **Thonny** y lo puedes descargar desde aquí: https://thonny.org/, es gratuito y no necesitas nada más, lo puedes descargar para **Windows**, **Mac** o **Linux**.
+Para empezar a programar necesitas una aplicación que pueda interpretar tus programas, en esta guiá de ejemplo usaremos un programa llamado **Thonny** y lo puedes descargar desde aquí: https://thonny.org, es gratuito y no necesitas nada más, lo puedes descargar para **Windows**, **Mac** o **Linux**.
 
 ![](https://lh3.googleusercontent.com/PxjHlTnLQ69aecmR5E856Mj_ybfASOlvrXvByHf4ZTGaskj646exYfZk57dAkkpQaZJOBaoRJ63GQv_UBnkS7FseqD7w8V5J1ecAUpGMPGH6wYc4VQ-JMgxSivb20M1dqMCeD9qvklr4pQFRggYRcq0LobFoyk2ZHTCoYcioJNlC7vLhSiqR16shhKkiG5jOLPh03IGfekgUo6MjfpQO77sNpD0H-SNy8zStFOBNl7UbQWkJI042BU-Zg0W1T8wsdMkVQ0VAOxOsr59da6mfPKqUlSCmh0ClveeCVJk3Ov5HgCyRvz5pScuBxEz1VOof1JoJMA5XKgQjErGKRW_hNMuIehKxmxUjUubM5hWoi_idawa6nEMeuxy44_YVvguBfmq-8u_B5L2f-XD9hqlLnjTWwIaeh9dQLxIAoRe3GLKdE4K64TQ3w8WsdoqQVI46kMMQbCA2VtNhJflesgoKuc1e37Ryl5O_oFUluY96X22ubzHXBxZH9b542VnVCky9OttYsIafwKUSaRhLiJQKGpDrgD5y7r6OoMux_MXCzivfj8WmzxU7j07d8nqdtaAD6peG2OQYC5djWaLVk0urae3ZjyslFhbf3szETxo-rx9G1SsTr60ORusSXlgvWzjcs-c-fcIS--U8Cl9YgRgo-Ulqn5eKzuUgnFqFIwp8T5ppsGrcfLLfOkpMaypwQ6lZLoGxSc3NrpzCsQ6c6w8JVeZl=w479-h405-no?pageId=102396338536413597633)
 
@@ -111,14 +113,15 @@ y haz clic en el botón **play** de **thonny** podrás ingresar los datos direct
 
 Como puedes ver con saber estas 3 simples cosas ya puedes crear variables para almacenar tus datos, usar comandos de entrada (**input()**) y comandos de salida (**print()**) con el cual puedes practicar. En el próximo tutorial, te explicaremos como tomar decisiones usando tus variables.
 
-Si tienes dudas o requieres una guiá más personalizada, contáctanos a través de nuestra [Página de facebook](http://facebook.me/rdckgames).
+Si tienes dudas o requieres una guiá más personalizada contáctanos a través de nuestra [Página de facebook](http://facebook.me/rdckgames).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzODU1MzUzNCwyMjg3ODMzMjMsLTE2Mz
-QxNTU0MzgsLTE0NDM5NDAyNzksLTkxMDMyNzc3NSwyMDQzMDE3
-NDgsLTExNTUwOTgwOTMsLTEzOTE2NTUyNzcsMTQ0Nzk4NjYxMi
-wtMTk2NDkxMTM3OCw3NjQ2MDk0MDIsMTUwMjk2OTEzNSwtMzYw
-MDc1MzQzLC0xMTQ0NTEzNTIxLDE3MTU1NDAyODUsLTIwODg3ND
-Y2MTIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTEyODAzOTk4OCwyMDU0NzI1NzkzLC0xMj
+Y3Njg4MjYsMTUzODU1MzUzNCwyMjg3ODMzMjMsLTE2MzQxNTU0
+MzgsLTE0NDM5NDAyNzksLTkxMDMyNzc3NSwyMDQzMDE3NDgsLT
+ExNTUwOTgwOTMsLTEzOTE2NTUyNzcsMTQ0Nzk4NjYxMiwtMTk2
+NDkxMTM3OCw3NjQ2MDk0MDIsMTUwMjk2OTEzNSwtMzYwMDc1Mz
+QzLC0xMTQ0NTEzNTIxLDE3MTU1NDAyODUsLTIwODg3NDY2MTIs
+NzMwOTk4MTE2XX0=
 -->
