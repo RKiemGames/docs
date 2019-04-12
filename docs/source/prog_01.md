@@ -9,7 +9,7 @@ Creando un formulario de registro.
 
 ## ¿Qué necesito?
 
-Para empezar a programar necesitas una aplicación que pueda interpretar tus programas, en esta guía de ejemplo usaremos un programa llamado **Thonny** y lo puedes descargar desde aquí: (https://thonny.org), es gratuito y no necesitas nada más, lo puedes descargar para **Windows**, **Mac** o **Linux**.
+Para empezar a programar necesitas una aplicación que pueda interpretar tus programas, en esta guía de ejemplo usaremos un programa llamado **Thonny** y lo puedes descargar desde aquí: [https://thonny.org](https://thonny.org), es gratuito y no necesitas nada más, lo puedes descargar para **Windows**, **Mac** o **Linux**.
 
 ![](https://lh3.googleusercontent.com/PxjHlTnLQ69aecmR5E856Mj_ybfASOlvrXvByHf4ZTGaskj646exYfZk57dAkkpQaZJOBaoRJ63GQv_UBnkS7FseqD7w8V5J1ecAUpGMPGH6wYc4VQ-JMgxSivb20M1dqMCeD9qvklr4pQFRggYRcq0LobFoyk2ZHTCoYcioJNlC7vLhSiqR16shhKkiG5jOLPh03IGfekgUo6MjfpQO77sNpD0H-SNy8zStFOBNl7UbQWkJI042BU-Zg0W1T8wsdMkVQ0VAOxOsr59da6mfPKqUlSCmh0ClveeCVJk3Ov5HgCyRvz5pScuBxEz1VOof1JoJMA5XKgQjErGKRW_hNMuIehKxmxUjUubM5hWoi_idawa6nEMeuxy44_YVvguBfmq-8u_B5L2f-XD9hqlLnjTWwIaeh9dQLxIAoRe3GLKdE4K64TQ3w8WsdoqQVI46kMMQbCA2VtNhJflesgoKuc1e37Ryl5O_oFUluY96X22ubzHXBxZH9b542VnVCky9OttYsIafwKUSaRhLiJQKGpDrgD5y7r6OoMux_MXCzivfj8WmzxU7j07d8nqdtaAD6peG2OQYC5djWaLVk0urae3ZjyslFhbf3szETxo-rx9G1SsTr60ORusSXlgvWzjcs-c-fcIS--U8Cl9YgRgo-Ulqn5eKzuUgnFqFIwp8T5ppsGrcfLLfOkpMaypwQ6lZLoGxSc3NrpzCsQ6c6w8JVeZl=w479-h405-no?pageId=102396338536413597633)
 
