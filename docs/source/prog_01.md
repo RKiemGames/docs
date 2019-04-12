@@ -9,7 +9,7 @@ Creando un formulario de registro.
 
 ## ¿Qué necesito?
 
-Para empezar a programar necesitas una aplicación que pueda interpretar tus programas, en esta guiá de ejemplo usaremos un programa llamado **Thonny** y lo puedes descargar desde aquí: https://thonny.org, es gratuito y no necesitas nada más, lo puedes descargar para **Windows**, **Mac** o **Linux**.
+Para empezar a programar necesitas una aplicación que pueda interpretar tus programas, en esta guía de ejemplo usaremos un programa llamado **Thonny** y lo puedes descargar desde aquí: (https://thonny.org), es gratuito y no necesitas nada más, lo puedes descargar para **Windows**, **Mac** o **Linux**.
 
 ![](https://lh3.googleusercontent.com/PxjHlTnLQ69aecmR5E856Mj_ybfASOlvrXvByHf4ZTGaskj646exYfZk57dAkkpQaZJOBaoRJ63GQv_UBnkS7FseqD7w8V5J1ecAUpGMPGH6wYc4VQ-JMgxSivb20M1dqMCeD9qvklr4pQFRggYRcq0LobFoyk2ZHTCoYcioJNlC7vLhSiqR16shhKkiG5jOLPh03IGfekgUo6MjfpQO77sNpD0H-SNy8zStFOBNl7UbQWkJI042BU-Zg0W1T8wsdMkVQ0VAOxOsr59da6mfPKqUlSCmh0ClveeCVJk3Ov5HgCyRvz5pScuBxEz1VOof1JoJMA5XKgQjErGKRW_hNMuIehKxmxUjUubM5hWoi_idawa6nEMeuxy44_YVvguBfmq-8u_B5L2f-XD9hqlLnjTWwIaeh9dQLxIAoRe3GLKdE4K64TQ3w8WsdoqQVI46kMMQbCA2VtNhJflesgoKuc1e37Ryl5O_oFUluY96X22ubzHXBxZH9b542VnVCky9OttYsIafwKUSaRhLiJQKGpDrgD5y7r6OoMux_MXCzivfj8WmzxU7j07d8nqdtaAD6peG2OQYC5djWaLVk0urae3ZjyslFhbf3szETxo-rx9G1SsTr60ORusSXlgvWzjcs-c-fcIS--U8Cl9YgRgo-Ulqn5eKzuUgnFqFIwp8T5ppsGrcfLLfOkpMaypwQ6lZLoGxSc3NrpzCsQ6c6w8JVeZl=w479-h405-no?pageId=102396338536413597633)
 
@@ -19,17 +19,17 @@ En programación una **variable** es como una caja pequeña donde podemos guarda
 
 **En resumen**, una **variable** es donde podemos guardar **algo** y tiene un **nombre** para reconocerla. Ese **algo** que podemos guardar podría ser una **palabra** o un **numero**.
 
-## Como se crea una variable
+## Cómo se crea una variable
 
-Esto es muy sencillo, debes debes escoger que vas a aguardar en la variable y luego definir un nombre. Veamos un ejemplo: digamos que queremos guardar un **número**, los años de edad de una persona,  entonces la nombraremos a la variable **edad**
+Esto es muy sencillo, debes escoger que vas a aguardar en la variable y luego definir un nombre. Veamos un ejemplo: digamos que queremos guardar un **número**, los años de edad de una persona,  entonces la nombraremos a la variable **edad**
 
     edad = 21
 
 Así es como se escribe en programación. Ahora te estarás preguntando ¿Por qué el símbolo **igual**?, esto es confuso al principio, ya que naturalmente ocupamos el símbolo **igual** para dar un resultado, pero en programación el símbolo **igual** nos sirve para indicar que queremos guardar **algo** en la **variable**, En este caso, **algo** es el número **21**, que representa la edad de una persona y la estamos guardando en la variable llamada **edad**.
 
-Continuando con el ejercicio, imagina que otros datos debería tener una persona, empecemos por **nombre** y **apellido**, ¿Qué otros más se te ocurren?.
+Continuando con el ejercicio, imagina qué otros datos debería tener una persona, empecemos por **nombre** y **apellido**, ¿Qué otros más se te ocurren?.
 
-El **nombre** o **apellido** de una persona es como una palabra, ya que está compuesto de letras. en programación para indicar que es una palabra debemos encerrar esa palabra entre comillas.
+El **nombre** o **apellido** de una persona es como una palabra, ya que está compuesto de letras. en programación para indicar que es una palabra, debemos encerrar esa palabra entre comillas.
 
     nombre = 'Arturo'
 
@@ -37,7 +37,7 @@ El **nombre** o **apellido** de una persona es como una palabra, ya que está co
 
 y hacemos esto para distinguirlo de una **variable**.
 
-Ahora abre la aplicación **thonny** y por cada línea empieza a crear las variables para los datos de una persona cualquiera (por ejemplo, pueden ser tus datos).
+Ahora abre la aplicación **thonny** y por cada línea, empieza a crear las variables para los datos de una persona cualquiera (por ejemplo, pueden ser tus datos).
 
     nombre = 'Arturo'
     apellido = 'Lara'
@@ -55,7 +55,7 @@ Luego que ya escribiste tus variables vamos a mostrar los datos en pantalla, est
 
 Los comando se distinguen de las variables porque llevan **paréntesis** y dentro de esos paréntesis vamos a colocar nuestra variable para que el comando actúe. Ahora te mostraremos como usar **print()**
 
-**print()** acepta que le mandes a imprimir varias cosas a la vez, mientras las separes por medios de **comas**
+**print()** acepta que le mandes a imprimir varias cosas a la vez, mientras las separes por medio de **comas**
 
     print('Nombre:', nombre)
 
@@ -84,7 +84,7 @@ y el resultado debería ser algo similar a esto en la ventana **Shell** de **tho
     Apellido: Lara
     Edad: 21
 
-Ya en este punto tienes el 90% del programa terminado, puedes ver que funciona y muestra los resultados como se espera. pero seria mas interesante si los datos pudiésemos ingresarlos por medio del teclado, que es lo que comúnmente hacemos cuando llenamos un formulario de registro. para esto vamos a usar otro comando llamado        
+Ya en este punto tienes el 90% del programa terminado, puedes ver que funciona y muestra los resultados como se espera. pero sería más interesante si los datos pudiésemos ingresarlos por medio del teclado, que es lo que comúnmente hacemos cuando llenamos un formulario de registro. para esto vamos a usar otro comando llamado        
 
     input()
 
@@ -113,7 +113,7 @@ y haz clic en el botón **play** de **thonny** podrás ingresar los datos direct
 
 Como puedes ver con saber estas 3 simples cosas ya puedes crear variables para almacenar tus datos, usar comandos de entrada (**input()**) y comandos de salida (**print()**) con el cual puedes practicar. En el próximo tutorial, te explicaremos como tomar decisiones usando tus variables.
 
-Si tienes dudas o requieres una guiá más personalizada contáctanos a través de nuestra [Página de facebook](http://facebook.me/rdckgames).
+Si tienes dudas o requieres una guía más personalizada contáctanos a través de nuestra [Página de facebook](http://facebook.me/rdckgames).
 
 
 <!--stackedit_data:
