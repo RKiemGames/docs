@@ -2,7 +2,7 @@
 
 En esta documentacion encontrarás todo el contenido de nuestro proceso de desarrollo de videojuegos, también encontraras tutoriales que te guiarán en los procedimientos que se deben realizar para cada proceso.
 
-Tambi{en publicamos tutoriales de apreondizaje de para las distintas materias relacionadas con la realización de videojuegos, tales como:
+También publicamos tutoriales de apreondizaje de para las distintas materias relacionadas con la realización de videojuegos, tales como:
 
 * **Programación** para videojuegos.
 * **Arte** para videojuegos.
