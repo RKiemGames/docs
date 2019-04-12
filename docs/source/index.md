@@ -2,9 +2,9 @@
 
 ![](https://scontent.fscl8-1.fna.fbcdn.net/v/t1.0-9/52977690_301586693873546_2322012178103664640_n.jpg?_nc_cat=109&_nc_ht=scontent.fscl8-1.fna&oh=9431963dd264dcf10fa8219edc393505&oe=5D444101)
 
-En esta documentacion encontrarás todo el contenido de nuestro proceso de desarrollo de videojuegos, también encontraras tutoriales que te guiarán en los procedimientos que se deben realizar para cada proceso.
+En esta documentación encontrarás todo el contenido de nuestro proceso de desarrollo de videojuegos, también encontrarás tutoriales que te guiarán en los procedimientos que se deben realizar para cada proceso.
 
-También publicamos tutoriales de apreondizaje de para las distintas materias relacionadas con la realización de videojuegos, tales como:
+También publicamos tutoriales de apreondizaje para las distintas materias relacionadas con la realización de videojuegos, tales como:
 
 * **Programación** para videojuegos.
 * **Arte** para videojuegos.
