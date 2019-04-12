@@ -88,15 +88,15 @@ Ya en este punto tienes el 90% del programa terminado, puedes ver que funciona y
 
     input()
 
-Este comando espera a que la persona escriba algo en el teclado y presione **ENTER**, este comando toma lo que ingreso la persona y lo podemos guardar en una **variable**, ademas podemos decirle al comando que imprima en pantalla algún mensaje para indicarle que debe escribir la persona, como por ejemplo:
+Este comando espera a que la persona escriba algo en el teclado y presione **ENTER**, este comando toma lo que ingresó la persona y lo podemos guardar en una **variable**, además podemos decirle al comando que imprima en pantalla algún mensaje para indicarle a la persona qué debe escribir, como por ejemplo:
 
     nombre = input('Ingrese su Nombre: ')
 
-El resultado en pantalla se mostrara :
+El resultado en pantalla se mostrará:
 
     Ingrese su Nombre: 
 
-Esperando a que escriba en el teclado el nombre y presione **ENTER**
+Se quedará el cursor esperando a que la persona escriba en el teclado su nombre y presione **ENTER**
 
 Intenta hacer esto con tus otras variables, deberías lograr algo similar a esto:
 
@@ -107,11 +107,11 @@ Intenta hacer esto con tus otras variables, deberías lograr algo similar a esto
     print('Apellido:', apellido)
     print('Edad:', edad)
 
-y haz clic en el botón **play** de **thonny** podrás ingresar los datos directamente desde la ventana **Shell**.
+y haz clic en el botón **play** de **thonny**, podrás ingresar los datos directamente desde la ventana **Shell**.
 
-![thonny_shell](https://lh3.googleusercontent.com/LbcrSPVhErEtm4BpfCI6P1tCPiaVe7iNYf-kc0z6di0_Q6wXqNl8aGx_pTOkk8klPiiRPFqnoolNlpgZfSzfwNMbR4qHPui4f1Np1UeUvoKDV5eXfdTKDf3aAVnUAvZqKiZYlLQYSr2gFFz0mYezESgle1ISJkuRwSMZOZoVd83ZLd18xHtePqJc7bKCDK0zKN9c6yGPAS2P4WwhbLyIpoVtbFbB5ktDXb0m724Gxo4U0QF8kK5M8ynJvyOiGAPYFYXigInDDAlQULkZHkx4r_hjkutPRKE6Vyrl5VKB7kMuGEzIv01scV-gIvsuEzMzc3ha-CoTG3zGTi7-gl8tZNWtOdOBdejdT5ID4kEfbEXU8pZagFkdgwtRNPKQTRPp5m96nt7HvLmYw569TBzPNg0x4WRO37KR5b4GkOpLj0O2fQn9ICFgjEP-RPWc72mKfWHPeXL7g9OZZ7i0edscRiXMSkuyY34otMELK8gQ57k5MrCjJa9REXJAEF6CSMu_yMT2ZrwrUGenmGGxCPlz0fAOxWNqiOIY-JdzH95AwUmLZVNJ6HcmLCwIAeVJldZkAViHkUCaLWluD8mH1EQqFGOCJgGom-heqCKHtOGvGXqU1csLcwqtgvtPYt9U9QgrXZBfVbJ4K-npcG0BF5uxst6rDmC9EK0SzchsPH7nhBOL1OFHQIFF6_ZgiJG98VvSytGdE-vmy2yDK1AvOKaLU_vE=w469-h170-no?pageId=102396338536413597633)
+![](https://lh3.googleusercontent.com/LbcrSPVhErEtm4BpfCI6P1tCPiaVe7iNYf-kc0z6di0_Q6wXqNl8aGx_pTOkk8klPiiRPFqnoolNlpgZfSzfwNMbR4qHPui4f1Np1UeUvoKDV5eXfdTKDf3aAVnUAvZqKiZYlLQYSr2gFFz0mYezESgle1ISJkuRwSMZOZoVd83ZLd18xHtePqJc7bKCDK0zKN9c6yGPAS2P4WwhbLyIpoVtbFbB5ktDXb0m724Gxo4U0QF8kK5M8ynJvyOiGAPYFYXigInDDAlQULkZHkx4r_hjkutPRKE6Vyrl5VKB7kMuGEzIv01scV-gIvsuEzMzc3ha-CoTG3zGTi7-gl8tZNWtOdOBdejdT5ID4kEfbEXU8pZagFkdgwtRNPKQTRPp5m96nt7HvLmYw569TBzPNg0x4WRO37KR5b4GkOpLj0O2fQn9ICFgjEP-RPWc72mKfWHPeXL7g9OZZ7i0edscRiXMSkuyY34otMELK8gQ57k5MrCjJa9REXJAEF6CSMu_yMT2ZrwrUGenmGGxCPlz0fAOxWNqiOIY-JdzH95AwUmLZVNJ6HcmLCwIAeVJldZkAViHkUCaLWluD8mH1EQqFGOCJgGom-heqCKHtOGvGXqU1csLcwqtgvtPYt9U9QgrXZBfVbJ4K-npcG0BF5uxst6rDmC9EK0SzchsPH7nhBOL1OFHQIFF6_ZgiJG98VvSytGdE-vmy2yDK1AvOKaLU_vE=w469-h170-no?pageId=102396338536413597633)
 
-Como puedes ver con saber estas 3 simples cosas ya puedes crear variables para almacenar tus datos, usar comandos de entrada (**input()**) y comandos de salida (**print()**) con el cual puedes practicar. En el próximo tutorial, te explicaremos como tomar decisiones usando tus variables.
+Como puedes ver, con saber estas 3 simples cosas ya puedes crear **variables** para almacenar tus datos, usar el **comandos** de entrada **input()** y el **comandos** de salida **print()**, con esto ya puedes practicar. En el próximo tutorial, te explicaremos como tomar decisiones usando tus **variables**.
 
 Si tienes dudas o requieres una guía más personalizada contáctanos a través de nuestra [Página de facebook](http://facebook.me/rdckgames).
 
