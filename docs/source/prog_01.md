@@ -13,6 +13,12 @@ Para empezar a programar necesitas una aplicación que pueda interpretar tus pro
 
 ![](https://lh3.googleusercontent.com/PxjHlTnLQ69aecmR5E856Mj_ybfASOlvrXvByHf4ZTGaskj646exYfZk57dAkkpQaZJOBaoRJ63GQv_UBnkS7FseqD7w8V5J1ecAUpGMPGH6wYc4VQ-JMgxSivb20M1dqMCeD9qvklr4pQFRggYRcq0LobFoyk2ZHTCoYcioJNlC7vLhSiqR16shhKkiG5jOLPh03IGfekgUo6MjfpQO77sNpD0H-SNy8zStFOBNl7UbQWkJI042BU-Zg0W1T8wsdMkVQ0VAOxOsr59da6mfPKqUlSCmh0ClveeCVJk3Ov5HgCyRvz5pScuBxEz1VOof1JoJMA5XKgQjErGKRW_hNMuIehKxmxUjUubM5hWoi_idawa6nEMeuxy44_YVvguBfmq-8u_B5L2f-XD9hqlLnjTWwIaeh9dQLxIAoRe3GLKdE4K64TQ3w8WsdoqQVI46kMMQbCA2VtNhJflesgoKuc1e37Ryl5O_oFUluY96X22ubzHXBxZH9b542VnVCky9OttYsIafwKUSaRhLiJQKGpDrgD5y7r6OoMux_MXCzivfj8WmzxU7j07d8nqdtaAD6peG2OQYC5djWaLVk0urae3ZjyslFhbf3szETxo-rx9G1SsTr60ORusSXlgvWzjcs-c-fcIS--U8Cl9YgRgo-Ulqn5eKzuUgnFqFIwp8T5ppsGrcfLLfOkpMaypwQ6lZLoGxSc3NrpzCsQ6c6w8JVeZl=w479-h405-no?pageId=102396338536413597633)
 
+La interfaz de **Thonny** es muy simple, como puedes ver en la parte superior tienes una barra de herramientas, que te permitirán: crear, guardar y ejecutar el programa, entre otras opciones no importantes en este punto.
+
+Se divide en 2 partes, la parte superior donde escribiremos el programa que lleva como título `<<untitled>>` que indica que el archivo aun no ha sido guardado con un nombre, luego que guardemos el archivo aparecerá aquí su nombre.
+
+En la parte inferior tenemos una ventana llamada **Shell** donde mostrará la ejecución de nuestro programa y podremos interactuar con él a través de ella.
+
 ## ¿Que son las variables?
 
 En programación una **variable** es como una caja pequeña donde podemos guardar una cosa, existen de distintos tamaños, para guardar distinto tipo de cosas. Imagina ahora que esas cajas las etiquetamos para poder saber que tienen en su interior, esto es el **nombre de la variable**.
@@ -21,7 +27,7 @@ En programación una **variable** es como una caja pequeña donde podemos guarda
 
 ## Cómo se crea una variable
 
-Esto es muy sencillo, debes escoger que vas a aguardar en la variable y luego definir un nombre. Veamos un ejemplo: digamos que queremos guardar un **número**, los años de edad de una persona,  entonces la nombraremos a la variable **edad**
+Esto es muy sencillo, debes escoger que vas a aguardar en la variable y luego definir un nombre. Veamos un ejemplo: digamos que queremos guardar un **número**, los años de edad de una persona, entonces nombraremos a la variable **edad**
 
     edad = 21
 
@@ -114,14 +120,3 @@ y haz clic en el botón **play** de **thonny**, podrás ingresar los datos direc
 Como puedes ver, con saber estas 3 simples cosas ya puedes crear **variables** para almacenar tus datos, usar el **comandos** de entrada **input()** y el **comandos** de salida **print()**, con esto ya puedes practicar. En el próximo tutorial, te explicaremos como tomar decisiones usando tus **variables**.
 
 Si tienes dudas o requieres una guía más personalizada contáctanos a través de nuestra [Página de facebook](http://facebook.me/rdckgames).
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyODAzOTk4OCwyMDU0NzI1NzkzLC0xMj
-Y3Njg4MjYsMTUzODU1MzUzNCwyMjg3ODMzMjMsLTE2MzQxNTU0
-MzgsLTE0NDM5NDAyNzksLTkxMDMyNzc3NSwyMDQzMDE3NDgsLT
-ExNTUwOTgwOTMsLTEzOTE2NTUyNzcsMTQ0Nzk4NjYxMiwtMTk2
-NDkxMTM3OCw3NjQ2MDk0MDIsMTUwMjk2OTEzNSwtMzYwMDc1Mz
-QzLC0xMTQ0NTEzNTIxLDE3MTU1NDAyODUsLTIwODg3NDY2MTIs
-NzMwOTk4MTE2XX0=
--->
