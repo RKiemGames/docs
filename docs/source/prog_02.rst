@@ -1,7 +1,9 @@
 Programando decisiones
 ######
 
-.. image:: https://lh3.googleusercontent.com/eSus7xF_gd6PNaIsEZwu_vOUvFBWtoHpvEsNDaiQx84z8wx1DntzgYk1ib3ob6DZHM_gU0jR8de3c8NOYVdRskn8n0poFSrBcpBdTJjwNH4GK9tsEUNBHEr6aolJLwmhzruM4sFcDg=w821-h506-no
+.. image:: https://lh3.googleusercontent.com/s9JY6oNZ2-ceHFBsXD1fW3HP6PXyoxZiDamc1CQpCw5hl2kZ-qgDLDmQVhiiD36RXv3PWOs1BvXPMqkYSJn2m_5znEvZbr1AUtZ7j7IU7FuNqudTqzmzj_BmArkAvefcz0Irh1Wp7g=w410-h253-no
+    :align: center
+
 
 Programar decisiones suele sonar muy raro, pero lo que realmente haremos
 en este capítulo es hacer que el programa tome decisiones cuándo nosotros se lo 
