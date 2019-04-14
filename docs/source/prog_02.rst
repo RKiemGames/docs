@@ -30,6 +30,10 @@ información tomas el camino indicado.
 Seguiremos usando el programa **Thonny**, pero no requieres nada más así que
 te recomendamos tener abierta la aplicación.
 
+.. _introducción a la programación: prog_01.html#que-necesito
+
+Sin no sabes que es **Thonny** puedes ir a la `introducción a la programación`_
+
 ¿Qué es una decisión?
 ======
 
