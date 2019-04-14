@@ -32,7 +32,7 @@ te recomendamos tener abierta la aplicación.
 
 .. _introducción a la programación: prog_01.html#que-necesito
 
-Sin no sabes que es **Thonny** puedes ir a la `introducción a la programación`_
+Si no sabes que es **Thonny** puedes ir a la `introducción a la programación`_.
 
 ¿Qué es una decisión?
 ======
