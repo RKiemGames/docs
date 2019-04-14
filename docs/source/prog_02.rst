@@ -1,7 +1,7 @@
-Programando con decisiones
+Programando decisiones
 ######
 
-Programar con decisiones suele sonar muy raro, pero lo que realmente haremos
+Programar decisiones suele sonar muy raro, pero lo que realmente haremos
 en este capítulo es hacer que el programa tome decisiones cuándo nosotros se lo 
 indiquemos.
 
