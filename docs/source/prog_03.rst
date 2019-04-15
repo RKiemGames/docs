@@ -1,4 +1,4 @@
-Programdo repeticiones
+Programado repeticiones
 ======
 
 Hay muchas situaciones en la vida que debemos hacer algo repetidas veces,
