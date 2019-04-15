@@ -16,7 +16,7 @@ que te dice cual es la ruta correcta, en este caso puede ser que google map
 te indica que es la ruta más corta para llegar a tu destino y tu con esa 
 información tomas el camino indicado.
 
-¿Qué aprenderás?
+¿Qué aprenderé?
 ======
 
 1. Saber cuándo debes programar una decisión.
@@ -30,9 +30,7 @@ información tomas el camino indicado.
 Seguiremos usando el programa **Thonny**, pero no requieres nada más así que
 te recomendamos tener abierta la aplicación.
 
-.. _introducción a la programación: prog_01.html#que-necesito
-
-Si no sabes que es **Thonny** puedes ir a la `introducción a la programación`_.
+Si no sabes que es **Thonny** puedes ir a la `introducción a la programación <prog_01.html#que-necesito>`_.
 
 ¿Qué es una decisión?
 ======
@@ -183,7 +181,5 @@ así debería escribirse para nuestro ejemplo:
 simplemente el programa ejecutará todo lo contenido en **else** si no se cumple 
 la condición en **if**.
 
-.. _página de facebook Rdckgames: http://facebook.me/rdckgames
-
 Si tienes dudas o requieres una guía más personalizada contáctanos a través de 
-nuestra `página de facebook Rdckgames`_ .
+nuestra `página de facebook Rdckgames <http://facebook.me/rdckgames>`_ .

@@ -8,7 +8,7 @@ pero, te puede servir de mucho si luego quieres aplicarlo para que tus gamers
 ingresen sus datos en un registro de records o ingresen su seudonimo para iniciar 
 una partida en una crew.
 
-¿Qué aprenderás?
+¿Qué aprenderé?
 ======
 
  1. Conocer que son las variables.
