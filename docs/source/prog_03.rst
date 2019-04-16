@@ -1,6 +1,8 @@
 Programado repeticiones
 ======
 
+.. image:: https://lh3.googleusercontent.com/b9H10oXuXRaDGddVB2a7dlMqY_g5h6OJ0k9JJSvuXfCGzfFh4eKfYueVPLtXIFWFBBYEbTRYPlG3E6HmO6IxwGUgO15c8Tm94iUaDqcoPZ4BQSW-I8fLbdh10pkEaMeZ0eG24bAVCauzP6eg7uRapfwYV6BGV32O_7iosh_eBa5bWVRYqipnlAQ9f-uxVJyKKlEiPJJnakSYIXpzcwSVTt4e9fcLlk-n0w8uZfPLhyCUD0yq2lqosAksk4Z_QL8a9DP0HqgzEDx5WxuAJ2ML0dWdH_uzrsKJYia9KZ5VilrZ_jOCV5KPh_z6lfdiObeS6ruz6dkktZU_EYhhBXQk653AUN9jvNGlJrQFRklbI78EDTyXvcE94xlRJzWMBV8lTagAW_owh_z6kr8K1QDRUWv6VKHCkM7jQawIWhnQxJEbRHdHGnHqtsaRtM39-LNY9V6HuUxoxfwejGk6vveSi_0qswvmtHgxCoYLbgoevUe3xIeaxx4r3ke6IgYq9pBEtGfFLjrFY-L6jf9yZlHrAi6VI5fSS2emwHykYOeC92oQP77cYhgl5B-CvuAsk4zmtWypt6tBTuwpwXP4fVSKj_SY0QtywJK-Mnagzs3QGObb-lQ0LvDgdIw_b8QTnvaZnwrfWMlAdeASp_PPUohf9xZxNUgPiqc=w552-h347-no?pageId=102396338536413597633
+
 Hay muchas situaciones en la vida que debemos hacer algo repetidas veces,
 como por ejemplo, ir checando una lista de papeles uno por uno, uno tras de otro
 hasta finalizar, una tarea aburrida y tediosa, nos cambiaría mucho la vida si eso
