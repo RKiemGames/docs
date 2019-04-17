@@ -1,6 +1,9 @@
 Estrategias de conversión
 ======
 
+.. image:: https://www.publicdomainpictures.net/pictures/230000/nahled/birds-at-the-beach.jpg
+    :align: center
+
 El **Landing Page** es una estrategia de conversión muy ocupada hasta hoy en día
 en **Marketing digital** y en este artículo te detallaremos cómo dominar esta estrategia.
 

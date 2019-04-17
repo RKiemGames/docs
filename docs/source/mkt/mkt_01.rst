@@ -1,6 +1,9 @@
 Cómo usar marketing digital en videojuegos
 ======
 
+.. image:: https://free-images.com/md/00d6/digital_marketing_1563467_png.jpg
+    :align: center
+
 Antes de todo debemos definir qué es Marketing digital, si estás pensando en integrar ADMOB o monetizar tu vídeojuegos por medio de DLC, esto no es Marketing digital. El Marketing digital tiene relación con el creciente uso de la tecnología y las redes sociales, donde puedes difundir el contenido de tu vídeojuego. Existen 2 principales objetivos:
 
 1. Lograr por medio de la publicidad tener conversión.
