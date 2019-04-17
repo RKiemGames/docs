@@ -32,9 +32,35 @@ Programación de videojuegos
    prog_medium_index
    prog_advanced_index
 
+Arte para videojuegos
+######
+
+.. toctree::
+   :maxdepth: 1
+
+   art/art_001
+
+`Proximamente`
+
+Audio y música para videojuegos
+######
+
+.. toctree::
+   :maxdepth: 1
+
+   music/music_001
+
+`Proximamente`
+
+Marketing Digital
+######
+
+.. toctree::
+   :maxdepth: 1
+   
+   mkt/mkt_init_index
 
 Próximamente agregaremos más contenido, así que quedate al tanto de las novedades.
 
-.. _página de facebook Rdckgames: http://facebook.me/rdckgames
-Puedes visitar nuestra `página de facebook Rdckgames`_ por si tienes dudas o 
+Puedes visitar nuestra `página de facebook Rdckgames <http://facebook.me/rdckgames>`_ por si tienes dudas o 
 deseas conversar con nosotros.
