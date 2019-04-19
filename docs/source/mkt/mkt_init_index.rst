@@ -1,4 +1,4 @@
-Introducción al de Marketing Digital
+Introducción al Marketing Digital
 ======
 
 .. toctree::
