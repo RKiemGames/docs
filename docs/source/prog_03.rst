@@ -166,7 +166,7 @@ Mira este ejemplo y ejecutalo en **Thonny**
 
     bolso = [] #  El bolso esta vacio
     articulo = ''
-    while True
+    while True:
         articulo = input('Escriba el Nombre del articulo a Guardar: ')
         if not articulo:
             break
