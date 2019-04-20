@@ -3,15 +3,15 @@ Introducción a la programación
 
 Creando un formulario de registro
 
-Quizas un formulario de registro no tiene mucha relación con vídeojuegos
+Quizás un formulario de registro no tiene mucha relación con videojuegos
 pero, te puede servir de mucho si luego quieres aplicarlo para que tus gamers
-ingresen sus datos en un registro de records o ingresen su seudonimo para iniciar 
+ingresen sus datos en un registro de récords o ingresen su seudónimo para iniciar 
 una partida en una crew.
 
 ¿Qué aprenderé?
 ======
 
- 1. Conocer que son las variables.
+ 1. Conocer qué son las variables.
  2. Maneras de ingresar información.
  3. Mostrar la información.
 
@@ -30,25 +30,25 @@ tienes una barra de herramientas, que te permitirán: crear, guardar y ejecutar
 el programa, entre otras opciones no importantes en este punto.
 
 Se divide en 2 partes, la parte superior donde escribiremos el programa que 
-lleva como título ``<untitled>`` que indica que el archivo aun no ha sido 
+lleva como título ``<untitled>`` que indica que el archivo aún no ha sido 
 guardado con un nombre, luego que guardemos el archivo aparecerá aquí su nombre.
 
 En la parte inferior tenemos una ventana llamada **Shell** donde mostrará la 
 ejecución de nuestro programa y podremos interactuar con él a través de ella.
 
-¿Que son las variables?
+¿Qué son las variables?
 ======
 
 En programación una **variable** es como una caja pequeña donde podemos guardar 
 una cosa, existen de distintos tamaños, para guardar distinto tipo de cosas. 
-Imagina ahora que esas cajas las etiquetamos para poder saber que tienen en su 
+Imagina ahora que esas cajas las etiquetamos para poder saber qué tienen en su 
 interior, esto es el **nombre de la variable**.
 
 **En resumen**, una **variable** es donde podemos guardar **algo** y tiene un 
 **nombre** para reconocerla. Ese **algo** que podemos guardar podría ser una 
-**palabra** o un **numero**.
+**palabra** o un **número**.
 
-Cómo se crea una variable
+¿Cómo se crea una variable?
 ======
 
 Esto es muy sencillo, debes escoger que vas a aguardar en la variable y luego 
@@ -122,7 +122,7 @@ separes por medio de **comas**
 
     print('Nombre:', nombre)
 
-En este ejemplo le estamos indicado al comando **print()** que mande a la 
+En este ejemplo le estamos indicando al comando **print()** que mande a la 
 pantalla la palabra **'Nombre:'** seguido del contenido de la variable **nombre**
 
 El resultado será mostrado en pantalla de la siguiente forma:
@@ -203,9 +203,9 @@ directamente desde la ventana **Shell**.
 Como puedes ver, con saber estas 3 simples cosas ya puedes crear **variables** 
 para almacenar tus datos, usar el **comandos** de entrada **input()** y el 
 **comandos** de salida **print()**, con esto ya puedes practicar. En el próximo 
-tutorial, te explicaremos como tomar decisiones usando tus **variables**.
+tutorial, te explicaremos cómo tomar decisiones usando tus **variables**.
 
 .. _página de facebook Rdckgames: http://facebook.me/rdckgames
 
 Si tienes dudas o requieres una guía más personalizada contáctanos a través de 
-nuestra `página de facebook Rdckgames`_ .
+nuestra `página de facebook Rdckgames`_.

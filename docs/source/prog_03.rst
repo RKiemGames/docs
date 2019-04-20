@@ -7,7 +7,7 @@ Programado repeticiones
 Hay muchas situaciones en la vida que debemos hacer algo repetidas veces,
 como por ejemplo, ir checando una lista de papeles uno por uno, uno tras de otro
 hasta finalizar, una tarea aburrida y tediosa, nos cambiaría mucho la vida si eso
-se puediese hacer de forma automatica.
+se pudiese hacer de forma automática.
 
 ¿Qué aprenderé?
 ######
@@ -20,7 +20,7 @@ se puediese hacer de forma automatica.
 ¿Qué necesito?
 ######
 
-Debes haber leido los apartados:
+Debes haber leído los apartados:
  1. `Introducción a la programación </prog_01>`_ 
  2. `Programando decisiones </prog_02>`_
 
@@ -33,8 +33,8 @@ Una repetición en programación es cuando algo debe
 realizarse repetidas veces, como por ejemplo, tomar
 la lista de artículos en nuestro bolso e ir anotando
 las cantidades en un papel para compartirla con un
-amigo, así como en los vídeojuegos de rol o también llamados
-RPG. Vamos sacando uno a uno y contando cuantos hay y anotando
+amigo, así como en los videojuegos de rol o también llamados
+RPG. Vamos sacando uno a uno y contando cuántos hay y anotando
 en el papel. Un ejemplo de esto en programación sería así:
 
 .. code-block:: python
@@ -55,7 +55,7 @@ El resultado en pantalla debería ser similar a esto:
     Cinta de curacion: 10
     Monedas de oro: 345
 
-Entonces está es la lista de artículos en nuestro bolso
+Entonces esta es la lista de artículos en nuestro bolso
 (las tildes las he omitido para evitar errores), no son muchos
 y no es un problema aún, pero imagina que llevas 100, 1.000 o 10.000 
 artículos, escribir 10.000 veces eso es un real problema ¿Cierto?.
@@ -78,7 +78,7 @@ la siguiente:
     for articulo in bolso
 
 ¿Qué quiere decir esto?, que **para** cada **articulo** en el **bolso**
-realice las instrucciones que le indiques al programa. Aqui hay algo
+realice las instrucciones que le indiques al programa. Aquí hay algo
 muy especial es que **for** te permite crear una **variable**, para 
 este ejemplo, le hemos llamado **articulo** y vamos a tomar cada artículo
 desde otra variable llamada **bolso**. ¿Pero, Dónde está la variable **bolso**?
@@ -178,12 +178,12 @@ Mira este ejemplo y ejecutalo en **Thonny**
 ¿Haz notado que hay cosas nuevas como **while**, **True**, **not** y **break**?,
 bien, **while** es otra **palabra reservada** y que también sirve para
 hacer repeticiones, en este caso lo estamos usando para que le pregunte
-al gamer, repetidas veces, cual es el siguiente artículo a ingresar al bolso. la ventaja que
+al gamer, repetidas veces, cuál es el siguiente artículo a ingresar al bolso. la ventaja que
 tiene **while** es que se va a ejecutar siempre que lo que le siga a continuación
 dé como resultado **verdadero**, en este caso, la palabra reservada **True**, tal
-cual escrita con la **T** mayúscula, siempre nos dará un resultado **verdadero**,
+cuál escrita con la **T** mayúscula, siempre nos dará un resultado **verdadero**,
 ya que la palabra **True** en español significa **verdad**, así que esto
-es un truco para que **while** haga de forma ílimitada repeticiones.
+es un truco para que **while** haga de forma ilimitada repeticiones.
 
 Luego vemos que después del comando **input()** está este código
 
@@ -218,7 +218,7 @@ y procederá a listar los artículos en pantalla
     for articulo in bolso:
             print(articulo)
 
-Un momento, ¿Qué es eso de **bolso.append(articulo)**?, aaah!, pensate que lo pasé por alto,
+Un momento, ¿Qué es eso de **bolso.append(articulo)**?, aaah!, pensaste que lo pasé por alto,
 te explico, las listas son objetos con muchas funciones, y una de esas funciones
 es permitir fácilmente agregar un elemento sin perder los que ya ingresaron anteriormente.
 
@@ -234,7 +234,7 @@ que cuando tu creas la variable de esta forma:
 
     bolso = []
 
-automaticamente el programa sabe que es una lista y que debe incorporarle las
+automáticamente el programa sabe que es una lista y que debe incorporar las
 funciones de listas. Ahora también hay una forma mucho más natural de crear listas 
 y es usar:
 

@@ -68,7 +68,7 @@ Continuando, para tomar decisiones en programación se hace con la palabra:
 programa es que haga una pregunta. LLevándolo al ejemplo, verificaremos si la persona 
 es mayor de 18 años y para ello debemos usar los llamados **operadores**.
 
-¿Que son los operadores?
+¿Qué son los operadores?
 ======
 
 Los operadores nos permiten comparar 2 cosas, en nuestro ejemplo **la edad ingresada
@@ -129,7 +129,7 @@ suerte el comando **int()** nos permite leer una palabra y revisar si son solo
 números y nos convierte esa palabra a un número de verdad, que quiere decir esto, 
 que al ser un número lo podemos comparar, sumar, restar, entre otras cosas, pero 
 con las palabras no se puede hacer eso, y es por eso que **int()** es nuestro 
-commando que lo arregla.
+comando que lo arregla.
 
 Si tratas entregarle a **int()** una palabra como 'Arturo' el programa fallará.
 
@@ -145,7 +145,7 @@ La línea siguiente
     print('Hola, eres bienvenido a nuestra crew')
  
 
-está más adentro que la línea del **if**, esto es porqué le estamos indicando al
+está más adentro que la línea del **if**, esto es porque le estamos indicando al
 programa que si la condición del **if** se cumple como **verdadera**, es decir, 
 la **edad_gamer** es **mayor o igual** que la **edad_minima** entonces debe ejecutar
 todo lo que está contenida dentro de ella, como ves visualmente la línea de **print()**
@@ -154,7 +154,7 @@ de **if** entonces asume que ya no es parte de lo que debe hacer cuando la compa
 se cumple como verdadera.
 
 entonces qué sucede si queremos hacer otra cosa, como por ejemplo 
-decirle que no está admitirdo a la crew si es menor de 18 años.
+decirle que no está admitirlo a la crew si es menor de 18 años.
 
 para ello existe una palabra reservada que acompaña a **if** que se llama:
 
@@ -182,4 +182,4 @@ simplemente el programa ejecutará todo lo contenido en **else** si no se cumple
 la condición en **if**.
 
 Si tienes dudas o requieres una guía más personalizada contáctanos a través de 
-nuestra `página de facebook Rdckgames <http://facebook.me/rdckgames>`_ .
+nuestra `página de facebook Rdckgames <http://facebook.me/rdckgames>`_.
