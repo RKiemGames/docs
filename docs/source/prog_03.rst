@@ -75,14 +75,19 @@ la siguiente:
 
 .. code-block:: python
 
-    for articulo in bolso
+    for articulo in bolso:
+        # Intrucciones anidadas
+        # linea
+        # a linea
+        print(articulo)
 
 ¿Qué quiere decir esto?, que **para** cada **articulo** en el **bolso**
-realice las instrucciones que le indiques al programa. Aquí hay algo
-muy especial es que **for** te permite crear una **variable**, para 
+va a realizar las instrucciones anidadas lina a linea que le indiquemos al programa.
+Aquí hay algo muy especial es que **for** te permite crear una **variable**, para 
 este ejemplo, le hemos llamado **articulo** y vamos a tomar cada artículo
 desde otra variable llamada **bolso**. ¿Pero, Dónde está la variable **bolso**?
-La respuesta es creando una **lista**.
+La variable **bolso** debemos crearla como una **lista** antes de que empesemos a usar
+**for**.
 
 ¿Cómo crear una lista?
 ######
@@ -92,7 +97,8 @@ programación, las listas se crean usando **[** para indicar donde
 empieza la lista y **]** para indicar donde termina la lista y cada
 artículo va separado por una **coma**.
 
-Esto sería algo así:
+Antes borra todo el codigo anterior que haz escrito. Esto sería así 
+y debes colocarlo antes de usar **for**:
 
 .. code-block:: python
 
@@ -155,8 +161,8 @@ a la gente.
 Pequeño programa con repeticiones
 ######
 
-Ya que haz aprendido a realizar repeticiones, ahora vamos a 
-crear un programa que le permita al gamer, añadir los artículos
+Ya que haz aprendido a realizar repeticiones, borra todo el código anterior.
+Ahora vamos a crear un programa que le permita al gamer, añadir los artículos
 que él quiera en su bolso, y luego vamos a mostrarle los artículos
 que lleva en su bolso, esto es como el bolso de Ash en Pokémon.
 
@@ -172,6 +178,7 @@ Mira este ejemplo y ejecutalo en **Thonny**
             break
         bolso.append(articulo)
 
+    print('Mostrando articulos en el bolso')
     for articulo in bolso:
         print(articulo)
 
