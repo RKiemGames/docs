@@ -82,11 +82,11 @@ la siguiente:
         print(articulo)
 
 ¿Qué quiere decir esto?, que **para** cada **articulo** en el **bolso**
-va a realizar las instrucciones anidadas lina a linea que le indiquemos al programa.
+va a realizar las instrucciones anidadas línea a línea que le indiquemos al programa.
 Aquí hay algo muy especial es que **for** te permite crear una **variable**, para 
 este ejemplo, le hemos llamado **articulo** y vamos a tomar cada artículo
 desde otra variable llamada **bolso**. ¿Pero, Dónde está la variable **bolso**?
-La variable **bolso** debemos crearla como una **lista** antes de que empesemos a usar
+La variable **bolso** debemos crearla como una **lista** antes de que empecemos a usar
 **for**.
 
 ¿Cómo crear una lista?
@@ -97,7 +97,7 @@ programación, las listas se crean usando **[** para indicar donde
 empieza la lista y **]** para indicar donde termina la lista y cada
 artículo va separado por una **coma**.
 
-Antes borra todo el codigo anterior que haz escrito. Esto sería así 
+Antes borra todo el código anterior que haz escrito. Esto sería así 
 y debes colocarlo antes de usar **for**:
 
 .. code-block:: python
