@@ -33,7 +33,7 @@ es fácil de transportar ya que no pesa tanto como el programa, pues son solo ar
 **Compilador**: Es una herramienta que nació con los lenguajes de programación y es el encargado de convertir ese 
 archivo de **código fuente** a un programa para ejecutarlo.
 
-**Ejecutable**: Es el programa que te permite iniciarlo la aplicación para usarlo.
+**Ejecutable**: Es el programa que te permite iniciar el programa o videojuego.
 
 **Intérprete**: Es parecido a un compilador, pero con la diferencia que no te genera un ejecutable, sino que lee 
 el **código fuente** y lo va ejecutando línea a línea y a medida que hace eso, puedes usar el programa.
@@ -44,7 +44,7 @@ Terminología
 
 Ya con lo anterior en mente, puedes entender un poco más sobre programación, ahora vamos a algo más específico, que es la 
 terminología usada por los programadores, esto te ayudará a entender cómo un programador piensa y habla cuando está 
-en un proceso de producción de desarrollo de un programa o de un videojuegos. Estos son algunos términos que podrás escuchar.
+en un proceso de producción de desarrollo de un programa o de un videojuego. Estos son algunos términos que podrás escuchar.
 
 **Ticket**: Conjunto de especificaciones que detalla cómo se debe crear alguna funcionalidad o característica del videojuego
 o programa.
@@ -54,16 +54,16 @@ o programa.
 **Error**: Sinónimo de bug.
 
 **Git**: Es un software open source que te permite llevar un control de los cambios que haces en tu código, una de las 
-ventajas es que no te tienes que preocupar de estar haciendo copias actualizadas de tus archivos, git te permite volver a un 
-punto atras en el tiempo de tu código, cuando este fue distinto y compararlo con lo actual. tiene un conjunto de herramientas 
+ventajas es que no tienes que preocuparte de estar haciendo copias actualizadas de tus archivos, git te permite volver a un 
+punto atras en el tiempo de tu código, cuando este fue distinto y compararlo con lo actual. Tiene un conjunto de herramientas 
 que te facilitan este proceso.
 
 **Commit**: Es cuando un programador guarda el progreso de su trabajo  en el código con **git** y cree que tiene una 
 funcionalidad estable y probada.
 
-**Tag**: Es cuando queremos poner una etiqueta de versión a algún **commit** del código del videojuego.
+**Tag**: Es cuando queremos poner una etiqueta de versión a algún **commit** del código del videojuego o programa.
 
-**Push**: Es cuando el desarrollador sube a un repositorio remoto de **git** sus trabajo para compartirlo con los demás 
+**Push**: Es cuando el desarrollador sube a un repositorio remoto de **git** su trabajo para compartirlo con los demás 
 desarrolladores.
 
 **Pull**: Es cuando el desarrollador descarga el trabajo que han subido al repositorio remoto de 
@@ -73,7 +73,7 @@ desarrolladores.
 
 **QA**: Es el proceso de hacer pruebas a un programa o videojuego, con el objetivo de **asegurar la calidad** de este.
 
-**Deploy**: Es cuando se disponibiliza las actualizaciones del programa o videojuego para tu clientes o gamers o se sube
+**Deploy**: Es cuando se disponibilizan las actualizaciones del programa o videojuego para tus clientes o gamers o se sube
 a una tienda de aplicaciones de forma pública.
 
 **Sistema**: Un conjunto de aplicaciones que funcionan para un objetivo en común.
@@ -170,9 +170,9 @@ del conjunto Z, o los números positivos y negativos. para ser mas gráficos te 
 Y así, hasta el infinito negativo hacia la izquierda e infinito positivo hacia la derecha. Nos son útil para contar cosas, como 
 por ejemplo cantidad de enemigos en pantalla, cantidad de artículos en un bolso, etc...
 
-**float**: El tipo de dato **float**, también almacena números pero este permiten llevar decimales, se les llaman números del 
+**float**: El tipo de dato **float**, también almacena números pero este permite llevar decimales, se les llaman números del 
 conjunto R o reales. Recuerdas el valor de PI 3.14159..., bueno este tipo de números son del tipo de dato **float**. tienen alta 
-precisión y nos sirven para mover un personaje por pantalla o hacer barras de energía para los enemigos. Crear un sistemas de vida
+precisión y nos sirven para mover un personaje por pantalla o hacer barras de energía para los enemigos, crear un sistemas de vida
 del personaje, donde podemos dividir en cuatro 1 corazón (0.25 cada parte de corazón), lo importante es que estos números van 
 separados por un punto ``.`` seguido del la porción decimal, esto es importante porque la coma ``,`` acá no funciona para números.
 Estos son ejemplos de variables **float**.
@@ -194,7 +194,7 @@ y arrojará un error o hara que tu programa o videojuego funcione mal.
     variable_string1 = 'esto es un texto'
     variable_string2 = "esto es otro texto"
 
-**bool**: Este tipo de dato tiene un nombre muy raro, cierto?, bueno su nombre proviene de George Boole, para resumir, 
+**bool**: Este tipo de dato tiene un nombre muy raro, cierto?, bueno su nombre proviene del señor **George Boole**, para resumir, 
 el creador de este tipo de dato, a raíz de lo que se llama Álgebra Booleana, que solo acepta 2 valores, Verdadero (**True**) o 
 falso (**False**), y para reconocer su obra, le llamaron **Boolean**, basándose en su apellido (Boole), y por 
 consecuencia **bool**.
@@ -239,7 +239,7 @@ Te vamos a mostrar y explicar cómo es una función:
 
 Lo importante de este ejemplo es que para que el programa sepa que quieres crear una funcion debe usar la palabra **def** 
 seguida del nombre, y este nombre sigue la misma regla de nombrado de las variables, luego deben ir entre paréntesis 
-parámetros de entrada de la función y finalizar con **:**, para luego colocar el código indentado que se ejecutará.
+parámetros de entrada de la función y finalizar con ``:`` para luego colocar el código indentado que se ejecutará.
 
 Esto es solo un ejemplo, hay cosas que debes saber también para usar funciones 
 
@@ -281,7 +281,7 @@ la variable **personaje1** a la funcion **correr**:
 Como puedes notar, hemos creado la función y luego la hemos llamado con el parámetro **personaje1**, a este parámetro se le 
 llama **parámetro actual**.
 
-Las funciones también tiene la posibilidad de devolver un resultado usando la palabra **return** seguido de el resultado que 
+Las funciones también tiene la posibilidad de devolver un resultado usando la palabra **return** seguido del resultado que 
 queramos enviar, este resultado lo podemos guardar en alguna variable para luego usarla más adelante en el programa.
 
 .. code-block:: python
@@ -320,7 +320,7 @@ Tambien podemos ver otros operadores especiales muy usados
 
 Existen otros operadores matemáticos más avanzados pero poco comunes, que no cubriremos aún.
 
-**Booleanos**: Nos permiten comparar 2 variables **booleanas** o comparaciones, que le llamaremos expresión 
+**Booleanos**: Nos permiten comparar 2 variables **booleanas** o también comparaciones, que les llamaremos expresiones 
 y saber si se cumple una condición verdadera o una condición falsa, los más comunes son **and** y **or**
 
 El operador booleano **and** comparar 2 expresiones, si ambas son verdaderas entonces **and** nos dirá verdadero, pero si 
@@ -330,7 +330,7 @@ Digamo que la Mamá de Pedrito es muy estricta y le dice a Pedrito "Pedrito vé 
 estos 2 dólares". Pedrito va al almacén y le dice al vendedor, "quiero 5 huevos y 2 tomates, tengo 2 dolares", el señor del 
 almacén le dice, "con esos 2 dolares solo te alcanza para 2 tomate y 2 huevos" y Pedrito decide aceptar la oferta, e ir donde la 
 Mamá. Llegado a casa la Mamá lo regaña porque le pidió que trajera 5 huevos y 2 tomates exactamente, así que Pedrito le dice que 
-no pudo comprar más porque le faltaba dinero, así que la mamá de pedrito le entrega más dinero, Pedrito va al almacén, compra lo 
+no pudo comprar más porque le faltaba dinero, así que la Mamá de Pedrito le entrega más dinero, Pedrito va al almacén, compra lo 
 que faltaba y ahora la mamá acepta la compra de Pedrito.
 
 Esto es más fácil escribirlo en código que en palabras, mira este ejemplo:
@@ -346,7 +346,7 @@ Esto es más fácil escribirlo en código que en palabras, mira este ejemplo:
         # no se acepta la compra
 
 Si analizas este pequeño programa la cantidad de huevos debe ser exactamente 5 y además la cantidad de tomates exactamente 2 
-si alguno no se cumple entonces la Mamá no acepta la compra, pero si la mamá de pedrito le hubiese dicho traeme 5 huevos o 
+si alguno no se cumple entonces la Mamá no acepta la compra, pero si la Mamá de Pedrito le hubiese dicho traeme 5 huevos o 
 2 tomates, lo que le está diciendo la Mamá a Pedrito es que si trae 5 huevos acepta la compra o si trae 2 tomates tambien acepta
 la compra y si trae ambos mucho mejor, acepta la compra, este caso sería así:
 
@@ -376,7 +376,7 @@ Las condiciones en programación es lo que le llamamos en los artículos anterio
 aca veremos algo más interesante de ellas.
 
 Usando condiciones podemos hacer varias comparaciones a la vez, por ejemplo digamos que tenemos una nave espacial que se puede 
-mover en varias direcciones pero solo en una direcciona a la vez, arriba, abajo, izquierda y derecha, en programación podemos 
+mover en varias direcciones pero solo en una direccion a la vez: arriba, abajo, izquierda y derecha, en programación podemos 
 hacer esto para asegurar que se cumpla ese comportamiento:
 
 .. code-block:: python
@@ -391,8 +391,8 @@ hacer esto para asegurar que se cumpla ese comportamiento:
         # mover nave hacia la derecha
 
 como puedes ver si presionas cualquier otra tecla no se va a mover, si no presionas ninguna tecla tampoco se va a mover, 
-si presionas 2 teclas o más en combinacion de arriba, abajo, izquierda, derecha; tampoco se moverá, solo se moverá si presionas 
-1 de esas teclas específicas 1 cada vez, si te haz dado cuenta esto ya parece estar programando un juego. la palabra **elif** nos 
+si presionas 2 teclas o más en combinación de arriba, abajo, izquierda, derecha; tampoco se moverá, solo se moverá si presionas 
+una de esas teclas específicas una cada vez, si te haz dado cuenta esto ya parece estar programando un juego. la palabra **elif** nos 
 permite evaluar otra condición totalmente distinta y revisar si la expresión es verdadera y ejecutar la porción de código que está
 dentro de ella.
 
@@ -419,12 +419,12 @@ videojuegos, como por ejemplo llevar un puntaje y cada vez que el player recoja 
     print(puntaje)
 
 A esto se le llama **contador** y permite ir incrementando la variable puntaje en un valor fijo, ahora te explicamos como funciona
-en este ejemplo iniciamos la variable **puntaje** en **0** luego cuando el programa intenta ejecutar `puntaje = puntaje + 10`
-lo que hace primero es resolver el código que esta a la derecha del simbolo igual ``=``, para caso necesita tomar el valor que esta
-en la variable **puntaje** y sumarlo con el numero 10, en ete punto la variable **puntaje** aun vale **0** entonces la suma que 
+en este ejemplo iniciamos la variable **puntaje** en **0** luego cuando el programa intenta ejecutar ``puntaje = puntaje + 10``
+lo que hace primero es resolver el código que está a la derecha del símbolo igual ``=``, para este caso necesita tomar el valor que está
+en la variable **puntaje** y sumarlo con el número 10, en este punto la variable **puntaje** aun vale **0** entonces la suma que 
 realiza es **0 + 10** dando como resultado **10**, luego cuando la computadora ya tiene el resultado lo asigna a la variable
 **puntaje** quedando ahora el valor de la variable **puntaje** en **10**, si vuelves a recojer una moneda, como la variable
-**puntaje** ahora vale **10** le sumara **10** y quedara con el valor **20** y asi si susivamente tantas monedas recojas.
+**puntaje** ahora vale **10** le sumará **10** y quedará con el valor **20** y asi susesivamente tantas monedas recojas.
 
 
 También existe una notación más simple que te ayuda a escribir más rápido
@@ -452,8 +452,8 @@ Ahora digamos que tenemos 2 tipos de monedas de **10** de color **amarillo** y d
     print(puntaje)
 
 A esta asignación se le llama **sumador** o **acomulador** porque permite ir incrementando la variable **puntaje** con respecto 
-al valor de otra variable. la forma de resolver esto es igual siempre, primero lo que esta a la derecha del igual ``=`` y luego
-lo asigna a la variable.
+al valor de otra variable, en este caso la variable **valor**. La forma de resolver esto es igual siempre, primero lo que está 
+a la derecha del igual ``=`` y luego lo asigna a la variable que está a la izquierda.
 
 La forma abreviada sería así:
 
