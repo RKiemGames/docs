@@ -21,8 +21,8 @@ se pudiese hacer de forma automática.
 ######
 
 Debes haber leído los apartados:
- 1. `Introducción a la programación </prog_01.html>`_ 
- 2. `Programando decisiones </prog_02.html>`_
+ 1. `Introducción a la programación <prog_01.html>`_ 
+ 2. `Programando decisiones <prog_02.html>`_
 
 También seguiremos usando la aplicación **Thonny**
 
