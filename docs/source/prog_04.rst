@@ -174,7 +174,7 @@ por ejemplo cantidad de enemigos en pantalla, cantidad de artículos en un bolso
 conjunto R o reales. Recuerdas el valor de PI 3.14159..., bueno este tipo de números son del tipo de dato **float**. tienen alta 
 precisión y nos sirven para mover un personaje por pantalla o hacer barras de energía para los enemigos. Crear un sistemas de vida
 del personaje, donde podemos dividir en cuatro 1 corazón (0.25 cada parte de corazón), lo importante es que estos números van 
-separados por un punto "." seguido del la porción decimal, esto es importante porque la coma "," acá no funciona para números.
+separados por un punto ``.`` seguido del la porción decimal, esto es importante porque la coma ``,`` acá no funciona para números.
 Estos son ejemplos de variables **float**.
 
 .. code-block:: python
@@ -186,7 +186,7 @@ Estos son ejemplos de variables **float**.
 
 **string**: el tipo de dato **string** es el que te permite guardar palabras, frases, o textos muy largos, en español **string**
 significa cadena, pero el por qué se llama así, lo explicaremos más adelante. Los **string** deben ir siempre encerrados entre 
-comillas (") o cremillas (') para que el programa los entienda como tal, si no se hace eso, el programa los tratará como variables
+comillas ``"`` o cremillas ``'`` para que el programa los entienda como tal, si no se hace eso, el programa los tratará como variables
 y arrojará un error o hara que tu programa o videojuego funcione mal.
 
 .. code-block:: python
@@ -420,7 +420,7 @@ videojuegos, como por ejemplo llevar un puntaje y cada vez que el player recoja 
 
 A esto se le llama **contador** y permite ir incrementando la variable puntaje en un valor fijo, ahora te explicamos como funciona
 en este ejemplo iniciamos la variable **puntaje** en **0** luego cuando el programa intenta ejecutar `puntaje = puntaje + 10`
-lo que hace primero es resolver el código que esta a la derecha del simbolo igual (=), para caso necesita tomar el valor que esta
+lo que hace primero es resolver el código que esta a la derecha del simbolo igual ``=``, para caso necesita tomar el valor que esta
 en la variable **puntaje** y sumarlo con el numero 10, en ete punto la variable **puntaje** aun vale **0** entonces la suma que 
 realiza es **0 + 10** dando como resultado **10**, luego cuando la computadora ya tiene el resultado lo asigna a la variable
 **puntaje** quedando ahora el valor de la variable **puntaje** en **10**, si vuelves a recojer una moneda, como la variable
@@ -452,7 +452,7 @@ Ahora digamos que tenemos 2 tipos de monedas de **10** de color **amarillo** y d
     print(puntaje)
 
 A esta asignación se le llama **sumador** o **acomulador** porque permite ir incrementando la variable **puntaje** con respecto 
-al valor de otra variable. la forma de resolver esto es igual siempre, primero lo que esta a la derecha del igual (=) y luego
+al valor de otra variable. la forma de resolver esto es igual siempre, primero lo que esta a la derecha del igual ``=`` y luego
 lo asigna a la variable.
 
 La forma abreviada sería así:
