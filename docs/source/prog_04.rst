@@ -174,7 +174,7 @@ por ejemplo cantidad de enemigos en pantalla, cantidad de artículos en un bolso
 conjunto R o reales. Recuerdas el valor de PI 3.14159..., bueno este tipo de números son del tipo de dato **float**. tienen alta 
 precisión y nos sirven para mover un personaje por pantalla o hacer barras de energía para los enemigos. Crear un sistemas de vida
 del personaje, donde podemos dividir en cuatro 1 corazón (0.25 cada parte de corazón), lo importante es que estos números van 
-separados por un punto "." seguido del la porción decimal, esto es importante por que la coma "," acá no funciona para números.
+separados por un punto "." seguido del la porción decimal, esto es importante porque la coma "," acá no funciona para números.
 Estos son ejemplos de variables **float**.
 
 .. code-block:: python
