@@ -527,7 +527,7 @@ esto es una tupla:
 Las tuplas tienen la característica que no podemos cambiar sus valores una vez ya están definidos, es decir, son elementos de solo
 lectura, pero sí podemos seguir agregando elementos a ellas, pero no quitarlos.
 
-Las listas por el contrario permiten todas las operaciones de agregar quitar mover insertar entre otras mas, esto seria una 
+Las listas por el contrario permiten todas las operaciones de agregar quitar mover insertar entre otras más, esto sería una 
 lista:
 
 .. code-block:: python
@@ -543,17 +543,17 @@ Si queremos convertir una una tupla en una lista puedes hacer esto
 
     lista = list(tupla)
 
-Y si quieres convertir lista en una tupla puedes hacer esto
+Y si quieres convertir una lista en una tupla puedes hacer esto
 
 .. code-block:: python
 
     tupla = tuple(lista)
 
-Si queremos acceder a un valor dentro de una tupla o lista, debemos acceder al valor dependiendo de la posicion que se encuentre
-dentro de la lista o tupla, en el ejemplo anterior tenemos números del 1 al 9 entonces podemos inferir que la pisición del 5 es
-la quinta posición. Las tuplas y listas para cada posición les da un numero de índice que parte en 0, es decir a la posicion:
-la posicion 1 es el índice 0, la 2 es el índice 1, la 3 es el índice 2, y asi susesivamente, asi que para acceder a la posicion 
-5 debemos conocer su índice, como te puedes dar cuenta el índice siempre es 1 menos que su posición entonces la posicion 4, seria
+Si queremos acceder a un valor dentro de una tupla o lista, debemos acceder al valor dependiendo de la posición que se encuentre
+dentro de la lista o tupla, en el ejemplo anterior tenemos números del 1 al 9, entonces podemos inferir que la posición del 5 es
+la quinta posición. Las tuplas y listas para cada posición les da un número de índice que inicia en 0, es decir, la posición 1 
+es el índice 0, la posición 2 es el índice 1, la posición 3 es el índice 2, y asi susesivamente, asi que para acceder a la posición 
+5 debemos conocer su índice, como te puedes dar cuenta el índice siempre es 1 menos que su posición, entonces la posición 5 sería
 el índice 4. ahora ya podemos acceder al valor 5 que es lo que queremos, y se hace de esta forma:
 
 .. code-block:: python
@@ -561,7 +561,7 @@ el índice 4. ahora ya podemos acceder al valor 5 que es lo que queremos, y se h
     valor_lista = lista[4]
     valor_tupla = tupla[4]
 
-Tambien podemos agregar elementos a una lista:
+También podemos agregar elementos a una lista:
 
 .. code-block:: python
 
@@ -592,7 +592,7 @@ Sacar el quinto elemento de una lista y guardarlo en una variable:
 
     elemento = lista.pop(4) # Al quitarlo este desaparece de la lista.
 
-Inserta un elemento en la quinta posicion:
+Inserta un elemento en la quinta posición:
 
 .. code-block:: python
 
