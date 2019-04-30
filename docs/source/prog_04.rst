@@ -53,10 +53,10 @@ o programa.
 
 **Error**: Sinónimo de bug.
 
-**Git**: Es un software open source que te permite llevar un control de los cambios que haces en tu codigo, una de las 
-ventajas es que no te tienes que preocupar de estar haciendo copias actualizada de tus archivos, git te permite volver a un
-atras en el timpo de tu código, cuando este fue distinto y compararlo con lo actual. tiene un conjunto de herramientas que te
-facilitan este proceso. 
+**Git**: Es un software open source que te permite llevar un control de los cambios que haces en tu código, una de las 
+ventajas es que no te tienes que preocupar de estar haciendo copias actualizadas de tus archivos, git te permite volver a un 
+punto atras en el tiempo de tu código, cuando este fue distinto y compararlo con lo actual. tiene un conjunto de herramientas 
+que te facilitan este proceso.
 
 **Commit**: Es cuando un programador guarda el progreso de su trabajo  en el código con **git** y cree que tiene una 
 funcionalidad estable y probada.
