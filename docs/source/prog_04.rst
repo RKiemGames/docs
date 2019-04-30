@@ -293,8 +293,8 @@ queramos enviar, este resultado lo podemos guardar en alguna variable para luego
 ¿Qué son los Operadores?
 ######
 
-Ya habiamos hablado un poco de ellos en `Artículo de desiciones <prog_02#que-son-los-operadores>`_. esos operadores como
-indicaba el artuculo sirven para comparar.
+Ya habiamos hablado un poco de ellos en `Programando decisiones </prog_02#que-son-los-operadores>`_. esos operadores como
+indicaba el artículo sirven para comparar.
 
 En este apartado explicaremos en detalle sobre los demás:
 
