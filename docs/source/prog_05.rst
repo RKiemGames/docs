@@ -23,7 +23,7 @@ Si nos centramos en los vehículos, estos tienen varias características comunes
 que tienen ruedas, hay de 1 de 2 de 3 y 4 ruedas o más, dependiendo de su uso o fin.
 
 También tienen algunas funciones como: retroceder, avanzar, acelerar, frenar, prender luces, tocar 
-la bocina, activar el limpia parabrisa, rociar con agua, cargar combustible, etc...
+el claxón, activar el limpia parabrisa, rociar con agua, cargar combustible, etc...
 
 Hay otro vehiculos que tienen lo mismo pero le agregan algo más como un descapotable, puertas que 
 se abren hacia arriba, luces que se salen desde el capó, también existen tipos de ellos como 
@@ -37,8 +37,27 @@ características y funciones pertenecen a un vehículo, porque conocemos cómo e
 El concepto de pertenencia de un objeto es aquello que es característico o propio de ese objeto y que no es de ningún otro más, por ejemplo que un vehículo pueda retroceder y avanzar, son característicos de un vehículo, o la cantidad de ruedas que tiene también. La pertenencia es esto, tener conciencia de qué cosas le pertenecen a un objeto y cuáles no.
 Vamos a hacer un ejercicio donde colocaremos distintos elementos y vamos a definir a cuál objeto pertenecen esos elementos.
 
-hacer los ejemplos
 
++---------------+-------------------------+
+| ATRIBUTOS     | FUNCIONES               |
++===============+=========================+
+| Teclado       |  Acelerar               |
++---------------+-------------------------+
+| Claxón        |  Sumar                  |
++---------------+-------------------------+
+| Mouse         |  Retroceder             |
++---------------+-------------------------+
+| Rueda         |  Mover puntero          |
++---------------+-------------------------+
+| Monitor       |  Frenar                 |
++---------------+-------------------------+
+| Volante       |  Mostrar imagen         |
++---------------+-------------------------+
+| Motor         |  Activar alarma         |
++---------------+-------------------------+
+
+Tomando los atributos y funciones anteriores, haz una tabla con los elementos que 
+le corresponden al objeto **Vehículo** y al objeto **Computadora**.
 
 ¿Que es un atributo?
 ######
@@ -53,8 +72,8 @@ características que tienen, se les denomina atributo.
 Cuando al objeto queremos darle vida, animarlo, sacarlo de ese estado inanimado o estático, 
 debemos agregarle funciones, a estas funciones se les llama métodos, porque describe la manera 
 como este debe hacer cierta acción, es decir, definen un método de hacer algo. Si te das cuenta
- he conectado la palabra función a este concepto es porque son funciones de programación que se 
- les ha dado una utilidad en los objetos.
+he conectado la palabra **función** a este concepto, es porque son funciones de programación que se 
+les ha dado una utilidad en los **objetos**.
 
 Ya teniendo claro estos 3 conceptos, pertenencia, atributo y método podemos construir nuestro 
 primer objeto, ahora ya no tendremos una función que le pasamos como parametro a un personaje 
