@@ -123,7 +123,11 @@ Es como llamar a un comando, pero con el nombre de la clase.
 ¿Que es la herencia?
 ######
 
-La herencia es capacidad que tienen los objetos de adoptar los atributos y funciones de otro objeto y hacerlo parte de él, además de conservar sus propias características y funciones. Para entender esto más fácil, es cuando Goku y Vegeta se fusionan, nace un nuevo personaje con los atributos y poderes de Goku y Vegeta, pero este personaje no es ni Goku ni Vegeta, es un nuevo personaje con más poder, bueno seria como la capacidad de herencia en los objetos.
+La herencia es capacidad que tienen los objetos de adoptar los atributos y funciones de otro objeto y 
+hacerlo parte de él, además de conservar sus propias características y funciones. Para entender esto 
+más fácil, es cuando Goku y Vegeta se fusionan, nace un nuevo personaje con los atributos y poderes 
+de Goku y Vegeta, pero este personaje no es ni Goku ni Vegeta, es un nuevo personaje con más poder, 
+bueno seria como la capacidad de herencia en los objetos.
 
 .. code-block:: python
 
@@ -143,8 +147,9 @@ La herencia es capacidad que tienen los objetos de adoptar los atributos y funci
         def velocidad(self):
             #tecnica de velocidad
 
-Como puedes ver la fusión de Goku con Vegeta (Vegeta adopta la forma de Goku en este caso) hizo aumentar el ki a 180.000, y le agrego la posibilidad de hacer kamehameha, y mantiene su técnica de velocidad y ambos pueden teletransportarse por que son  Saiyajin, 
-com Goku es Saiyajin y Vegeta se fusionan a él, también sería un Saiyajin, aunque todos sabemos que ambos son Saiyajines, pero los objetos no saben mucho de Dragon Ball así que solo se puede hacer de esta forma.
+Como puedes ver la fusión de Goku con Vegeta (Vegeta adopta la forma de Goku en este caso) hizo aumentar el ki a 180.000, y le agrego la posibilidad de hacer kamehameha y kaioken,
+también mantiene su técnica de velocidad y ambos pueden teletransportarse por que son  Saiyajin. Como Goku es Saiyajin y Vegeta se fusionan a él, también sería 
+pasaría a ser un Saiyajin, aunque todos sabemos que ambos son Saiyajines, pero los objetos no saben mucho de "Dragon Ball" así que solo se puede hacer de esta forma.
 Ahora te puedes dar cuenta la cantidad de cosas que puedes hacer con los objetos, representar una fusión de Goku con Vegeta en una forma tan simple.
 
 Por ahora lo dejaremos simple, existen otros conceptos sobre objetos que veremos más adelante, pero ya con esto puedes empezar a trabajar con ellos de una 
