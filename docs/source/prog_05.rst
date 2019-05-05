@@ -147,14 +147,22 @@ Como puedes ver la fusión de Goku con Vegeta (Vegeta adopta la forma de Goku en
 com Goku es Saiyajin y Vegeta se fusionan a él, también sería un Saiyajin, aunque todos sabemos que ambos son Saiyajines, pero los objetos no saben mucho de Dragon Ball así que solo se puede hacer de esta forma.
 Ahora te puedes dar cuenta la cantidad de cosas que puedes hacer con los objetos, representar una fusión de Goku con Vegeta en una forma tan simple.
 
-Por ahora lo dejaremos simple, existen otros conceptos sobre objetos que veremos más adelante, pero ya con esto puedes empezar a trabajar con ellos de una forma simple y práctica.
+Por ahora lo dejaremos simple, existen otros conceptos sobre objetos que veremos más adelante, pero ya con esto puedes empezar a trabajar con ellos de una 
+forma simple y práctica.
 
 ¿Qué es una API?
 ######
 
-Es la sigla en inglés de 'Application Programming Interface', que en español es 'Interfaz de Programación de Aplicaciones', pero bueno, entonces ¿Qué significa eso?.
+Es la sigla en inglés de 'Application Programming Interface', que en español es 'Interfaz de Programación de Aplicaciones', pero bueno, entonces ¿Qué significa 
+eso?.
 
-para explicartelo simple una API te provee un conjunto de funciones y clases ya previamente programadas por otros programadores, que te ayudan a hacer tu programa mucho más rápido y fácil. Para que lo entienda mejor, Imagínate que quieres hacer un huevo frito, entonces no se te ocurriría nunca construir una cocina, construir el sartén, cosechar maravilla para hacer aceite, buscar pólvora para hacer fuego y finalmente criar gallinas para que te den huevos y así poder hacer un huevo frito. lo normal es comprar una cocina, comprar aceite, comprar huevos, comprar cerillas, comprar la sartén y hacer huevo frito. Las APIs serían la cocina, el sartén, el aceite, las cerillas y el huevo, nosotros solo nos dedicamos a cocinarlo, que sería nuestro programa. lo mejor es que las APIs en su mayoría no se compran, están disponibles de forma gratuita para que las ocupes sin restricciones (Pero la de Playstation tienes que pagar una licencia para poder usarla)
+para explicartelo simple una API te provee un conjunto de funciones y clases ya previamente programadas por otros programadores, que te ayudan a hacer tu 
+programa mucho más rápido y fácil. Para que lo entiendas mejor, Imagínate que quieres hacer un huevo frito, entonces no se te ocurriría nunca construir una 
+cocina, construir el sartén, cosechar maravilla para hacer aceite, buscar pólvora para hacer fuego y finalmente criar gallinas para que te den huevos y así 
+poder hacer un huevo frito. lo normal es tener una cocina, tener aceite, comprar huevos, tener cerillas, tener la sartén y hacer huevo frito. Las APIs 
+serían la cocina, el sartén, el aceite, las cerillas y el huevo, nosotros solo nos dedicamos a cocinarlo, que sería nuestro programa. lo mejor es que las APIs 
+en su mayoría no se compran, están disponibles de forma gratuita para que las ocupes sin restricciones (Pero la de Playstation tienes que pagar una licencia 
+para poder usarla).
 
 Usado una API
 ++++++
