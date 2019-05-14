@@ -205,7 +205,10 @@ para almacenar tus datos, usar el **comandos** de entrada **input()** y el
 **comandos** de salida **print()**, con esto ya puedes practicar. En el próximo 
 tutorial, te explicaremos cómo tomar decisiones usando tus **variables**.
 
+Si queires darnos tu opinion sobre este articulo te invitamos a `contestar esta encuesta <https://forms.gle/WgxAGbshiTJATxaE9>`_
+
 .. _página de facebook Rdckgames: http://facebook.me/rdckgames
 
 Si tienes dudas o requieres una guía más personalizada contáctanos a través de 
 nuestra `página de facebook Rdckgames`_.
+
