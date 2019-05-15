@@ -60,6 +60,14 @@ Marketing Digital
    
    mkt/mkt_init_index
 
+Contenido Adicional
+######
+
+.. toctree::
+   :maxdepth: 1
+   
+   extra/index
+
 Próximamente agregaremos más contenido, así que quedate al tanto de las novedades.
 
 Puedes visitar nuestra `página de facebook Rdckgames <http://facebook.me/rdckgames>`_ por si tienes dudas o 
