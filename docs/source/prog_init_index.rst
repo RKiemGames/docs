@@ -1,5 +1,5 @@
 Iniciación en la programación
-======
+=============================
 
 .. toctree::
    :maxdepth: 2

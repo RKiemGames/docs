@@ -1,5 +1,5 @@
 Desarrollando videojuegos nivel avanzado
-======
+========================================
 
 .. toctree::
    :maxdepth: 2
@@ -8,4 +8,4 @@ Desarrollando videojuegos nivel avanzado
    prog_32
 
 
-*Proximamente...*
+*Próximamente...*

@@ -1,5 +1,5 @@
 Desarrollando videojuegos nivel medio
-======
+=====================================
 
 .. toctree::
    :maxdepth: 2
@@ -7,4 +7,4 @@ Desarrollando videojuegos nivel medio
    prog_21
    prog_22
 
-*Proximamente...*
+*Próximamente...*

@@ -1,13 +1,13 @@
 Bienvenido a la documentación de Rdckgames
-======
+==========================================
 
 .. image:: https://scontent.fscl8-1.fna.fbcdn.net/v/t1.0-9/52977690_301586693873546_2322012178103664640_n.jpg?_nc_cat=109&_nc_ht=scontent.fscl8-1.fna&oh=9431963dd264dcf10fa8219edc393505&oe=5D444101
 
-En esta documentación encontrarás todo el contenido de nuestro proceso de 
-desarrollo de videojuegos, también encontrarás tutoriales que te guiarán en los 
+En esta documentación encontrarás todo el contenido de nuestro proceso de
+desarrollo de videojuegos, también encontrarás tutoriales que te guiarán en los
 procedimientos que se deben realizar para cada proceso.
 
-También publicamos tutoriales de aprendizaje para las distintas materias 
+También publicamos tutoriales de aprendizaje para las distintas materias
 relacionadas con la realización de videojuegos, tales como:
 
 * **Programación** para videojuegos.
@@ -15,14 +15,14 @@ relacionadas con la realización de videojuegos, tales como:
 * **Audio y música** para videojuegos.
 * **Marketing digital** para videojuegos.
 
-Iremos agregando contenido a medida que vallamos avanzando en los distintos 
+Iremos agregando contenido a medida que vallamos avanzando en los distintos
 tópicos.
 
-A continuación se listan los tutoriales correspondientes a las siguentes 
+A continuación se listan los tutoriales correspondientes a las siguientes
 categorías:
 
 Programación de videojuegos
-######
+###########################
 
 .. toctree::
    :maxdepth: 1
@@ -33,42 +33,44 @@ Programación de videojuegos
    prog_advanced_index
 
 Arte para videojuegos
-######
+#####################
 
 .. toctree::
    :maxdepth: 1
 
    art/art_001
 
-`Proximamente`
+`Próximamente`
 
 Audio y música para videojuegos
-######
+###############################
 
 .. toctree::
    :maxdepth: 1
 
    music/music_001
 
-`Proximamente`
+`Próximamente`
 
 Marketing Digital
-######
+#################
 
 .. toctree::
    :maxdepth: 1
-   
+
    mkt/mkt_init_index
 
 Contenido Adicional
-######
+###################
 
 .. toctree::
    :maxdepth: 1
-   
+
    extra/index
 
-Próximamente agregaremos más contenido, así que quedate al tanto de las novedades.
+Próximamente agregaremos más contenido, así que quedate al tanto de las
+novedades.
 
-Puedes visitar nuestra `página de facebook Rdckgames <http://facebook.me/rdckgames>`_ por si tienes dudas o 
-deseas conversar con nosotros.
+Puedes visitar nuestra
+`página de facebook Rdckgames <http://facebook.me/rdckgames>`_ por si
+tienes dudas o deseas conversar con nosotros.

@@ -1,5 +1,5 @@
 Desarrollando videojuegos nivel básico
-======
+======================================
 
 .. toctree::
    :maxdepth: 2
@@ -7,4 +7,4 @@ Desarrollando videojuegos nivel básico
    prog_11
    prog_12
 
-*Proximamente...*
+*Próximamente...*
