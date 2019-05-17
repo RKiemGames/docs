@@ -100,7 +100,7 @@ empezaron a usar formatos de imágenes, permitiendo asi lograr una mejor calidad
 visual en los videojuegos. Pero los amantes de los gráficos generados por pixel
 quisieron rescatar este estilo y empezar a hacer imágenes que su construcción
 es a base de puntos de colores y lograr verdaderas fotografías a base de
-puntos, luego se adopto esta mismo estilo para volver a los juegos retros que
+puntos, luego se adoptó este mismo estilo para volver a los juegos retros que
 hoy en día están muy de moda.
 
 .. |pixelart| image:: https://upload.wikimedia.org/wikipedia/commons/8/8f/Pixel-Art_Wohnhaus_Nr._6.gif
@@ -117,7 +117,7 @@ personaje, un objeto estático del videojuego, una pequeña porción gráfica
 para generar un nivel completo como si este fuese un rompecabezas, etc...
 todos aquellos elementos gráficos en un videojuego les podemos llamar
 sprite. Los sprites pueden ser trasparentes o usar un color de fondo como
-color de transparencia, comúnmente ocupan el **magenta**, por es un color
+color de transparencia, comúnmente ocupan el **magenta**, porque es un color
 poco natural, también se pueden encontrar sprites con fondo **verde** para
 usarlo también como color de transparencia. La norma para crear un sprite
 es que sus dimensiones estén en potencia de 2 pixeles, es decir, tamaños de
@@ -138,7 +138,8 @@ en un videojuego el cargar en la GPU estos sprites.
 **Sprite Sheet**: Es una colección de **sprites** que pueden representar las
 poses de uno o varios personajes y tener también objetos inanimados o
 elementos de nivel. Es muy útil para no tener que cargar en memoria varias
-imágenes sino solo leer una gran imagen en memoria, por temas de eficiencia.
+imágenes sino solo leer una gran imagen en memoria, para asegurar una carga
+mas eficiente del videojuego.
 
 .. |ssheet| image:: https://upload.wikimedia.org/wikipedia/commons/6/68/BOE_tile_set.png
 
@@ -151,21 +152,21 @@ imágenes sino solo leer una gran imagen en memoria, por temas de eficiencia.
 **Tile**: Es una representación de un elemento de nivel, normalmente
 se obtienen desde un **Sprite Sheet**, permite generar muchos niveles
 solamente juntando los como si fuesen un rompecabezas, es una técnica
-muy practica para generar niveles con poco esfuerzo, solo pintando en
+muy práctica para generar niveles con poco esfuerzo, solo pintando en
 pantalla como si estos fuesen pinceles con la forma de un **sprite**.
 
 **Tiles automaticos (Autotile)**: Es una técnica que se ocupa para poder
 dibujar un conjunto de tiles y que estos automáticamente completen las
-tiles faltantes, permitiendo acelerar el proceso de contracción de un
-nivel de videojuegos, se configuran que tiles se usaran como esquinas,
-que esquina representara cada tile, y cuales tiles representan el centro,
-como por ejemplo si queremos dibujar un lago, solo dibujamos el contorno
+tiles faltantes, permitiendo acelerar el proceso de construcción de un
+nivel de videojuegos, se configuran qué tiles se usaran como esquinas,
+qué esquina representara cada tile, y cuales tiles representan el centro,
+como por ejemplo, si queremos dibujar un lago, solo dibujamos el contorno
 con los tiles del borde del lago, y al cerrar la forma del contorno el
-**autotile** rellenará los espacios del centro con el tile de agua. con
-el puedes generar niveles muy rápidos.
+**autotile** rellenará los espacios del centro con el tile de agua. Con
+**autotile** puedes generar niveles muy rápidos.
 
 **Tilemap**: Es el área que ocupamos para ir dibujando nuestro nivel de
-videojuego usando los tiles.
+videojuego usando los **tiles**.
 
 **Tileset**: Son un conjunto de tiles destinados a formar las partes de
 un nivel de videojuego.
