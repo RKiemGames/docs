@@ -183,38 +183,182 @@ un nivel de videojuego.
 | progreso.        |
 +------------------+
 
-
 Terminología 3D
 ===============
 
-Albedo
-Ambient Occlusion
-Ángulos de Euler
-Anisotropy
-Arista
-Baked lightmaps
-Baking Lights
-Billboard
-Blend
-Cara
-Clearcoat
-Collada
-Color Difuso
-Coordenada Z
-CSG
-Cull
-DCC
-Depth Draw
-Displacement
-Emission
-Energía de la luz
-Energía indirecta
+**Albedo**: Es el porcentaje de radiación que cualquier superficie refleja
+respecto a la radiación que incide sobre ella.
+
+Esta definición no lo deja muy claro, en videojuegos un pixel emite un color
+y dependiendo de la cantidad de luz que incida en la superficie tendrá cierta
+intensidad, a esto le podemos denominar "la radiación que se refleja". la luz
+también puede tener un color que se mezcla con el color de los pixeles de una
+imagen, el resultado final es otro color tintado por la luz que ha incidido.
+El grado de incidencia de la luz también depende de la geometría del objeto y
+como esta desplegado en el su mapa UV. Normalmente se usa una imagen cualquiera
+que representa la superficie de un objeto, pero el tamaño de la imagen debe
+respetar la norma de la potencia de 2 pixeles.
+
+.. |texture| image:: ../img/texture.jpg
+
++-------------+
+| |texture|   |
++-------------+
+| Imagen para |
+| usar como   |
+| **Albeado** |
++-------------+
+
+**Ambient Occlusion**: También abreviado como AO por sus siglas, que en español
+significa Oclusión ambiental. Son las áreas donde la luz no logra llegar, ya
+sea porque está fuera del área de luz o porque se interpuso una sombra, estas
+son iluminadas por la luz ambiental.
+
+.. |ao| image:: https://docs.godotengine.org/en/3.1/_images/environment_ssao2.png
+
++----------+
+| |ao|     |
++----------+
+| **AO**   |
+| aplicado |
++----------+
+
+**Anisotropy**: o también en español Anisotropía, es la cualidad que tiene la
+luz de propagarse a cierta velocidad dependiendo desde el punto de observación.
+En videojuegos se utiliza para mejorar la calidad de una imagen respecto al
+angulo que esta se está mirando, cuando el angulo es muy oblicuo a la imagen
+suele distorsionarse y verse pixelada, con esta técnica se podría evitar ese
+efecto.
+
+.. |anis| image:: https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/MipMap_Example_STS101_Anisotropic.png/256px-MipMap_Example_STS101_Anisotropic.png
+
++------------------+
+| |anis|           |
++------------------+
+| Representación   |
+| de la corrección |
+| de anisotropía   |
++------------------+
+
+**Arista**: Es una línea que une 2 puntos en el espacio.
+
+**Baked lightmaps**: Es una técnica de computación de gráficos ocupada para
+generar el efecto de **Oclusión ambiental**. Usada en GPUs más antiguas.
+
+**Baking Lights**: Una técnica mejorada de **Baked lightmaps** para generar el
+efecto de **Oclusión ambiental**. Usada en GPU más modernas.
+
+**Billboard**: Es una técnica ocupada para que una cara de un objeto siempre
+mire de frente a la cámara. esta técnica fue muy usada en juegos como **DOOM**,
+para hacer que los enemigos siempre te miraran de frente y por mas que los
+rodearas, haciendo parecer que eran elementos 3D pero que finalmente era
+planos.
+
+**Blend**: Esto es un modo que permite mezclar los pixeles de varias texturas
+logrando un efecto mas detallado y realista.
+
+**Cara**: Es el área que se rellena juntando 3 o más aristas.
+
+**Clearcoat**: Es un efecto que se le puede dar a una superficie para que
+parezca que está recubierta por una capa trasparente, como la pintura de
+un automóvil o una bola de billar.
+
+.. |clearcoat| image:: https://cdn.pixabay.com/photo/2018/12/27/03/38/billiards-3896912_960_720.jpg
+
++----------------+
+| |clearcoat|    |
++----------------+
+| Bola de billar |
+| mostrando este |
+| Efecto         |
++----------------+
+
+**Collada**: Es un formato del archivo de intercambio para modelos 3D,
+este puede contener adicionalmente animaciones, estructura de huesos,
+materiales, etc..., es un formato tan extendido que puede ser utilizado
+en cualquier software de modelado 3D, motores de videojuegos y aplicaciones
+que usan 3D para representar elementos.
+
+**Color Difuso**: Es la reflexion de la luz en una superficie de un objeto. Al
+igual que **Albeado** cumple la misma función.
+
+**Coordenada Z**: Es aquella que nos permite tener un mundo 3D normalmente la
+que nos permite tener profundidad, y ver objetos más lejanos y otros cercanos.
+En un mundo 2D solo existen 2 coordenadas X e Y, que reresentan el ancho y el
+alto respectivamente, agregand esta coordenada podemos ya no solo movernos de
+izquierda a derecha, y de arriba hacia abajo, sino que tambien hacia el fondo
+y hacia atras.
+
+**CSG**: Siglas en ingles de **Constructive Solid Geometry**, que en español
+significa Geometría sólida constructiva. permite construir la geometría de un
+objeto mediante la intersección de uno o más objetos aplicando una estrategia
+de mezclado, ya sea añadiendo o eliminando un trozo de aquellas partes que no
+se unen.
+
+.. |csg| image:: https://docs.godotengine.org/en/3.1/_images/csg.gif
+
++-----------+
+| |csg|     |
++-----------+
+| Aplicando |
+| **CSG**   |
++-----------+
+
+**Cull**: permite evitar se dibujen las caras de un objeto que no estan siendo
+visibles, por lo general siempre es la cara tracera. de un objeto.
+
+**DCC**: siglas en ingles de **Digital content creation**, que en español
+significa **Contenido de creación digital**, normalmente se les denomina
+asi a los softwares que permiten la creacion de este contenido como
+herramientas de modelado 3D.
+
+**Depth Draw**: Es un modo que permite el dibujado de la profundidad del objeto
+y representarlo como geometría en donde la luz podría proyectar sombras.
+
+**Displacement**: Permite dar un efecto de profundidad en un objeto que en su
+textura representa cabidades, haciendo que se vea más realista.
+
+**Emission**: Es la posibilidad que se le puede dar a un objeto para emita
+luz, este debe ser usado junto a **Baking Lights** para que la luz emitida
+sea trasmitida a los objetos al su alrededor.
+
+.. |emission| image:: https://docs.godotengine.org/en/3.1/_images/spatial_material15.png
+
++--------------+
+| |emission|   |
++--------------+
+| Objeto con   |
+| **Emission** |
+| a la derecha |
++--------------+
+
+**Energía de la luz**: Es la intencidad de la luz que se genera desde alguna
+fuente fija o luz ambiental, su unidad de medida es el Watt.
+
+**Luz indirecta**: es a luz que se refleja de forma indirecta a los
+objetos, por medio de la luz que rebota de los objetos en los cuales incide la
+luz.
+
+.. |indirect| image:: https://docs.godotengine.org/en/3.1/_images/giprobe_indirect.png
+
++---------------+
+| |indirect|    |
++---------------+
+| Comparación   |
+| de una imagen |
+| con luz       |
+| directa y con |
+| luz Indirecta |
++---------------+
+
+
 Entorno
 Especular
 Far Blur
 Fog
 Geometría
 GI Probes
+GPU
 Gridmaps
 Grow
 LOD
