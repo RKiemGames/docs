@@ -309,7 +309,7 @@ visibles, por lo general siempre es la cara tracera. de un objeto.
 
 **DCC**: siglas en ingles de **Digital content creation**, que en español
 significa **Contenido de creación digital**, normalmente se les denomina
-asi a los softwares que permiten la creacion de este contenido como
+asi a los softwares que permiten la creación de este contenido como
 herramientas de modelado 3D.
 
 **Depth Draw**: Es un modo que permite el dibujado de la profundidad del objeto
@@ -352,26 +352,167 @@ luz.
 +---------------+
 
 
-Entorno
-Especular
-Far Blur
-Fog
-Geometría
-GI Probes
-GPU
-Gridmaps
-Grow
-LOD
-Luz Direccional
-Luz Omni-direccional
-Luz Spot
-Mapa UV
-Material
-Mesh
-MeshLibrary
-Metallic
-Near Blur
-Normalmap
+**Entorno**: Describe varios aspectos de como se verá nuestro videojuego, es
+totalmente configurable y podemos ajustar las siguentes propiedades:
+
+* **Fondo**:
+
+  * **Cielo**: Color general y color del horizonte.
+  * **Suelo**: Color general y color del horizonte.
+  * **Sol**: Posición, angulo y energía.
+
+* **Luz ambiental**: Color y energía.
+* **Niebla (FOG)**: Rango de niebla con respecto a la cámara.
+
+**Especular** Es la forma en que una superficie refleja la luz.
+
+**Blur**: Es un efecto que permite desenfocar una escena, permitiendo configurar, el
+desenfoque de cerca y el desonfoque de lejos
+
+.. |fblur| image:: https://docs.godotengine.org/en/3.1/_images/environment_dof_far.png
+.. |nblur| image:: https://docs.godotengine.org/en/3.1/_images/environment_dof_near.png
+
++------------+
+| |fblur|    |
++------------+
+| Desenfoque |
+| **lejano** |
++------------+
+
++------------+
+| |nblur|    |
++------------+
+| Desenfoque |
+| **cercano**|
++------------+
+
+**Fog**: El efecto FOG permite realizar varias cosas, principalmente una
+ambientación con niebla, pero también se usa para que objetos lejanos dejen de
+verse en detalle, y se vea solamente su silueta detras de la niebla, logrando
+con esto un mejor rendimiento en la escena 3D.
+
+**Geometría**: Todo objeto 3D está construido por medio de poligonos, el
+conjunto de estos poligonos que forman el objeto se le llama geometría.
+
+**GI Probes**: En una técnica ocupada para generar luz indirecta en tiempo real
+haciendo que la luz se comporte de acuerdo al punto de visa de una camara y que
+se vea de una forma más real.
+
+**Gridmaps**: Es una técnica empleada en el diseño de niveles 3D, que por medio
+de objetos tridimencionales se van colocando en pantalla como si estos fueran
+tiles 2D.
+
+**Grow**: Es un efecto que permite separar las caras de un objeto unidas por
+sus aristas.
+
+.. |grow| image:: https://docs.godotengine.org/es/latest/_images/spatial_material10.png
+
++---------+
+| |grow|  |
++---------+
+|Aplicando|
+|**Grow** |
++---------+
+
+**LOD**: Level of Detail por sus siglas en ingles, que en español significa
+**Nivel de Detalle**, es una técnica usada para hacer que los objetos más
+lejanos tengan menos definición de su geometría, mientras que los objetos
+mas cercanos se definen a mayor calidad.
+
+**Luz Direccional**: Es un tipo de luz que simula ser un sol.
+
+.. |dirl| image:: https://docs.godotengine.org/en/3.1/_images/shadow_blocky.png
+
++-----------------+
+| |dirl|          |
++-----------------+
+| Luz             |
+| **Direccional** |
++-----------------+
+
+**Luz Omni-direccional**: Es una luz que permite proyectar su luz en un radio
+y con una intensidad definida, es mas parecido a como ilumina una ampolleta.
+
+.. |omnil| image:: https://docs.godotengine.org/en/3.1/_images/light_omni.png
+
++----------------------+
+| |omnil|              |
++----------------------+
+| Luz                  |
+| **Omni Direccional** |
++----------------------+
+
+**Luz Spot**: Es una luz que permite desplegar la luz como un cono, es más
+parecida a la luz de un foco de un automovil o un foco de vigilancia.
+
+.. |spotl| image:: https://docs.godotengine.org/en/3.1/_images/light_spot.png
+
++----------+
+| |spotl|  |
++----------+
+| Luz      |
+| **Spot** |
++----------+
+
+**Mapa UV**: Sirve para poder proyectar adecuadamente una imagen sobre una
+superficie tridimencional, esta se despliega como una malla en 2 dimensiones.
+En ella podemos colocar una imagen y automáticamente el **Mapa UV** por medio
+de sus cordenadas referencia esa imagen y la despliega sobre el objeto 3D,
+envolviendolo como si el objeto tubiese esa textura.
+
+.. |uv| image:: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Cube_Representative_UV_Unwrapping.png/1024px-Cube_Representative_UV_Unwrapping.png
+
++------------+
+| |uv|       |
++------------+
+| **Mapa UV**|
+| proyectado |
++------------+
+
+**Material**: Se compone de varios elementos como: Albeado o Color Difuso, 
+que tan metálico es, su rugosidad, la cantidad de Especularidad, El mapa UV,
+el nivel de Ocusion ambiental, entre otras propiedades.
+
+.. |material| image:: https://docs.blender.org/manual/en/dev/_images/render_cycles_nodes_types_shaders_principled_example-1a.jpg
+
++------------+
+| |material| |
++------------+
+| Lista de   |
+| Materiales |
++------------+
+
+**Mesh**: Es una malla que da forma a un objeto 3D, esta se compone por
+vertices y aristas. También se le conoce como malla poligonal ya que se forma
+de distintos poligonos.
+
+.. |mesh| image:: https://upload.wikimedia.org/wikipedia/commons/f/fb/Dolphin_triangle_mesh.png
+
++-----------+
+| |mesh|    |
++-----------+
+| Una malla |
+| de delfin |
++-----------+
+
+**MeshLibrary**: Es una colección de **Mesh** para usarlas en un **Gridmap**
+
+**Metallic**: Es la pripiedad que tiene un material de ser más o menos
+metálico.
+
+**Normalmap**: También llamado mapa de normales, permite darle un efecto de
+relieve a una material, usando la luz y el punto de vista como referencia.
+
+.. |normal| image:: https://learnopengl.com/img/advanced-lighting/normal_mapping_normal_map.png
+
++------------+
+| |normal|   |
++------------+
+| Una imagen |
+| de mapa de |
+| normales   |
++------------+
+
 OBJ
 Origen
 PBR
@@ -401,15 +542,21 @@ Terminología 2D y 3D
 Cámara
 Colisión
 Coordenadas Globales y locales
-Cuerpo Blando
-Cuerpo Cinemático
-Cuerpo Estático
-Cuerpo Rígido
+Cuerpo Blando (Soft)
+Cuerpo Cinemático (Kinematic)
+Cuerpo Estático (Static)
+Cuerpo Rígido (Rigid)
 delta
 Escala
 Escena
 FPS
 Gizmos
+
+**GPU**: Graphics Processor Unit por sus siglas en ingles que significa en
+español **Unidad de procesamiento gráfico**, es la encargada de procesar los
+graficos 2D y 3D de una computadora. es una Unidad de procesamiento dedicada 
+a esta tarea.
+
 GUI
 HUD
 Input
