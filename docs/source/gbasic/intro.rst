@@ -31,12 +31,19 @@ d-pad y joystick por lo cual les dá mayor versatilidad.
 .. |dpad| image:: https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Sega_master_system_d-pad.jpg/220px-Sega_master_system_d-pad.jpg
 .. |joypad| image:: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/PSX-DualShock-Controller.jpg/220px-PSX-DualShock-Controller.jpg
 
-+------------------------+-------------------+
-| |dpad|                 | |joypad|          |
-+------------------------+-------------------+
-| Este es un control de  | joypad de PS2 con |
-| **Sega master System** | ambos controles   |
-+------------------------+-------------------+
++------------------------+
+| |dpad|                 |
++------------------------+
+| Este es un control de  |
+| **Sega master System** |
++------------------------+
+
++-------------------+
+| |joypad|          |
++-------------------+
+| joypad de PS2 con |
+| ambos controles   |
++-------------------+
 
 **Canvas**: Este término en inglés significa en español lienzo. En
 videojuegos un **canvas** es el área donde la GPU dibuja todo el
