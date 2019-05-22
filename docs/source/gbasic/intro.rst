@@ -315,7 +315,7 @@ se unen.
 visibles, por lo general siempre es la cara tracera. de un objeto.
 
 **DCC**: siglas en ingles de **Digital content creation**, que en español
-significa **Contenido de creación digital**, normalmente se les denomina
+significa **Creación de contenido digital**, normalmente se les denomina
 asi a los softwares que permiten la creación de este contenido como
 herramientas de modelado 3D.
 
@@ -358,7 +358,6 @@ luz.
 | luz Indirecta |
 +---------------+
 
-
 **Entorno**: Describe varios aspectos de como se verá nuestro videojuego, es
 totalmente configurable y podemos ajustar las siguentes propiedades:
 
@@ -371,7 +370,7 @@ totalmente configurable y podemos ajustar las siguentes propiedades:
 * **Luz ambiental**: Color y energía.
 * **Niebla (FOG)**: Rango de niebla con respecto a la cámara.
 
-**Especular** Es la forma en que una superficie refleja la luz.
+**Especular**: Es la forma en que una superficie refleja la luz.
 
 **Blur**: Es un efecto que permite desenfocar una escena, permitiendo configurar, el
 desenfoque de cerca y el desonfoque de lejos
@@ -507,6 +506,15 @@ de distintos poligonos.
 **Metallic**: Es la pripiedad que tiene un material de ser más o menos
 metálico.
 
+.. |metal| image:: http://res.publicdomainfiles.com/pdf_view/67/13925311812550.png
+
++----------+
+| |metal|  |
++----------+
+| Esfera   |
+| Metálica |
++----------+
+
 **Normalmap**: También llamado mapa de normales, permite darle un efecto de
 relieve a una material, usando la luz y el punto de vista como referencia.
 
@@ -520,27 +528,145 @@ relieve a una material, usando la luz y el punto de vista como referencia.
 | normales   |
 +------------+
 
-OBJ
-Origen
-PBR
-Plano
-Polígono
-Quaternions
-Refracción
-Render
-Rim
-Roughness
-Spatial
-SSAO
-SSR
-Subsurface Scattering
-Surface
-Textura
-TextureAtlas
-Transform
-Transmisión
-Vértice
-World
+**OBJ**: Formato de archivo extensamente soportado por todos los DCC, permite
+almacenar la malla de un objeto y los materiales asociados a el, util para
+objetos estaticos.
+
+**Origen**: Es un punto virtual en la malla de un objeto que define su centro
+de rotación, normalmente se coloca en el centro del objeto, pero muchas veces
+es preferible colocarlo en la base del objeto, util en este caso para
+personajes, cuando importas un objeto en un programa de edición 3D, toma este
+punto para posicionar el objeto en el centro de la escena.
+
+**PBR**: Es una técnica de creación de materiales permite mediante un conjunto
+de imagenes usadas como textura, mapa de normales, rugocidad, oclusión
+ambiental, entre otros ajustes para obtener objetos relistas, usando el rebote
+de la luz y el punto de vista para lograr el efecto.
+
+**Plano**: Es una figura sin volumen de 2 dimensiones, útil para representa el
+suelo en un entorno 3D.
+
+**Polígono**: Es una estructura que se forma por 3 o más **aristas**. su nombre
+proviene por 2 palabras: poli, que significa varios, y gono: que significa
+angulo, es decir una figura geometrica de 2 o mas angulos, es decir, para formar
+2 o más angulos se requieren 3 o más **aristas** unidas. Un triangulo es un 
+polígono ya que tiene 3 **aristas** y 2 angulos.
+
+**Quaternions**: Son polígonos compustos por 4 **aristas**, tambien llamados
+**Quads**. En la era naciente del 3D se solian usar triangulos para generar
+objetos 3D, esto quiere decir que para generar un cubo se requerian 12
+poligonos, luego con la mejora de la tecnología se incorporaron los 
+**Quaternions** permitiendo hacer mallas más complejas y reducir la cantidad de
+poligonos con un rendimiento más eficiente, esto se traduce en objetos de mayor
+definición y velocidad de cálculo de mallas.
+
+.. |3dold| image:: ../img/triangles.png
+.. |3dnew| image:: ../img/quads.png
+
++------------+
+| |3dold|    |
++------------+
+| Una malla  |
+| Formada    |
+| por        |
+| triangulos |
+| (960 caras)|
++------------+
+
++------------+
+| |3dnew|    |
++------------+
+| Una malla  |
+| Formada    |
+| por        |
+| **Quads**  |
+| (512 caras)|
++------------+
+
+**Refracción**: Es la propiedad que tienen un material de desviar la luz,
+en una superficie la luz rebota según su normal, la normal es la dirección
+que toma la luz que rebota.
+
+.. |refract| image:: https://docs.godotengine.org/en/3.1/_images/spatial_material23.png
+
++----------------+
+| |refract|      |
++----------------+
+| Efecto         |
+| **Refracción** |
+| a la derecha   |
++----------------+
+
+**Render**: Es un proceso de calculo que hace una GPU para representar un
+entorno 3D mezclando la luz ambiental los materiales y la posicion de del punto
+de vista, dando como resultado una imagen de alta resolución y realismo.
+Usado extensamente en la produccion de peliculas animadas.
+
+**Rim**: Es la propiedad de un material para parecer una telas que tienen una pequeña
+microfibra, y hace que la luz se esparza a su alrededor.
+
+.. |rim| image:: https://docs.godotengine.org/en/3.1/_images/spatial_material17.png
+
++--------------+
+| |rim|        |
++--------------+
+| Efecto       |
+| **Rim**      |
+| a la derecha |
++--------------+
+
+**Roughness**: Es la característica que tiene un material de ser mas o menos
+rugos, evitando que la luz sea refractada o disminuyendo su intencidad.
+
+**Spatial**: Se le denomina a cualquier objeto que sea representado un entorno
+3D.
+
+**Subsurface Scattering**: Es la propiedad que tiene un material de poder
+absorber luz hacia el interior de un objeto y luego proyectarla hacia afuera de
+él. logrando un mayor realizmo, como por ejemplo la luz del sol que absorbe la
+piel humana.
+
+.. |sss| image:: https://docs.godotengine.org/en/3.1/_images/spatial_material21.png
+
++---------------+
+| |sss|         |
++---------------+
+| Efecto        |
+| **Subsurface**|
+| **Scattering**|
+| a la derecha  |
++---------------+
+
+**Surface**: Superficie de un material.
+
+**Textura**: Imagen usada como superficie de in material, que puede ser una
+imagen que reprente su aspecto.
+
+**TextureAtlas**: Es una imagen que contiene varias texturas, normal
+mente usado para objetos que usan distintos materiales, como por ejemplo
+personajes de videojuegos que visten de variadas formas.
+
+**Transform**: Son las propiedades de un objeto 3D que definen su posición,
+rotación y tamaño.
+
+**Transmisión**: Es la cantidad de luz del lado iluminado que se transfiere al
+lado oscuro (opuesto a la luz). Esto funciona bien para objetos delgados como
+hojas de plantas, hierba, oídos humanos, etc.
+
+.. |trans| image:: https://docs.godotengine.org/en/3.1/_images/spatial_material22.png
+
++-----------------+
+| |trans|         |
++-----------------+
+| Efecto          |
+| **Transmisión** |
+| a la derecha    |
++-----------------+
+
+**Vértice**: Corresponde a un punto de una malla que une 2 o más **aristas**.
+
+**World**: Es el lugar donde se colocan los objetos 3D, que se requieren
+representar en pantalla.
 
 
 Terminología 2D y 3D
