@@ -162,7 +162,7 @@ solamente juntando los como si fuesen un rompecabezas, es una técnica
 muy práctica para generar niveles con poco esfuerzo, solo pintando en
 pantalla como si estos fuesen pinceles con la forma de un **sprite**.
 
-**Tiles automaticos (Autotile)**: Es una técnica que se ocupa para poder
+**Tiles automáticos (Autotile)**: Es una técnica que se ocupa para poder
 dibujar un conjunto de tiles y que estos automáticamente completen las
 tiles faltantes, permitiendo acelerar el proceso de construcción de un
 nivel de videojuegos, se configuran qué tiles se usaran como esquinas,
@@ -286,15 +286,15 @@ materiales, etc..., es un formato tan extendido que puede ser utilizado
 en cualquier software de modelado 3D, motores de videojuegos y aplicaciones
 que usan 3D para representar elementos.
 
-**Color Difuso**: Es la reflexion de la luz en una superficie de un objeto. Al
+**Color Difuso**: Es la reflexión de la luz en una superficie de un objeto. Al
 igual que **Albeado** cumple la misma función.
 
 **Coordenada Z**: Es aquella que nos permite tener un mundo 3D normalmente la
 que nos permite tener profundidad, y ver objetos más lejanos y otros cercanos.
-En un mundo 2D solo existen 2 coordenadas X e Y, que reresentan el ancho y el
-alto respectivamente, agregand esta coordenada podemos ya no solo movernos de
-izquierda a derecha, y de arriba hacia abajo, sino que tambien hacia el fondo
-y hacia atras.
+En un mundo 2D solo existen 2 coordenadas X e Y, que representan el ancho y el
+alto respectivamente, agregando esta coordenada podemos ya no solo movernos de
+izquierda a derecha, y de arriba hacia abajo, sino que también hacia el fondo
+y hacia atrás.
 
 **CSG**: Siglas en ingles de **Constructive Solid Geometry**, que en español
 significa Geometría sólida constructiva. permite construir la geometría de un
@@ -311,8 +311,8 @@ se unen.
 | **CSG**   |
 +-----------+
 
-**Cull**: permite evitar se dibujen las caras de un objeto que no estan siendo
-visibles, por lo general siempre es la cara tracera. de un objeto.
+**Cull**: permite evitar se dibujen las caras de un objeto que no están siendo
+visibles, por lo general siempre es la cara posterior de un objeto.
 
 **DCC**: siglas en ingles de **Digital content creation**, que en español
 significa **Creación de contenido digital**, normalmente se les denomina
@@ -323,7 +323,7 @@ herramientas de modelado 3D.
 y representarlo como geometría en donde la luz podría proyectar sombras.
 
 **Displacement**: Permite dar un efecto de profundidad en un objeto que en su
-textura representa cabidades, haciendo que se vea más realista.
+textura representa cavidades, haciendo que se vea más realista.
 
 **Emission**: Es la posibilidad que se le puede dar a un objeto para emita
 luz, este debe ser usado junto a **Baking Lights** para que la luz emitida
@@ -339,7 +339,7 @@ sea trasmitida a los objetos al su alrededor.
 | a la derecha |
 +--------------+
 
-**Energía de la luz**: Es la intencidad de la luz que se genera desde alguna
+**Energía de la luz**: Es la intensidad de la luz que se genera desde alguna
 fuente fija o luz ambiental, su unidad de medida es el Watt.
 
 **Luz indirecta**: es a luz que se refleja de forma indirecta a los
@@ -359,7 +359,7 @@ luz.
 +---------------+
 
 **Entorno**: Describe varios aspectos de como se verá nuestro videojuego, es
-totalmente configurable y podemos ajustar las siguentes propiedades:
+totalmente configurable y podemos ajustar las siguientes propiedades:
 
 * **Fondo**:
 
@@ -372,8 +372,8 @@ totalmente configurable y podemos ajustar las siguentes propiedades:
 
 **Especular**: Es la forma en que una superficie refleja la luz.
 
-**Blur**: Es un efecto que permite desenfocar una escena, permitiendo configurar, el
-desenfoque de cerca y el desonfoque de lejos
+**Blur**: Es un efecto que permite desenfocar una escena, permitiendo
+configurar, el desenfoque de cerca y el desenfoque de lejos
 
 .. |fblur| image:: https://docs.godotengine.org/en/3.1/_images/environment_dof_far.png
 .. |nblur| image:: https://docs.godotengine.org/en/3.1/_images/environment_dof_near.png
@@ -394,18 +394,18 @@ desenfoque de cerca y el desonfoque de lejos
 
 **Fog**: El efecto FOG permite realizar varias cosas, principalmente una
 ambientación con niebla, pero también se usa para que objetos lejanos dejen de
-verse en detalle, y se vea solamente su silueta detras de la niebla, logrando
+verse en detalle, y se vea solamente su silueta detrás de la niebla, logrando
 con esto un mejor rendimiento en la escena 3D.
 
-**Geometría**: Todo objeto 3D está construido por medio de poligonos, el
-conjunto de estos poligonos que forman el objeto se le llama geometría.
+**Geometría**: Todo objeto 3D está construido por medio de polígonos, el
+conjunto de estos polígonos que forman el objeto se le llama geometría.
 
 **GI Probes**: En una técnica ocupada para generar luz indirecta en tiempo real
-haciendo que la luz se comporte de acuerdo al punto de visa de una camara y que
+haciendo que la luz se comporte de acuerdo al punto de visa de una cámara y que
 se vea de una forma más real.
 
 **Gridmaps**: Es una técnica empleada en el diseño de niveles 3D, que por medio
-de objetos tridimencionales se van colocando en pantalla como si estos fueran
+de objetos tridimensionales se van colocando en pantalla como si estos fueran
 tiles 2D.
 
 **Grow**: Es un efecto que permite separar las caras de un objeto unidas por
@@ -449,7 +449,7 @@ y con una intensidad definida, es mas parecido a como ilumina una ampolleta.
 +----------------------+
 
 **Luz Spot**: Es una luz que permite desplegar la luz como un cono, es más
-parecida a la luz de un foco de un automovil o un foco de vigilancia.
+parecida a la luz de un foco de un automóvil o un foco de vigilancia.
 
 .. |spotl| image:: https://docs.godotengine.org/en/3.1/_images/light_spot.png
 
@@ -461,10 +461,10 @@ parecida a la luz de un foco de un automovil o un foco de vigilancia.
 +----------+
 
 **Mapa UV**: Sirve para poder proyectar adecuadamente una imagen sobre una
-superficie tridimencional, esta se despliega como una malla en 2 dimensiones.
+superficie tridimensional, esta se despliega como una malla en 2 dimensiones.
 En ella podemos colocar una imagen y automáticamente el **Mapa UV** por medio
-de sus cordenadas referencia esa imagen y la despliega sobre el objeto 3D,
-envolviendolo como si el objeto tubiese esa textura.
+de sus coordenadas referencia esa imagen y la despliega sobre el objeto 3D,
+envolviéndolo como si el objeto tuviese esa textura.
 
 .. |uv| image:: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Cube_Representative_UV_Unwrapping.png/1024px-Cube_Representative_UV_Unwrapping.png
 
@@ -477,7 +477,7 @@ envolviendolo como si el objeto tubiese esa textura.
 
 **Material**: Se compone de varios elementos como: Albeado o Color Difuso, 
 que tan metálico es, su rugosidad, la cantidad de Especularidad, El mapa UV,
-el nivel de Ocusion ambiental, entre otras propiedades.
+el nivel de Oclusión ambiental, entre otras propiedades.
 
 .. |material| image:: https://docs.blender.org/manual/en/dev/_images/render_cycles_nodes_types_shaders_principled_example-1a.jpg
 
@@ -490,7 +490,7 @@ el nivel de Ocusion ambiental, entre otras propiedades.
 
 **Mesh**: Es una malla que da forma a un objeto 3D, esta se compone por
 vertices y aristas. También se le conoce como malla poligonal ya que se forma
-de distintos poligonos.
+de distintos polígonos.
 
 .. |mesh| image:: https://upload.wikimedia.org/wikipedia/commons/f/fb/Dolphin_triangle_mesh.png
 
@@ -498,12 +498,12 @@ de distintos poligonos.
 | |mesh|    |
 +-----------+
 | Una malla |
-| de delfin |
+| de delfín |
 +-----------+
 
 **MeshLibrary**: Es una colección de **Mesh** para usarlas en un **Gridmap**
 
-**Metallic**: Es la pripiedad que tiene un material de ser más o menos
+**Metallic**: Es la propiedad que tiene un material de ser más o menos
 metálico.
 
 .. |metal| image:: http://res.publicdomainfiles.com/pdf_view/67/13925311812550.png
@@ -530,7 +530,7 @@ relieve a una material, usando la luz y el punto de vista como referencia.
 
 **OBJ**: Formato de archivo extensamente soportado por todos los DCC, permite
 almacenar la malla de un objeto y los materiales asociados a el, util para
-objetos estaticos.
+objetos estáticos.
 
 **Origen**: Es un punto virtual en la malla de un objeto que define su centro
 de rotación, normalmente se coloca en el centro del objeto, pero muchas veces
@@ -539,8 +539,8 @@ personajes, cuando importas un objeto en un programa de edición 3D, toma este
 punto para posicionar el objeto en el centro de la escena.
 
 **PBR**: Es una técnica de creación de materiales permite mediante un conjunto
-de imagenes usadas como textura, mapa de normales, rugocidad, oclusión
-ambiental, entre otros ajustes para obtener objetos relistas, usando el rebote
+de imágenes usadas como textura, mapa de normales, rugosidad, oclusión
+ambiental, entre otros ajustes para obtener objetos realistas, usando el rebote
 de la luz y el punto de vista para lograr el efecto.
 
 **Plano**: Es una figura sin volumen de 2 dimensiones, útil para representa el
@@ -548,16 +548,17 @@ suelo en un entorno 3D.
 
 **Polígono**: Es una estructura que se forma por 3 o más **aristas**. su nombre
 proviene por 2 palabras: poli, que significa varios, y gono: que significa
-angulo, es decir una figura geometrica de 2 o mas angulos, es decir, para formar
-2 o más angulos se requieren 3 o más **aristas** unidas. Un triangulo es un 
-polígono ya que tiene 3 **aristas** y 2 angulos.
+ángulo, es decir, una figura geométrica de 2 o más ángulos, es decir, para
+formar 2 o más ángulos se requieren 3 o más **aristas** unidas. Un triangulo es
+un polígono ya que tiene 3 **aristas** y 2 ángulos.
 
-**Quaternions**: Son polígonos compustos por 4 **aristas**, tambien llamados
-**Quads**. En la era naciente del 3D se solian usar triangulos para generar
-objetos 3D, esto quiere decir que para generar un cubo se requerian 12
-poligonos, luego con la mejora de la tecnología se incorporaron los 
+**Quaternions**: Son polígonos compuestos por 4 **aristas**, también llamados
+
+**Quads**. En la era naciente del 3D se solía usar triángulos para generar
+objetos 3D, esto quiere decir que para generar un cubo se requerían 12
+polígonos, luego con la mejora de la tecnología se incorporaron los
 **Quaternions** permitiendo hacer mallas más complejas y reducir la cantidad de
-poligonos con un rendimiento más eficiente, esto se traduce en objetos de mayor
+polígonos con un rendimiento más eficiente, esto se traduce en objetos de mayor
 definición y velocidad de cálculo de mallas.
 
 .. |3dold| image:: ../img/triangles.png
@@ -569,7 +570,7 @@ definición y velocidad de cálculo de mallas.
 | Una malla  |
 | Formada    |
 | por        |
-| triangulos |
+| triángulos |
 | (960 caras)|
 +------------+
 
@@ -598,12 +599,12 @@ que toma la luz que rebota.
 +----------------+
 
 **Render**: Es un proceso de calculo que hace una GPU para representar un
-entorno 3D mezclando la luz ambiental los materiales y la posicion de del punto
+entorno 3D mezclando la luz ambiental los materiales y la posición de del punto
 de vista, dando como resultado una imagen de alta resolución y realismo.
-Usado extensamente en la produccion de peliculas animadas.
+Usado extensamente en la producción de películas animadas.
 
-**Rim**: Es la propiedad de un material para parecer una telas que tienen una pequeña
-microfibra, y hace que la luz se esparza a su alrededor.
+**Rim**: Es la propiedad de un material para parecer una tela que tienen una
+pequeña microfibra, y hace que la luz se esparza a su alrededor.
 
 .. |rim| image:: https://docs.godotengine.org/en/3.1/_images/spatial_material17.png
 
@@ -616,14 +617,14 @@ microfibra, y hace que la luz se esparza a su alrededor.
 +--------------+
 
 **Roughness**: Es la característica que tiene un material de ser mas o menos
-rugos, evitando que la luz sea refractada o disminuyendo su intencidad.
+rugoso, evitando que la luz sea refractada o disminuyendo su intensidad.
 
 **Spatial**: Se le denomina a cualquier objeto que sea representado un entorno
 3D.
 
 **Subsurface Scattering**: Es la propiedad que tiene un material de poder
 absorber luz hacia el interior de un objeto y luego proyectarla hacia afuera de
-él. logrando un mayor realizmo, como por ejemplo la luz del sol que absorbe la
+él. logrando un mayor realismo, como por ejemplo la luz del sol que absorbe la
 piel humana.
 
 .. |sss| image:: https://docs.godotengine.org/en/3.1/_images/spatial_material21.png
@@ -639,8 +640,8 @@ piel humana.
 
 **Surface**: Superficie de un material.
 
-**Textura**: Imagen usada como superficie de in material, que puede ser una
-imagen que reprente su aspecto.
+**Textura**: Imagen usada como superficie de un material, que puede ser una
+imagen que representa su aspecto.
 
 **TextureAtlas**: Es una imagen que contiene varias texturas, normal
 mente usado para objetos que usan distintos materiales, como por ejemplo
@@ -672,48 +673,141 @@ representar en pantalla.
 Terminología 2D y 3D
 ====================
 
-Cámara
-Colisión
-Coordenadas Globales y locales
-Cuerpo Blando (Soft)
-Cuerpo Cinemático (Kinematic)
-Cuerpo Estático (Static)
-Cuerpo Rígido (Rigid)
-delta
-Escala
-Escena
-FPS
-Gizmos
+**Cámara**: Corresponde a un objeto del videojuego que permite que el jugador
+visualice un área del videojuego, en 2D la cámara puede usarse para seguir a un
+personaje y en 3D la cámara representa el punto de vista desde donde el jugador
+ve la escena, pueden existir multiples cámaras dependiendo de las necesidades.
+
+
+**Colisión**: Permite detectar cuando un objeto es tocado por otro, como
+una muralla, el suelo o una bala, al gatillarse una colisión podemos
+ejecutar acciones dependiendo de que elementos han colisionado, como
+por ejemplo cuando una bala toca al personaje, se podría ejecutar una
+disminución de su energía.
+
+**Coordenadas Globales y locales**: Las coordenadas son puntos de posición en
+el espacio pero cada objeto maneja 2 tipos de posiciones, coordenadas
+globales que son las coordenadas respecto al área de la pantalla y
+coordenadas locales la posición respecto a su objeto padre, si el objeto
+es la raíz de una escena las coordenadas globales y locales son equivalentes
+respecto de esa escena.
+
+**Cuerpo Blando (Soft)**: Son cuerpos que se ven afectados por la física
+newtoniana pero que tienen la posibilidad de desformarse, como por ejemplo
+una tela o liquido.
+
+**Cuerpo Cinemático (Kinematic)**: Son cuerpos que no se ven afectados por la
+física newtoniana pero que si pueden interactuar con ella, permitiendo que
+se personalice completamente su comportamiento en el espacio.
+
+**Cuerpo Estático (Static)**: Son cuerpos que no se ven afectados por la
+física newtoniana pero que si pueden interactuar con ella pero no es posible
+cambiar su comportamiento, es útil para muros, suelos o techos y objetos que
+no se moverán en la escena.
+
+**Cuerpo Rígido (Rigid)**: Son cuerpos que se ven afectados por la
+física newtoniana por completo estos cuerpos tienen tipos de comportamientos
+como por ejemplo el comportamiento **Rígido** donde el cuerpo actúa como
+cualquier objeto frente a la física pudiendo rotar al caer por una pendiente,
+comportamiento **Caracter** útil para personajes que se ven afectados por la
+física pero no rotan en una pendiente.
+
+**Delta**: Es el tiempo trascurrido entre un frame y otro, dentro de un
+videojuego este pude funcionar a una frecuencia de 60 frames por segundo,
+eso quiere decir, que cada frame se muestra por un instante de 16,667
+milisegudos, a este valor se le denomina **delta** y al multiplicarlo con la
+posición de un objeto, podemos simular el desplazamiento de este en el
+espacio/tiempo, logrando obtener una **velocidad** y por consecuencia
+podremos ver al objeto moverse por la pantalla, la velocidad implícita
+es 1, eso quiere decir que se moverá 1 pixel por pantalla en 1 segundo, si
+queremos que sea más rápido debemos multiplicar por una componente de
+velocidad mayor a 1, equivalente a la cantidad de pixeles que queremos que
+se desplace en 1 segundo.
+
+**Escala**: Es un factor que permite modificar el tamaño de un objeto de
+forma proporcional tanto para el ancho, alto y largo de un objeto.
+
+**Escena**: Es un area donde se disponen todos los objetos que se desean
+mostrar también denominado mundo, pero también una escena puede ser un solo
+elemento con todos los objetos que lo representan, como un personaje y sus
+características.
+
+**FPS**: Sigla de Frame por Segundo.
+
+**Frame**: imágenes que al unirlas una tras otra se logra el efecto de
+movimiento.
+
+**Gizmos**: Controles que se muestran en la pantalla que permiten manipular
+los objetos y sus atributos contenidos en una escena de una forma visual,
+como por ejemplo arrastrando y soltando con el mouse.
 
 **GPU**: Graphics Processor Unit por sus siglas en ingles que significa en
 español **Unidad de procesamiento gráfico**, es la encargada de procesar los
-graficos 2D y 3D de una computadora. es una Unidad de procesamiento dedicada 
+gráficos 2D y 3D de una computadora. es una Unidad de procesamiento dedicada
 a esta tarea.
 
-GUI
-HUD
-Input
-InputMap
-Internacionalización
-Luces
-Maquina de estados
-Normalización
-Oclusión
-OCS (Coordenadas)
-Ortogonal
-Partículas
-Producto Cruz
-Producto Punto
-Ragdoll
-Ray-Casting
-Reflexión
-Rotación
-Señales
-Shaders
-Sombras
-Traslación
-Vector
-Viewport
+**GUI**: Sigla de Graphic User Interface o en español, interfaz gráfica de
+usuario, con ella podemos representar elementos como cajas de texto, paneles
+y otros elementos que no interactúan en el juego sino con el jugador.
+
+**HUD**: Head-Up Display o en español como una traducción no literal
+"Panel de Estados", que permite mostrar al jugador información relevante del
+juego, pero que no interactuá con este ni con el jugador, como por ejemplo,
+puede mostrar el nivel de energía, cantidad de elementos, tiempo restante,
+etc...
+
+**Input**: 
+
+**InputMap**:
+
+**i18n**: Internacionalización
+
+**Luces**:
+
+**Maquina de estados**:
+
+**Normalización**:
+
+**Oclusión**:
+
+**OCS (Coordenadas)**:
+
+**Ortogonal**:
+
+**Partículas**:
+
+**Producto Cruz**:
+
+**Producto Punto**:
+
+**Ragdoll**: Permite hacer que un sistema de huesos se comporte como si
+este fuera un títere, es decir, se puede afectar a ciertas articulaciones
+del esqueleto a que sean afectadas por la física haciendo que parezca un
+muñeco de trapo, es útil para personajes que simulan morir.
+
+**Ray-Casting**: Es un tipo de colisión que se activa cuando este toca un
+objeto en el espacio, este viaja como un rayo en línea recta a través del
+espacio y si toca un objeto este entrega la posición en la cual lo toco.
+
+
+**Reflexión**:
+
+**Rotación**:
+
+**Señales**:
+
+**Shaders**:
+
+**Sombras**:
+
+**Traslación**:
+
+**Vector**:
+
+**Viewport**: Es el area visible del videojuego para un jugador, tiene la capacidad
+de adaptarse a la resolución de una pantalla y mostrarse correctamente.
+
+
 
 
 Terminología de Animación
@@ -792,5 +886,3 @@ Phaser
 PitchShift
 Playback
 Reverb
-
-

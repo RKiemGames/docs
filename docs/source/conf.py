@@ -95,7 +95,7 @@ html_theme_options = {
     'collapse_navigation': False, # Collapse navigation (False makes it tree-like)
 }
 
-html_logo = 'img/avatar.jpeg'
+html_logo = 'img/logo.png'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

@@ -1,7 +1,7 @@
 Bienvenido a la documentación de Rdckgames
 ==========================================
 
-.. image:: https://scontent.fscl8-1.fna.fbcdn.net/v/t1.0-9/52977690_301586693873546_2322012178103664640_n.jpg?_nc_cat=109&_nc_ht=scontent.fscl8-1.fna&oh=9431963dd264dcf10fa8219edc393505&oe=5D444101
+.. image:: img/portada.jpg
 
 En esta documentación encontrarás todo el contenido de nuestro proceso de
 desarrollo de videojuegos, también encontrarás tutoriales que te guiarán en los
@@ -66,6 +66,7 @@ Contenido Adicional
 .. toctree::
    :maxdepth: 1
 
+   godot/index
    extra/index
 
 Próximamente agregaremos más contenido, así que quedate al tanto de las
