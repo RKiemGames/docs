@@ -1,7 +1,8 @@
 Godot Engine
 ============
 
-.. image:: https://godotengine.org/themes/godotengine/assets/logo.svg
+.. image:: /img/hacker_godot_docs.jpg
+   :align: center
 
 La guía de la documentación perdida
 ###################################

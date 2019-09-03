@@ -1,6 +1,9 @@
 Como usar Filter Script
 #######################
 
+.. image:: /img/hacker_godot_docs.jpg
+   :align: center
+
 Como usar **Filter Script** al importar animaciones en **Godot Engine**.
 
 Una de las características que tiene **Godot engine** es especificar filtros
