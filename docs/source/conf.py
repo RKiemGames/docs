@@ -189,5 +189,5 @@ epub_exclude_files = ['search.html']
 
 # -- I18n settings ------------------------------------------
 
-locale_dirs = ['locale/']
+locale_dirs = ['../locales/']
 gettext_compact = False
