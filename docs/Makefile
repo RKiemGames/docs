@@ -2,7 +2,7 @@
 #
 
 # You can set these variables from the command line.
-SPHINXOPTS    =
+SPHINXOPTS    = "-D language='en'"
 SPHINXBUILD   = sphinx-build
 SOURCEDIR     = source
 BUILDDIR      = source/_build
