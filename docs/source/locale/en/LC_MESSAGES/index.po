@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Rdckgames 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 10:21-0400\n"
+"POT-Creation-Date: 2019-09-05 10:34-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,82 +17,82 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/index.rst:2
+#: ../../index.rst:2
 msgid "Bienvenido a la documentación de Rdckgames"
 msgstr ""
 
-#: ../../source/index.rst:6
+#: ../../index.rst:6
 msgid ""
 "En esta documentación encontrarás todo el contenido de nuestro proceso de"
 " desarrollo de videojuegos, también encontrarás tutoriales que te guiarán"
 " en los procedimientos que se deben realizar para cada proceso."
 msgstr ""
 
-#: ../../source/index.rst:10
+#: ../../index.rst:10
 msgid ""
 "También publicamos tutoriales de aprendizaje para las distintas materias "
 "relacionadas con la realización de videojuegos, tales como:"
 msgstr ""
 
-#: ../../source/index.rst:13
+#: ../../index.rst:13
 msgid "**Programación** para videojuegos."
 msgstr ""
 
-#: ../../source/index.rst:14
+#: ../../index.rst:14
 msgid "**Arte** para videojuegos."
 msgstr ""
 
-#: ../../source/index.rst:15
+#: ../../index.rst:15
 msgid "**Audio y música** para videojuegos."
 msgstr ""
 
-#: ../../source/index.rst:16
+#: ../../index.rst:16
 msgid "**Marketing digital** para videojuegos."
 msgstr ""
 
-#: ../../source/index.rst:18
+#: ../../index.rst:18
 msgid ""
 "Iremos agregando contenido a medida que vallamos avanzando en los "
 "distintos tópicos."
 msgstr ""
 
-#: ../../source/index.rst:21
+#: ../../index.rst:21
 msgid ""
 "A continuación se listan los tutoriales correspondientes a las siguientes"
 " categorías:"
 msgstr ""
 
-#: ../../source/index.rst:25
+#: ../../index.rst:25
 msgid "Programación de videojuegos"
 msgstr ""
 
-#: ../../source/index.rst:36
+#: ../../index.rst:36
 msgid "Arte para videojuegos"
 msgstr ""
 
-#: ../../source/index.rst:43 ../../source/index.rst:53
+#: ../../index.rst:43 ../../index.rst:53
 msgid "`Próximamente`"
 msgstr ""
 
-#: ../../source/index.rst:46
+#: ../../index.rst:46
 msgid "Audio y música para videojuegos"
 msgstr ""
 
-#: ../../source/index.rst:56
+#: ../../index.rst:56
 msgid "Marketing Digital"
 msgstr ""
 
-#: ../../source/index.rst:64
+#: ../../index.rst:64
 msgid "Contenido Adicional"
 msgstr ""
 
-#: ../../source/index.rst:72
+#: ../../index.rst:72
 msgid ""
 "Próximamente agregaremos más contenido, así que quedate al tanto de las "
 "novedades."
 msgstr ""
 
-#: ../../source/index.rst:75
+#: ../../index.rst:75
 msgid ""
 "Puedes visitar nuestra `página de facebook Rdckgames "
 "<http://facebook.me/rdckgames>`_ por si tienes dudas o deseas conversar "

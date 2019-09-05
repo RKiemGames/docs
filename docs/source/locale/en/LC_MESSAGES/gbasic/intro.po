@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Rdckgames 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 10:21-0400\n"
+"POT-Creation-Date: 2019-09-05 10:34-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/gbasic/intro.rst:2
+#: ../../gbasic/intro.rst:2
 msgid "Introducción a los videojuegos"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:4
+#: ../../gbasic/intro.rst:4
 msgid ""
 "Cuando se habla de videojuegos, el común de la gente piensa que solo son "
 "cosas de niños, pero cuando nos adentramos en el mundo de la realización "
@@ -30,7 +30,7 @@ msgid ""
 "que ya no son cosas de niños."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:10
+#: ../../gbasic/intro.rst:10
 msgid ""
 "Durante la realización te encontrarás con muchos términos que es "
 "necesario conocer antes de empezar a construir un videojuego. En este "
@@ -38,17 +38,17 @@ msgid ""
 "cada uno de ellos."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:14
+#: ../../gbasic/intro.rst:14
 msgid ""
 "Estará separado por contextos, tanto para videojuegos 2D como 3D, también"
 " hablaremos de conceptos artísticos como dibujo, gráfica, música y audio."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:18
+#: ../../gbasic/intro.rst:18
 msgid "Terminología 2D"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:20
+#: ../../gbasic/intro.rst:20
 msgid ""
 "**8-way**: Es la posibilidad que tiene un elemento de pantalla para "
 "moverse en 8 direcciones distintas, los teclados normalmente tienen solo "
@@ -63,23 +63,23 @@ msgid ""
 "les dá mayor versatilidad."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:35
+#: ../../gbasic/intro.rst:35
 msgid "|dpad|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:37
+#: ../../gbasic/intro.rst:37
 msgid "Este es un control de **Sega master System**"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:42
+#: ../../gbasic/intro.rst:42
 msgid "|joypad|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:44
+#: ../../gbasic/intro.rst:44
 msgid "joypad de PS2 con ambos controles"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:48
+#: ../../gbasic/intro.rst:48
 msgid ""
 "**Canvas**: Este término en inglés significa en español lienzo. En "
 "videojuegos un **canvas** es el área donde la GPU dibuja todo el "
@@ -89,7 +89,7 @@ msgid ""
 "Background**."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:55
+#: ../../gbasic/intro.rst:55
 msgid ""
 "**Parallax Background**: Es una técnica muy ocupada por muchos juegos de "
 "plataformas para dar un efecto de profundidad. también se le suele llamar"
@@ -98,7 +98,7 @@ msgid ""
 "videojuegos que adoptó esta técnica fue **Moon Patrol** (1982)"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:76
+#: ../../gbasic/intro.rst:76
 msgid ""
 "**Pixel**: Representación de un punto en una pantalla, este puede ser uno"
 " de los 16.777.216 colores posibles, comúnmente se separan en 3 canales "
@@ -117,15 +117,15 @@ msgid ""
 "de pixel tendrá la imagen, asi que esta medida mientra más alta es mejor."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:95
+#: ../../gbasic/intro.rst:95
 msgid "|pixel|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:97
+#: ../../gbasic/intro.rst:97
 msgid "**Pixeles** de una pantalla"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:101
+#: ../../gbasic/intro.rst:101
 msgid ""
 "**PixelArt**: Esta es una técnica ocupada por muchos videojuegos al "
 "inicio de la era de los videojuegos, donde los elementos en pantalla eran"
@@ -141,15 +141,15 @@ msgid ""
 "están muy de moda."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:116
+#: ../../gbasic/intro.rst:116
 msgid "|pixelart|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:118
+#: ../../gbasic/intro.rst:118
 msgid "Un gráfico **Pixelart**"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:122
+#: ../../gbasic/intro.rst:122
 msgid ""
 "**Sprite**: Es un pequeño gráfico que puede representar una pose de un "
 "personaje, un objeto estático del videojuego, una pequeña porción gráfica"
@@ -167,15 +167,15 @@ msgid ""
 "estos sprites."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:139
+#: ../../gbasic/intro.rst:139
 msgid "|sprite|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:141
+#: ../../gbasic/intro.rst:141
 msgid "Un Conjunto de **Sprites**"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:145
+#: ../../gbasic/intro.rst:145
 msgid ""
 "**Sprite Sheet**: Es una colección de **sprites** que pueden representar "
 "las poses de uno o varios personajes y tener también objetos inanimados o"
@@ -184,15 +184,15 @@ msgid ""
 "una carga mas eficiente del videojuego."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:154
+#: ../../gbasic/intro.rst:154
 msgid "|ssheet|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:156
+#: ../../gbasic/intro.rst:156
 msgid "Un **Sprites Sheet**"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:159
+#: ../../gbasic/intro.rst:159
 msgid ""
 "**Tile**: Es una representación de un elemento de nivel, normalmente se "
 "obtienen desde un **Sprite Sheet**, permite generar muchos niveles "
@@ -201,7 +201,7 @@ msgid ""
 "pantalla como si estos fuesen pinceles con la forma de un **sprite**."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:165
+#: ../../gbasic/intro.rst:165
 msgid ""
 "**Tiles automáticos (Autotile)**: Es una técnica que se ocupa para poder "
 "dibujar un conjunto de tiles y que estos automáticamente completen las "
@@ -214,37 +214,37 @@ msgid ""
 " agua. Con **autotile** puedes generar niveles muy rápidos."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:175
+#: ../../gbasic/intro.rst:175
 msgid ""
 "**Tilemap**: Es el área que ocupamos para ir dibujando nuestro nivel de "
 "videojuego usando los **tiles**."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:178
+#: ../../gbasic/intro.rst:178
 msgid ""
 "**Tileset**: Son un conjunto de tiles destinados a formar las partes de "
 "un nivel de videojuego."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:184
+#: ../../gbasic/intro.rst:184
 msgid "|tile|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:186
+#: ../../gbasic/intro.rst:186
 msgid "A la izquierda un **TilesSet**, en el centro un **Tilemap** en progreso."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:194
+#: ../../gbasic/intro.rst:194
 msgid "Terminología 3D"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:196
+#: ../../gbasic/intro.rst:196
 msgid ""
 "**Albedo**: Es el porcentaje de radiación que cualquier superficie "
 "refleja respecto a la radiación que incide sobre ella."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:199
+#: ../../gbasic/intro.rst:199
 msgid ""
 "Esta definición no lo deja muy claro, en videojuegos un pixel emite un "
 "color y dependiendo de la cantidad de luz que incida en la superficie "
@@ -258,15 +258,15 @@ msgid ""
 "norma de la potencia de 2 pixeles."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:212
+#: ../../gbasic/intro.rst:212
 msgid "|texture|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:214
+#: ../../gbasic/intro.rst:214
 msgid "Imagen para usar como **Albeado**"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:219
+#: ../../gbasic/intro.rst:219
 msgid ""
 "**Ambient Occlusion**: También abreviado como AO por sus siglas, que en "
 "español significa Oclusión ambiental. Son las áreas donde la luz no logra"
@@ -274,15 +274,15 @@ msgid ""
 "una sombra, estas son iluminadas por la luz ambiental."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:227
+#: ../../gbasic/intro.rst:227
 msgid "|ao|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:229
+#: ../../gbasic/intro.rst:229
 msgid "**AO** aplicado"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:233
+#: ../../gbasic/intro.rst:233
 msgid ""
 "**Anisotropy**: o también en español Anisotropía, es la cualidad que "
 "tiene la luz de propagarse a cierta velocidad dependiendo desde el punto "
@@ -292,32 +292,32 @@ msgid ""
 "técnica se podría evitar ese efecto."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:243
+#: ../../gbasic/intro.rst:243
 msgid "|anis|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:245
+#: ../../gbasic/intro.rst:245
 msgid "Representación de la corrección de anisotropía"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:250
+#: ../../gbasic/intro.rst:250
 msgid "**Arista**: Es una línea que une 2 puntos en el espacio."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:252
+#: ../../gbasic/intro.rst:252
 msgid ""
 "**Baked lightmaps**: Es una técnica de computación de gráficos ocupada "
 "para generar el efecto de **Oclusión ambiental**. Usada en GPUs más "
 "antiguas."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:255
+#: ../../gbasic/intro.rst:255
 msgid ""
 "**Baking Lights**: Una técnica mejorada de **Baked lightmaps** para "
 "generar el efecto de **Oclusión ambiental**. Usada en GPU más modernas."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:258
+#: ../../gbasic/intro.rst:258
 msgid ""
 "**Billboard**: Es una técnica ocupada para que una cara de un objeto "
 "siempre mire de frente a la cámara. esta técnica fue muy usada en juegos "
@@ -326,32 +326,32 @@ msgid ""
 "que finalmente era planos."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:264
+#: ../../gbasic/intro.rst:264
 msgid ""
 "**Blend**: Esto es un modo que permite mezclar los pixeles de varias "
 "texturas logrando un efecto mas detallado y realista."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:267
+#: ../../gbasic/intro.rst:267
 msgid "**Cara**: Es el área que se rellena juntando 3 o más aristas."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:269
+#: ../../gbasic/intro.rst:269
 msgid ""
 "**Clearcoat**: Es un efecto que se le puede dar a una superficie para que"
 " parezca que está recubierta por una capa trasparente, como la pintura de"
 " un automóvil o una bola de billar."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:276
+#: ../../gbasic/intro.rst:276
 msgid "|clearcoat|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:278
+#: ../../gbasic/intro.rst:278
 msgid "Bola de billar mostrando este Efecto"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:283
+#: ../../gbasic/intro.rst:283
 msgid ""
 "**Collada**: Es un formato del archivo de intercambio para modelos 3D, "
 "este puede contener adicionalmente animaciones, estructura de huesos, "
@@ -360,13 +360,13 @@ msgid ""
 "aplicaciones que usan 3D para representar elementos."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:289
+#: ../../gbasic/intro.rst:289
 msgid ""
 "**Color Difuso**: Es la reflexión de la luz en una superficie de un "
 "objeto. Al igual que **Albeado** cumple la misma función."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:292
+#: ../../gbasic/intro.rst:292
 msgid ""
 "**Coordenada Z**: Es aquella que nos permite tener un mundo 3D "
 "normalmente la que nos permite tener profundidad, y ver objetos más "
@@ -376,7 +376,7 @@ msgid ""
 "arriba hacia abajo, sino que también hacia el fondo y hacia atrás."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:299
+#: ../../gbasic/intro.rst:299
 msgid ""
 "**CSG**: Siglas en ingles de **Constructive Solid Geometry**, que en "
 "español significa Geometría sólida constructiva. permite construir la "
@@ -385,22 +385,22 @@ msgid ""
 "trozo de aquellas partes que no se unen."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:308
+#: ../../gbasic/intro.rst:308
 msgid "|csg|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:310
+#: ../../gbasic/intro.rst:310
 msgid "Aplicando **CSG**"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:314
+#: ../../gbasic/intro.rst:314
 msgid ""
 "**Cull**: permite evitar se dibujen las caras de un objeto que no están "
 "siendo visibles, por lo general siempre es la cara posterior de un "
 "objeto."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:317
+#: ../../gbasic/intro.rst:317
 msgid ""
 "**DCC**: siglas en ingles de **Digital content creation**, que en español"
 " significa **Creación de contenido digital**, normalmente se les denomina"
@@ -408,112 +408,112 @@ msgid ""
 "herramientas de modelado 3D."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:322
+#: ../../gbasic/intro.rst:322
 msgid ""
 "**Depth Draw**: Es un modo que permite el dibujado de la profundidad del "
 "objeto y representarlo como geometría en donde la luz podría proyectar "
 "sombras."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:325
+#: ../../gbasic/intro.rst:325
 msgid ""
 "**Displacement**: Permite dar un efecto de profundidad en un objeto que "
 "en su textura representa cavidades, haciendo que se vea más realista."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:328
+#: ../../gbasic/intro.rst:328
 msgid ""
 "**Emission**: Es la posibilidad que se le puede dar a un objeto para "
 "emita luz, este debe ser usado junto a **Baking Lights** para que la luz "
 "emitida sea trasmitida a los objetos al su alrededor."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:335
+#: ../../gbasic/intro.rst:335
 msgid "|emission|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:337
+#: ../../gbasic/intro.rst:337
 msgid "Objeto con **Emission** a la derecha"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:342
+#: ../../gbasic/intro.rst:342
 msgid ""
 "**Energía de la luz**: Es la intensidad de la luz que se genera desde "
 "alguna fuente fija o luz ambiental, su unidad de medida es el Watt."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:345
+#: ../../gbasic/intro.rst:345
 msgid ""
 "**Luz indirecta**: es a luz que se refleja de forma indirecta a los "
 "objetos, por medio de la luz que rebota de los objetos en los cuales "
 "incide la luz."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:352
+#: ../../gbasic/intro.rst:352
 msgid "|indirect|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:354
+#: ../../gbasic/intro.rst:354
 msgid "Comparación de una imagen con luz directa y con luz Indirecta"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:361
+#: ../../gbasic/intro.rst:361
 msgid ""
 "**Entorno**: Describe varios aspectos de como se verá nuestro videojuego,"
 " es totalmente configurable y podemos ajustar las siguientes propiedades:"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:364
+#: ../../gbasic/intro.rst:364
 msgid "**Fondo**:"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:366
+#: ../../gbasic/intro.rst:366
 msgid "**Cielo**: Color general y color del horizonte."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:367
+#: ../../gbasic/intro.rst:367
 msgid "**Suelo**: Color general y color del horizonte."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:368
+#: ../../gbasic/intro.rst:368
 msgid "**Sol**: Posición, angulo y energía."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:370
+#: ../../gbasic/intro.rst:370
 msgid "**Luz ambiental**: Color y energía."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:371
+#: ../../gbasic/intro.rst:371
 msgid "**Niebla (FOG)**: Rango de niebla con respecto a la cámara."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:373
+#: ../../gbasic/intro.rst:373
 msgid "**Especular**: Es la forma en que una superficie refleja la luz."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:375
+#: ../../gbasic/intro.rst:375
 msgid ""
 "**Blur**: Es un efecto que permite desenfocar una escena, permitiendo "
 "configurar, el desenfoque de cerca y el desenfoque de lejos"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:382
+#: ../../gbasic/intro.rst:382
 msgid "|fblur|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:384
+#: ../../gbasic/intro.rst:384
 msgid "Desenfoque **lejano**"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:389
+#: ../../gbasic/intro.rst:389
 msgid "|nblur|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:391
+#: ../../gbasic/intro.rst:391
 msgid "Desenfoque **cercano**"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:395
+#: ../../gbasic/intro.rst:395
 msgid ""
 "**Fog**: El efecto FOG permite realizar varias cosas, principalmente una "
 "ambientación con niebla, pero también se usa para que objetos lejanos "
@@ -521,41 +521,41 @@ msgid ""
 "niebla, logrando con esto un mejor rendimiento en la escena 3D."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:400
+#: ../../gbasic/intro.rst:400
 msgid ""
 "**Geometría**: Todo objeto 3D está construido por medio de polígonos, el "
 "conjunto de estos polígonos que forman el objeto se le llama geometría."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:403
+#: ../../gbasic/intro.rst:403
 msgid ""
 "**GI Probes**: En una técnica ocupada para generar luz indirecta en "
 "tiempo real haciendo que la luz se comporte de acuerdo al punto de visa "
 "de una cámara y que se vea de una forma más real."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:407
+#: ../../gbasic/intro.rst:407
 msgid ""
 "**Gridmaps**: Es una técnica empleada en el diseño de niveles 3D, que por"
 " medio de objetos tridimensionales se van colocando en pantalla como si "
 "estos fueran tiles 2D."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:411
+#: ../../gbasic/intro.rst:411
 msgid ""
 "**Grow**: Es un efecto que permite separar las caras de un objeto unidas "
 "por sus aristas."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:417
+#: ../../gbasic/intro.rst:417
 msgid "|grow|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:419
+#: ../../gbasic/intro.rst:419
 msgid "Aplicando **Grow**"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:423
+#: ../../gbasic/intro.rst:423
 msgid ""
 "**LOD**: Level of Detail por sus siglas en ingles, que en español "
 "significa **Nivel de Detalle**, es una técnica usada para hacer que los "
@@ -563,48 +563,48 @@ msgid ""
 " los objetos mas cercanos se definen a mayor calidad."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:428
+#: ../../gbasic/intro.rst:428
 msgid "**Luz Direccional**: Es un tipo de luz que simula ser un sol."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:433
+#: ../../gbasic/intro.rst:433
 msgid "|dirl|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:435
+#: ../../gbasic/intro.rst:435
 msgid "Luz **Direccional**"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:439
+#: ../../gbasic/intro.rst:439
 msgid ""
 "**Luz Omni-direccional**: Es una luz que permite proyectar su luz en un "
 "radio y con una intensidad definida, es mas parecido a como ilumina una "
 "ampolleta."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:445
+#: ../../gbasic/intro.rst:445
 msgid "|omnil|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:447
+#: ../../gbasic/intro.rst:447
 msgid "Luz **Omni Direccional**"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:451
+#: ../../gbasic/intro.rst:451
 msgid ""
 "**Luz Spot**: Es una luz que permite desplegar la luz como un cono, es "
 "más parecida a la luz de un foco de un automóvil o un foco de vigilancia."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:457
+#: ../../gbasic/intro.rst:457
 msgid "|spotl|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:459
+#: ../../gbasic/intro.rst:459
 msgid "Luz **Spot**"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:463
+#: ../../gbasic/intro.rst:463
 msgid ""
 "**Mapa UV**: Sirve para poder proyectar adecuadamente una imagen sobre "
 "una superficie tridimensional, esta se despliega como una malla en 2 "
@@ -614,87 +614,87 @@ msgid ""
 " textura."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:472
+#: ../../gbasic/intro.rst:472
 msgid "|uv|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:474
+#: ../../gbasic/intro.rst:474
 msgid "**Mapa UV** proyectado"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:478
+#: ../../gbasic/intro.rst:478
 msgid ""
 "**Material**: Se compone de varios elementos como: Albeado o Color "
 "Difuso, que tan metálico es, su rugosidad, la cantidad de Especularidad, "
 "El mapa UV, el nivel de Oclusión ambiental, entre otras propiedades."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:485
+#: ../../gbasic/intro.rst:485
 msgid "|material|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:487
+#: ../../gbasic/intro.rst:487
 msgid "Lista de Materiales"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:491
+#: ../../gbasic/intro.rst:491
 msgid ""
 "**Mesh**: Es una malla que da forma a un objeto 3D, esta se compone por "
 "vertices y aristas. También se le conoce como malla poligonal ya que se "
 "forma de distintos polígonos."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:498
+#: ../../gbasic/intro.rst:498
 msgid "|mesh|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:500
+#: ../../gbasic/intro.rst:500
 msgid "Una malla de delfín"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:504
+#: ../../gbasic/intro.rst:504
 msgid ""
 "**MeshLibrary**: Es una colección de **Mesh** para usarlas en un "
 "**Gridmap**"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:506
+#: ../../gbasic/intro.rst:506
 msgid ""
 "**Metallic**: Es la propiedad que tiene un material de ser más o menos "
 "metálico."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:512
+#: ../../gbasic/intro.rst:512
 msgid "|metal|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:514
+#: ../../gbasic/intro.rst:514
 msgid "Esfera Metálica"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:518
+#: ../../gbasic/intro.rst:518
 msgid ""
 "**Normalmap**: También llamado mapa de normales, permite darle un efecto "
 "de relieve a una material, usando la luz y el punto de vista como "
 "referencia."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:524
+#: ../../gbasic/intro.rst:524
 msgid "|normal|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:526
+#: ../../gbasic/intro.rst:526
 msgid "Una imagen de mapa de normales"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:531
+#: ../../gbasic/intro.rst:531
 msgid ""
 "**OBJ**: Formato de archivo extensamente soportado por todos los DCC, "
 "permite almacenar la malla de un objeto y los materiales asociados a el, "
 "util para objetos estáticos."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:535
+#: ../../gbasic/intro.rst:535
 msgid ""
 "**Origen**: Es un punto virtual en la malla de un objeto que define su "
 "centro de rotación, normalmente se coloca en el centro del objeto, pero "
@@ -703,7 +703,7 @@ msgid ""
 " 3D, toma este punto para posicionar el objeto en el centro de la escena."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:541
+#: ../../gbasic/intro.rst:541
 msgid ""
 "**PBR**: Es una técnica de creación de materiales permite mediante un "
 "conjunto de imágenes usadas como textura, mapa de normales, rugosidad, "
@@ -711,13 +711,13 @@ msgid ""
 "usando el rebote de la luz y el punto de vista para lograr el efecto."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:546
+#: ../../gbasic/intro.rst:546
 msgid ""
 "**Plano**: Es una figura sin volumen de 2 dimensiones, útil para "
 "representa el suelo en un entorno 3D."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:549
+#: ../../gbasic/intro.rst:549
 msgid ""
 "**Polígono**: Es una estructura que se forma por 3 o más **aristas**. su "
 "nombre proviene por 2 palabras: poli, que significa varios, y gono: que "
@@ -727,13 +727,13 @@ msgid ""
 "ángulos."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:555
+#: ../../gbasic/intro.rst:555
 msgid ""
 "**Quaternions**: Son polígonos compuestos por 4 **aristas**, también "
 "llamados"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:557
+#: ../../gbasic/intro.rst:557
 msgid ""
 "**Quads**. En la era naciente del 3D se solía usar triángulos para "
 "generar objetos 3D, esto quiere decir que para generar un cubo se "
@@ -744,38 +744,38 @@ msgid ""
 "mallas."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:568
+#: ../../gbasic/intro.rst:568
 msgid "|3dold|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:570
+#: ../../gbasic/intro.rst:570
 msgid "Una malla Formada por triángulos (960 caras)"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:578
+#: ../../gbasic/intro.rst:578
 msgid "|3dnew|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:580
+#: ../../gbasic/intro.rst:580
 msgid "Una malla Formada por **Quads** (512 caras)"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:587
+#: ../../gbasic/intro.rst:587
 msgid ""
 "**Refracción**: Es la propiedad que tienen un material de desviar la luz,"
 " en una superficie la luz rebota según su normal, la normal es la "
 "dirección que toma la luz que rebota."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:594
+#: ../../gbasic/intro.rst:594
 msgid "|refract|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:596
+#: ../../gbasic/intro.rst:596
 msgid "Efecto **Refracción** a la derecha"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:601
+#: ../../gbasic/intro.rst:601
 msgid ""
 "**Render**: Es un proceso de calculo que hace una GPU para representar un"
 " entorno 3D mezclando la luz ambiental los materiales y la posición de "
@@ -783,34 +783,34 @@ msgid ""
 "realismo. Usado extensamente en la producción de películas animadas."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:606
+#: ../../gbasic/intro.rst:606
 msgid ""
 "**Rim**: Es la propiedad de un material para parecer una tela que tienen "
 "una pequeña microfibra, y hace que la luz se esparza a su alrededor."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:612
+#: ../../gbasic/intro.rst:612
 msgid "|rim|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:614
+#: ../../gbasic/intro.rst:614
 msgid "Efecto **Rim** a la derecha"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:619
+#: ../../gbasic/intro.rst:619
 msgid ""
 "**Roughness**: Es la característica que tiene un material de ser mas o "
 "menos rugoso, evitando que la luz sea refractada o disminuyendo su "
 "intensidad."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:622
+#: ../../gbasic/intro.rst:622
 msgid ""
 "**Spatial**: Se le denomina a cualquier objeto que sea representado un "
 "entorno 3D."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:625
+#: ../../gbasic/intro.rst:625
 msgid ""
 "**Subsurface Scattering**: Es la propiedad que tiene un material de poder"
 " absorber luz hacia el interior de un objeto y luego proyectarla hacia "
@@ -818,69 +818,69 @@ msgid ""
 " que absorbe la piel humana."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:633
+#: ../../gbasic/intro.rst:633
 msgid "|sss|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:635
+#: ../../gbasic/intro.rst:635
 msgid "Efecto **Subsurface** **Scattering** a la derecha"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:641
+#: ../../gbasic/intro.rst:641
 msgid "**Surface**: Superficie de un material."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:643
+#: ../../gbasic/intro.rst:643
 msgid ""
 "**Textura**: Imagen usada como superficie de un material, que puede ser "
 "una imagen que representa su aspecto."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:646
+#: ../../gbasic/intro.rst:646
 msgid ""
 "**TextureAtlas**: Es una imagen que contiene varias texturas, normal "
 "mente usado para objetos que usan distintos materiales, como por ejemplo "
 "personajes de videojuegos que visten de variadas formas."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:650
+#: ../../gbasic/intro.rst:650
 msgid ""
 "**Transform**: Son las propiedades de un objeto 3D que definen su "
 "posición, rotación y tamaño."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:653
+#: ../../gbasic/intro.rst:653
 msgid ""
 "**Transmisión**: Es la cantidad de luz del lado iluminado que se "
 "transfiere al lado oscuro (opuesto a la luz). Esto funciona bien para "
 "objetos delgados como hojas de plantas, hierba, oídos humanos, etc."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:660
+#: ../../gbasic/intro.rst:660
 msgid "|trans|"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:662
+#: ../../gbasic/intro.rst:662
 msgid "Efecto **Transmisión** a la derecha"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:667
+#: ../../gbasic/intro.rst:667
 msgid ""
 "**Vértice**: Corresponde a un punto de una malla que une 2 o más "
 "**aristas**."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:669
+#: ../../gbasic/intro.rst:669
 msgid ""
 "**World**: Es el lugar donde se colocan los objetos 3D, que se requieren "
 "representar en pantalla."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:674
+#: ../../gbasic/intro.rst:674
 msgid "Terminología 2D y 3D"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:676
+#: ../../gbasic/intro.rst:676
 msgid ""
 "**Cámara**: Corresponde a un objeto del videojuego que permite que el "
 "jugador visualice un área del videojuego, en 2D la cámara puede usarse "
@@ -889,7 +889,7 @@ msgid ""
 "dependiendo de las necesidades."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:682
+#: ../../gbasic/intro.rst:682
 msgid ""
 "**Colisión**: Permite detectar cuando un objeto es tocado por otro, como "
 "una muralla, el suelo o una bala, al gatillarse una colisión podemos "
@@ -898,7 +898,7 @@ msgid ""
 "disminución de su energía."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:688
+#: ../../gbasic/intro.rst:688
 msgid ""
 "**Coordenadas Globales y locales**: Las coordenadas son puntos de "
 "posición en el espacio pero cada objeto maneja 2 tipos de posiciones, "
@@ -908,14 +908,14 @@ msgid ""
 "son equivalentes respecto de esa escena."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:695
+#: ../../gbasic/intro.rst:695
 msgid ""
 "**Cuerpo Blando (Soft)**: Son cuerpos que se ven afectados por la física "
 "newtoniana pero que tienen la posibilidad de desformarse, como por "
 "ejemplo una tela o liquido."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:699
+#: ../../gbasic/intro.rst:699
 msgid ""
 "**Cuerpo Cinemático (Kinematic)**: Son cuerpos que no se ven afectados "
 "por la física newtoniana pero que si pueden interactuar con ella, "
@@ -923,7 +923,7 @@ msgid ""
 "espacio."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:703
+#: ../../gbasic/intro.rst:703
 msgid ""
 "**Cuerpo Estático (Static)**: Son cuerpos que no se ven afectados por la "
 "física newtoniana pero que si pueden interactuar con ella pero no es "
@@ -931,7 +931,7 @@ msgid ""
 "objetos que no se moverán en la escena."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:708
+#: ../../gbasic/intro.rst:708
 msgid ""
 "**Cuerpo Rígido (Rigid)**: Son cuerpos que se ven afectados por la física"
 " newtoniana por completo estos cuerpos tienen tipos de comportamientos "
@@ -941,7 +941,7 @@ msgid ""
 "afectados por la física pero no rotan en una pendiente."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:715
+#: ../../gbasic/intro.rst:715
 msgid ""
 "**Delta**: Es el tiempo trascurrido entre un frame y otro, dentro de un "
 "videojuego este pude funcionar a una frecuencia de 60 frames por segundo,"
@@ -956,13 +956,13 @@ msgid ""
 "que se desplace en 1 segundo."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:727
+#: ../../gbasic/intro.rst:727
 msgid ""
 "**Escala**: Es un factor que permite modificar el tamaño de un objeto de "
 "forma proporcional tanto para el ancho, alto y largo de un objeto."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:730
+#: ../../gbasic/intro.rst:730
 msgid ""
 "**Escena**: Es un area donde se disponen todos los objetos que se desean "
 "mostrar también denominado mundo, pero también una escena puede ser un "
@@ -970,24 +970,24 @@ msgid ""
 " y sus características."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:735
+#: ../../gbasic/intro.rst:735
 msgid "**FPS**: Sigla de Frame por Segundo."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:737
+#: ../../gbasic/intro.rst:737
 msgid ""
 "**Frame**: imágenes que al unirlas una tras otra se logra el efecto de "
 "movimiento."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:740
+#: ../../gbasic/intro.rst:740
 msgid ""
 "**Gizmos**: Controles que se muestran en la pantalla que permiten "
 "manipular los objetos y sus atributos contenidos en una escena de una "
 "forma visual, como por ejemplo arrastrando y soltando con el mouse."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:744
+#: ../../gbasic/intro.rst:744
 msgid ""
 "**GPU**: Graphics Processor Unit por sus siglas en ingles que significa "
 "en español **Unidad de procesamiento gráfico**, es la encargada de "
@@ -995,7 +995,7 @@ msgid ""
 "procesamiento dedicada a esta tarea."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:749
+#: ../../gbasic/intro.rst:749
 msgid ""
 "**GUI**: Sigla de Graphic User Interface o en español, interfaz gráfica "
 "de usuario, con ella podemos representar elementos como cajas de texto, "
@@ -1003,7 +1003,7 @@ msgid ""
 "jugador."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:753
+#: ../../gbasic/intro.rst:753
 msgid ""
 "**HUD**: Head-Up Display o en español como una traducción no literal "
 "\"Panel de Estados\", que permite mostrar al jugador información "
@@ -1012,55 +1012,55 @@ msgid ""
 "elementos, tiempo restante, etc..."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:759
+#: ../../gbasic/intro.rst:759
 msgid "**Input**:"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:761
+#: ../../gbasic/intro.rst:761
 msgid "**InputMap**:"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:763
+#: ../../gbasic/intro.rst:763
 msgid "**i18n**: Internacionalización"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:765
+#: ../../gbasic/intro.rst:765
 msgid "**Luces**:"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:767
+#: ../../gbasic/intro.rst:767
 msgid "**Maquina de estados**:"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:769
+#: ../../gbasic/intro.rst:769
 msgid "**Normalización**:"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:771
+#: ../../gbasic/intro.rst:771
 msgid "**Oclusión**:"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:773
+#: ../../gbasic/intro.rst:773
 msgid "**OCS (Coordenadas)**:"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:775
+#: ../../gbasic/intro.rst:775
 msgid "**Ortogonal**:"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:777
+#: ../../gbasic/intro.rst:777
 msgid "**Partículas**:"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:779
+#: ../../gbasic/intro.rst:779
 msgid "**Producto Cruz**:"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:781
+#: ../../gbasic/intro.rst:781
 msgid "**Producto Punto**:"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:783
+#: ../../gbasic/intro.rst:783
 msgid ""
 "**Ragdoll**: Permite hacer que un sistema de huesos se comporte como si "
 "este fuera un títere, es decir, se puede afectar a ciertas articulaciones"
@@ -1068,7 +1068,7 @@ msgid ""
 " muñeco de trapo, es útil para personajes que simulan morir."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:788
+#: ../../gbasic/intro.rst:788
 msgid ""
 "**Ray-Casting**: Es un tipo de colisión que se activa cuando este toca un"
 " objeto en el espacio, este viaja como un rayo en línea recta a través "
@@ -1076,76 +1076,76 @@ msgid ""
 "toco."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:793
+#: ../../gbasic/intro.rst:793
 msgid "**Reflexión**:"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:795
+#: ../../gbasic/intro.rst:795
 msgid "**Rotación**:"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:797
+#: ../../gbasic/intro.rst:797
 msgid "**Señales**:"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:799
+#: ../../gbasic/intro.rst:799
 msgid "**Shaders**:"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:801
+#: ../../gbasic/intro.rst:801
 msgid "**Sombras**:"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:803
+#: ../../gbasic/intro.rst:803
 msgid "**Traslación**:"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:805
+#: ../../gbasic/intro.rst:805
 msgid "**Vector**:"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:807
+#: ../../gbasic/intro.rst:807
 msgid ""
 "**Viewport**: Es el area visible del videojuego para un jugador, tiene la"
 " capacidad de adaptarse a la resolución de una pantalla y mostrarse "
 "correctamente."
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:814
+#: ../../gbasic/intro.rst:814
 msgid "Terminología de Animación"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:816
+#: ../../gbasic/intro.rst:816
 msgid ""
 "Cutout Hueso IK Keyframe Loop Paint Weight Pose Rigging Root motion "
 "Skeleton Timeline Track"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:831
+#: ../../gbasic/intro.rst:831
 msgid "Terminología para Dibujo"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:835
+#: ../../gbasic/intro.rst:835
 msgid "Terminología Gráfica"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:837
+#: ../../gbasic/intro.rst:837
 msgid "Exposición Gradient HDR PCF13 RGB Smooth"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:845
+#: ../../gbasic/intro.rst:845
 msgid "Terminología Musical"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:847
+#: ../../gbasic/intro.rst:847
 msgid "Acorde Compás Escala Intervalo Nota Partitura Pulso Quinta Ritmo Tonalidad"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:860
+#: ../../gbasic/intro.rst:860
 msgid "Terminología para Audio"
 msgstr ""
 
-#: ../../source/gbasic/intro.rst:862
+#: ../../gbasic/intro.rst:862
 msgid ""
 "Amplificar Audio Stream Bandas Bus de audio Canal Chorus Compresor "
 "Decibel Delay Distorsión Doppler EQ10 EQ21 EQ6 Estéreo HighPassFilter "

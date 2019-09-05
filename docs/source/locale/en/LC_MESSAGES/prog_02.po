@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Rdckgames 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 10:21-0400\n"
+"POT-Creation-Date: 2019-09-05 10:34-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,18 +17,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/prog_02.rst:2
+#: ../../prog_02.rst:2
 msgid "Programando decisiones"
 msgstr ""
 
-#: ../../source/prog_02.rst:8
+#: ../../prog_02.rst:8
 msgid ""
 "Programar decisiones suele sonar muy raro, pero lo que realmente haremos "
 "en este capítulo es hacer que el programa tome decisiones cuándo nosotros"
 " se lo indiquemos."
 msgstr ""
 
-#: ../../source/prog_02.rst:12
+#: ../../prog_02.rst:12
 msgid ""
 "Imagina que vas en tu automóvil y te encuentras que la ruta se divide en "
 "2 caminos y debes escoger 1, para este caso tu debes tomar una decisión "
@@ -38,61 +38,61 @@ msgid ""
 "destino y tu con esa información tomas el camino indicado."
 msgstr ""
 
-#: ../../source/prog_02.rst:20
+#: ../../prog_02.rst:20
 msgid "¿Qué aprenderé?"
 msgstr ""
 
-#: ../../source/prog_02.rst:22
+#: ../../prog_02.rst:22
 msgid "Saber cuándo debes programar una decisión."
 msgstr ""
 
-#: ../../source/prog_02.rst:23
+#: ../../prog_02.rst:23
 msgid "Como se escriben las decisiones cómo se componen."
 msgstr ""
 
-#: ../../source/prog_02.rst:24
+#: ../../prog_02.rst:24
 msgid "Un comando nuevo: **int()**"
 msgstr ""
 
-#: ../../source/prog_02.rst:25
+#: ../../prog_02.rst:25
 msgid "Realizar un pequeño programa que toma decisiones."
 msgstr ""
 
-#: ../../source/prog_02.rst:28
+#: ../../prog_02.rst:28
 msgid "¿Qué necesito?"
 msgstr ""
 
-#: ../../source/prog_02.rst:30
+#: ../../prog_02.rst:30
 msgid ""
 "Seguiremos usando el programa **Thonny**, pero no requieres nada más así "
 "que te recomendamos tener abierta la aplicación."
 msgstr ""
 
-#: ../../source/prog_02.rst:33
+#: ../../prog_02.rst:33
 msgid ""
 "Si no sabes que es **Thonny** puedes ir a la `introducción a la "
 "programación <prog_01.html#que-necesito>`_."
 msgstr ""
 
-#: ../../source/prog_02.rst:37
+#: ../../prog_02.rst:37
 msgid "¿Qué es una decisión?"
 msgstr ""
 
-#: ../../source/prog_02.rst:39
+#: ../../prog_02.rst:39
 msgid ""
 "Una decisión en programación es mucho más básica que lo que nosotros "
 "hacemos a diario, las computadoras son más limitadas que nuestro cerebro "
 "y solo pude saber si algo es cierto o es falso comparando 2 cosas."
 msgstr ""
 
-#: ../../source/prog_02.rst:43
+#: ../../prog_02.rst:43
 msgid ""
 "Por ejemplo podemos decirle a la computadora que compare 2 números y nos "
 "diga si uno es mayor que otro, y de ser así, haga algo y sino, haga otra "
 "cosa."
 msgstr ""
 
-#: ../../source/prog_02.rst:46
+#: ../../prog_02.rst:46
 msgid ""
 "Si volvemos al ejemplo anterior de usar una **edad**, imagina que debemos"
 " preguntarle a un **gamer** que edad tiene, y hacer que el juego tome la "
@@ -100,11 +100,11 @@ msgid ""
 "simplemente porque es para personas desde 18 años en adelante."
 msgstr ""
 
-#: ../../source/prog_02.rst:52
+#: ../../prog_02.rst:52
 msgid "¿Cómo creo una decisión?"
 msgstr ""
 
-#: ../../source/prog_02.rst:54
+#: ../../prog_02.rst:54
 msgid ""
 "Para esto cualquier lenguaje de programación usa las llamadas **palabras "
 "reservadas** y esto lo hace porque como decíamos anteriormente la "
@@ -114,11 +114,11 @@ msgid ""
 "puedes usar ese nombre como variable y que le coloques otro."
 msgstr ""
 
-#: ../../source/prog_02.rst:61
+#: ../../prog_02.rst:61
 msgid "Continuando, para tomar decisiones en programación se hace con la palabra:"
 msgstr ""
 
-#: ../../source/prog_02.rst:67
+#: ../../prog_02.rst:67
 msgid ""
 "**if** en español significa **SI**, de la misma forma cuando uno se "
 "pregunta, ¿Qué pasaría **SI** hoy nevara?. básicamente lo que le estamos "
@@ -127,11 +127,11 @@ msgid ""
 "los llamados **operadores**."
 msgstr ""
 
-#: ../../source/prog_02.rst:74
+#: ../../prog_02.rst:74
 msgid "¿Qué son los operadores?"
 msgstr ""
 
-#: ../../source/prog_02.rst:76
+#: ../../prog_02.rst:76
 msgid ""
 "Los operadores nos permiten comparar 2 cosas, en nuestro ejemplo **la "
 "edad ingresada por la persona** con **la edad de mayoría de edad** que es"
@@ -139,101 +139,101 @@ msgid ""
 " ahora esto no es relevante."
 msgstr ""
 
-#: ../../source/prog_02.rst:81
+#: ../../prog_02.rst:81
 msgid "Los operadores lógicos básicos son símbolos y se listan a continuación:"
 msgstr ""
 
-#: ../../source/prog_02.rst:84
+#: ../../prog_02.rst:84
 msgid "Símbolo"
 msgstr ""
 
-#: ../../source/prog_02.rst:84
+#: ../../prog_02.rst:84
 msgid "Se escribe"
 msgstr ""
 
-#: ../../source/prog_02.rst:84
+#: ../../prog_02.rst:84
 msgid "Descripción"
 msgstr ""
 
-#: ../../source/prog_02.rst:86
+#: ../../prog_02.rst:86
 msgid "**<**"
 msgstr ""
 
-#: ../../source/prog_02.rst:86
+#: ../../prog_02.rst:86
 msgid "a < b"
 msgstr ""
 
-#: ../../source/prog_02.rst:86
+#: ../../prog_02.rst:86
 msgid "Compara si la variable **a** es **menor qué** la variable **b**"
 msgstr ""
 
-#: ../../source/prog_02.rst:88
+#: ../../prog_02.rst:88
 msgid "**>**"
 msgstr ""
 
-#: ../../source/prog_02.rst:88
+#: ../../prog_02.rst:88
 msgid "a > b"
 msgstr ""
 
-#: ../../source/prog_02.rst:88
+#: ../../prog_02.rst:88
 msgid "Compara si la variable **a** es **mayor qué** la variable **b**"
 msgstr ""
 
-#: ../../source/prog_02.rst:90
+#: ../../prog_02.rst:90
 msgid "**<=**"
 msgstr ""
 
-#: ../../source/prog_02.rst:90
+#: ../../prog_02.rst:90
 msgid "a <= b"
 msgstr ""
 
-#: ../../source/prog_02.rst:90
+#: ../../prog_02.rst:90
 msgid "Compara si la variable **a** es **menor o igual qué** la variable **b**"
 msgstr ""
 
-#: ../../source/prog_02.rst:92
+#: ../../prog_02.rst:92
 msgid "**>=**"
 msgstr ""
 
-#: ../../source/prog_02.rst:92
+#: ../../prog_02.rst:92
 msgid "a >= b"
 msgstr ""
 
-#: ../../source/prog_02.rst:92
+#: ../../prog_02.rst:92
 msgid "Compara si la variable **a** es **mayor o igual qué** la variable **b**"
 msgstr ""
 
-#: ../../source/prog_02.rst:94
+#: ../../prog_02.rst:94
 msgid "**==**"
 msgstr ""
 
-#: ../../source/prog_02.rst:94
+#: ../../prog_02.rst:94
 msgid "a == b"
 msgstr ""
 
-#: ../../source/prog_02.rst:94
+#: ../../prog_02.rst:94
 msgid "Compara si la variable **a** es **igual qué** la variable **b**"
 msgstr ""
 
-#: ../../source/prog_02.rst:96
+#: ../../prog_02.rst:96
 msgid "**!=**"
 msgstr ""
 
-#: ../../source/prog_02.rst:96
+#: ../../prog_02.rst:96
 msgid "a != b"
 msgstr ""
 
-#: ../../source/prog_02.rst:96
+#: ../../prog_02.rst:96
 msgid "Compara si la variable **a** es **distinta qué** la variable **b**"
 msgstr ""
 
-#: ../../source/prog_02.rst:99
+#: ../../prog_02.rst:99
 msgid ""
 "Teniendo de referencia la tabla anterior haremos nuestra primera "
 "comparación, escribe este programa:"
 msgstr ""
 
-#: ../../source/prog_02.rst:112
+#: ../../prog_02.rst:112
 msgid ""
 "Como te puedes dar cuenta, acá hemos creado una variable llamada "
 "**edad_minima** para almacenar la edad mínima que es 18 años, y así dejar"
@@ -244,11 +244,11 @@ msgid ""
 "fácil entender el programa."
 msgstr ""
 
-#: ../../source/prog_02.rst:120
+#: ../../prog_02.rst:120
 msgid "También hay otra cosa más aquí"
 msgstr ""
 
-#: ../../source/prog_02.rst:126
+#: ../../prog_02.rst:126
 msgid ""
 "Esto es un nuevo comando llamado **int()**, y sé que te estarás "
 "preguntando ¿Por qué hay que colocar eso? y ¿Para qué sirve?. Te explico:"
@@ -265,13 +265,13 @@ msgid ""
 "eso que **int()** es nuestro comando que lo arregla."
 msgstr ""
 
-#: ../../source/prog_02.rst:139
+#: ../../prog_02.rst:139
 msgid ""
 "Si tratas entregarle a **int()** una palabra como 'Arturo' el programa "
 "fallará."
 msgstr ""
 
-#: ../../source/prog_02.rst:141
+#: ../../prog_02.rst:141
 msgid ""
 "Analizando el más el programa podemos ver un símbolo **:** (dos puntos) "
 "después de **edad_minima** ¿Qué es esto?, te estarás preguntando, para "
@@ -279,11 +279,11 @@ msgid ""
 "terminar la línea de **if** con dos puntos."
 msgstr ""
 
-#: ../../source/prog_02.rst:146
+#: ../../prog_02.rst:146
 msgid "La línea siguiente"
 msgstr ""
 
-#: ../../source/prog_02.rst:153
+#: ../../prog_02.rst:153
 msgid ""
 "está más adentro que la línea del **if**, esto es porque le estamos "
 "indicando al programa que si la condición del **if** se cumple como "
@@ -295,33 +295,33 @@ msgid ""
 "comparación se cumple como verdadera."
 msgstr ""
 
-#: ../../source/prog_02.rst:161
+#: ../../prog_02.rst:161
 msgid ""
 "entonces qué sucede si queremos hacer otra cosa, como por ejemplo decirle"
 " que no está admitirlo a la **crew** si es menor de 18 años."
 msgstr ""
 
-#: ../../source/prog_02.rst:164
+#: ../../prog_02.rst:164
 msgid "para ello existe una palabra reservada que acompaña a **if** que se llama:"
 msgstr ""
 
-#: ../../source/prog_02.rst:170
+#: ../../prog_02.rst:170
 msgid ""
 "**else** en español significa sino, y es justamente para hacer algo sino "
 "se cumple la condición en **if**."
 msgstr ""
 
-#: ../../source/prog_02.rst:173
+#: ../../prog_02.rst:173
 msgid "así debería escribirse para nuestro ejemplo:"
 msgstr ""
 
-#: ../../source/prog_02.rst:186
+#: ../../prog_02.rst:186
 msgid ""
 "simplemente el programa ejecutará todo lo contenido en **else** si no se "
 "cumple la condición en **if**."
 msgstr ""
 
-#: ../../source/prog_02.rst:189
+#: ../../prog_02.rst:189
 msgid ""
 "Si tienes dudas o requieres una guía más personalizada contáctanos a "
 "través de nuestra `página de facebook Rdckgames "

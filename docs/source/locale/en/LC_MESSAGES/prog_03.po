@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Rdckgames 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 10:21-0400\n"
+"POT-Creation-Date: 2019-09-05 10:34-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/prog_03.rst:2
+#: ../../prog_03.rst:2
 msgid "Programado repeticiones"
 msgstr ""
 
-#: ../../source/prog_03.rst:7
+#: ../../prog_03.rst:7
 msgid ""
 "Hay muchas situaciones en la vida que debemos hacer algo repetidas veces,"
 " como por ejemplo, ir checando una lista de papeles uno por uno, uno tras"
@@ -29,51 +29,51 @@ msgid ""
 "mucho la vida si eso se pudiese hacer de forma automática."
 msgstr ""
 
-#: ../../source/prog_03.rst:13
+#: ../../prog_03.rst:13
 msgid "¿Qué aprenderé?"
 msgstr ""
 
-#: ../../source/prog_03.rst:15
+#: ../../prog_03.rst:15
 msgid "Conocer que son las repeticiones."
 msgstr ""
 
-#: ../../source/prog_03.rst:16
+#: ../../prog_03.rst:16
 msgid "Saber cuándo debemos usar una repetición."
 msgstr ""
 
-#: ../../source/prog_03.rst:17
+#: ../../prog_03.rst:17
 msgid "Crear una lista de elementos."
 msgstr ""
 
-#: ../../source/prog_03.rst:18
+#: ../../prog_03.rst:18
 msgid "Hacer un pequeño programa con repeticiones."
 msgstr ""
 
-#: ../../source/prog_03.rst:21
+#: ../../prog_03.rst:21
 msgid "¿Qué necesito?"
 msgstr ""
 
-#: ../../source/prog_03.rst:25
+#: ../../prog_03.rst:25
 msgid "Debes haber leído los apartados:"
 msgstr ""
 
-#: ../../source/prog_03.rst:24
+#: ../../prog_03.rst:24
 msgid "`Introducción a la programación <prog_01.html>`_"
 msgstr ""
 
-#: ../../source/prog_03.rst:25
+#: ../../prog_03.rst:25
 msgid "`Programando decisiones <prog_02.html>`_"
 msgstr ""
 
-#: ../../source/prog_03.rst:27
+#: ../../prog_03.rst:27
 msgid "También seguiremos usando la aplicación **Thonny**"
 msgstr ""
 
-#: ../../source/prog_03.rst:30
+#: ../../prog_03.rst:30
 msgid "¿Qué es una repetición?"
 msgstr ""
 
-#: ../../source/prog_03.rst:32
+#: ../../prog_03.rst:32
 msgid ""
 "Una repetición en programación es cuando algo debe realizarse repetidas "
 "veces, como por ejemplo, tomar la lista de artículos en nuestro bolso e "
@@ -83,11 +83,11 @@ msgid ""
 "en programación sería así:"
 msgstr ""
 
-#: ../../source/prog_03.rst:48
+#: ../../prog_03.rst:48
 msgid "El resultado en pantalla debería ser similar a esto:"
 msgstr ""
 
-#: ../../source/prog_03.rst:58
+#: ../../prog_03.rst:58
 msgid ""
 "Entonces esta es la lista de artículos en nuestro bolso (las tildes las "
 "he omitido para evitar errores), no son muchos y no es un problema aún, "
@@ -95,24 +95,24 @@ msgid ""
 "veces eso es un real problema ¿Cierto?."
 msgstr ""
 
-#: ../../source/prog_03.rst:63
+#: ../../prog_03.rst:63
 msgid ""
 "La solución es usar las **repeticiones**, una forma de hacer lo mismo "
 "pero de forma automática, 100, 1.000, 10.000 veces o las que necesites y "
 "de forma muy fácil."
 msgstr ""
 
-#: ../../source/prog_03.rst:67
+#: ../../prog_03.rst:67
 msgid "Para esto vamos a ocupar otra **palabra reservada** llamada:"
 msgstr ""
 
-#: ../../source/prog_03.rst:73
+#: ../../prog_03.rst:73
 msgid ""
 "**for** en español significa **para**, y la forma de escribirlo es la "
 "siguiente:"
 msgstr ""
 
-#: ../../source/prog_03.rst:84
+#: ../../prog_03.rst:84
 msgid ""
 "¿Qué quiere decir esto?, que **para** cada **articulo** en el **bolso** "
 "va a realizar las instrucciones anidadas línea a línea que le indiquemos "
@@ -123,11 +123,11 @@ msgid ""
 "como una **lista** antes de que empecemos a usar **for**."
 msgstr ""
 
-#: ../../source/prog_03.rst:94
+#: ../../prog_03.rst:94
 msgid "¿Cómo crear una lista?"
 msgstr ""
 
-#: ../../source/prog_03.rst:96
+#: ../../prog_03.rst:96
 msgid ""
 "Las listas son muy útiles y además son muy fáciles de crear. En "
 "programación, las listas se crean usando **[** para indicar donde empieza"
@@ -135,33 +135,33 @@ msgid ""
 "separado por una **coma**."
 msgstr ""
 
-#: ../../source/prog_03.rst:101
+#: ../../prog_03.rst:101
 msgid ""
 "Antes borra todo el código anterior que haz escrito. Esto sería así y "
 "debes colocarlo antes de usar **for**:"
 msgstr ""
 
-#: ../../source/prog_03.rst:114
+#: ../../prog_03.rst:114
 msgid "Luego vamos a tomar los artículos uno a uno usando **for**"
 msgstr ""
 
-#: ../../source/prog_03.rst:121
+#: ../../prog_03.rst:121
 msgid "El resultado de esto será:"
 msgstr ""
 
-#: ../../source/prog_03.rst:133
+#: ../../prog_03.rst:133
 msgid "Sí, exactamente el mismo que el anterior. Comparemos un poco el programa."
 msgstr ""
 
-#: ../../source/prog_03.rst:136
+#: ../../prog_03.rst:136
 msgid "La forma tediosa:"
 msgstr ""
 
-#: ../../source/prog_03.rst:146
+#: ../../prog_03.rst:146
 msgid "La forma automática:"
 msgstr ""
 
-#: ../../source/prog_03.rst:153
+#: ../../prog_03.rst:153
 msgid ""
 "Como puedes notar, en tan solo **2 líneas**, hicimos exactamente lo mismo"
 " que en **5 líneas**, como muestra **la forma tediosa**, y lo mejor de "
@@ -172,11 +172,11 @@ msgid ""
 "a que las personas crean **apps** para facilitarle la vida a la gente."
 msgstr ""
 
-#: ../../source/prog_03.rst:163
+#: ../../prog_03.rst:163
 msgid "Pequeño programa con repeticiones"
 msgstr ""
 
-#: ../../source/prog_03.rst:165
+#: ../../prog_03.rst:165
 msgid ""
 "Ya que haz aprendido a realizar repeticiones, borra todo el código "
 "anterior. Ahora vamos a crear un programa que le permita al gamer, añadir"
@@ -184,11 +184,11 @@ msgid ""
 "artículos que lleva en su bolso, esto es como el bolso de Ash en Pokémon."
 msgstr ""
 
-#: ../../source/prog_03.rst:170
+#: ../../prog_03.rst:170
 msgid "Mira este ejemplo y ejecutalo en **Thonny**"
 msgstr ""
 
-#: ../../source/prog_03.rst:186
+#: ../../prog_03.rst:186
 msgid ""
 "¿Haz notado que hay cosas nuevas como **while**, **True**, **not** y "
 "**break**? ,bien, **while** es otra **palabra reservada** y que también "
@@ -203,11 +203,11 @@ msgid ""
 "ilimitada repeticiones."
 msgstr ""
 
-#: ../../source/prog_03.rst:197
+#: ../../prog_03.rst:197
 msgid "Luego vemos que después del comando **input()** está este código"
 msgstr ""
 
-#: ../../source/prog_03.rst:204
+#: ../../prog_03.rst:204
 msgid ""
 "La palabra reservada **not** nos sirve para verificar si algo **no es** "
 "lo que debería ser, en este caso, nosotros estamos esperando que la "
@@ -221,24 +221,24 @@ msgid ""
 "único que está dentro de este **if** es la palabra reservada **break**"
 msgstr ""
 
-#: ../../source/prog_03.rst:216
+#: ../../prog_03.rst:216
 msgid ""
 "¿Qué es **break**?, **break** permite detener de forma inmediata una "
 "repetición, sin importar si faltan artículos más adelante, simplemente "
 "termina de repetir."
 msgstr ""
 
-#: ../../source/prog_03.rst:220
+#: ../../prog_03.rst:220
 msgid ""
 "Esto hará que deje de repetir el **while** y ya no le preguntará más al "
 "gamer que ingrese otro artículo, se saltará la línea"
 msgstr ""
 
-#: ../../source/prog_03.rst:227
+#: ../../prog_03.rst:227
 msgid "y procederá a listar los artículos en pantalla"
 msgstr ""
 
-#: ../../source/prog_03.rst:234
+#: ../../prog_03.rst:234
 msgid ""
 "Un momento, ¿Qué es eso de **bolso.append(articulo)**?, aaah!, pensaste "
 "que lo pasé por alto, te explico, las listas son objetos con muchas "
@@ -246,14 +246,14 @@ msgid ""
 "elemento sin perder los que ya ingresaron anteriormente."
 msgstr ""
 
-#: ../../source/prog_03.rst:239
+#: ../../prog_03.rst:239
 msgid ""
 "**append** en español significa **añadir** y para usar una función de "
 "lista debemos usar un **.** (punto) y luego escribir el nombre de la "
 "función (Que es parecido a un **comando**, ¿No te parece?)."
 msgstr ""
 
-#: ../../source/prog_03.rst:243
+#: ../../prog_03.rst:243
 msgid ""
 "Cuando escribimos **'bolso.'** le estamos indicando al programa que "
 "queremos usar una función. ¿Pero cómo sabe que funciones puedo usar?, el "
@@ -261,14 +261,14 @@ msgid ""
 "forma:"
 msgstr ""
 
-#: ../../source/prog_03.rst:251
+#: ../../prog_03.rst:251
 msgid ""
 "automáticamente el programa sabe que es una lista y que debe incorporar "
 "las funciones de listas. Ahora también hay una forma mucho más natural de"
 " crear listas y es usar:"
 msgstr ""
 
-#: ../../source/prog_03.rst:260
+#: ../../prog_03.rst:260
 msgid ""
 "Ambas, **[]** y **list()** son exactamente lo mismo, la diferencia es que"
 " **list()** es un **comando** que te crea una lista y **[]** es una lista"
@@ -277,7 +277,7 @@ msgid ""
 " de gustos."
 msgstr ""
 
-#: ../../source/prog_03.rst:265
+#: ../../prog_03.rst:265
 msgid ""
 "Este artículo ha sido un poquito más complejo que los anteriores, por lo "
 "mismo queremos ayudarte a que resuelvas tus dudas,  así que si necesitas "

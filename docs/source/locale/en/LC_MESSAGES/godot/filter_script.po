@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Rdckgames 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 10:21-0400\n"
+"POT-Creation-Date: 2019-09-05 10:34-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/godot/filter_script.rst:2
+#: ../../godot/filter_script.rst:2
 msgid "Como usar Filter Script"
 msgstr ""
 
-#: ../../source/godot/filter_script.rst:7
+#: ../../godot/filter_script.rst:7
 msgid "Como usar **Filter Script** al importar animaciones en **Godot Engine**."
 msgstr ""
 
-#: ../../source/godot/filter_script.rst:9
+#: ../../godot/filter_script.rst:9
 msgid ""
 "Una de las características que tiene **Godot engine** es especificar "
 "filtros para importar tracks de animaciones, con esto puedes omitir "
@@ -37,11 +37,11 @@ msgid ""
 "este pequeño manual que explica como debes usarlo."
 msgstr ""
 
-#: ../../source/godot/filter_script.rst:23
+#: ../../godot/filter_script.rst:23
 msgid "*Figura 1: Una script típico de filtrado de tracks en animaciones.*"
 msgstr ""
 
-#: ../../source/godot/filter_script.rst:25
+#: ../../godot/filter_script.rst:25
 msgid ""
 "Para filtrar las animaciones se debe iniciar con arroba ``@``, seguido de"
 " las palabras que se deben incluir ocupando el modificador suma ``+``  o "
@@ -57,7 +57,7 @@ msgid ""
 "minúscula ya que es insensible a estas."
 msgstr ""
 
-#: ../../source/godot/filter_script.rst:37
+#: ../../godot/filter_script.rst:37
 msgid ""
 "En el script de la figura 1, se filtra los tracks para las animaciones "
 "que sus nombres empiecen por **run** pero que no contengan **forward** y "
@@ -70,23 +70,23 @@ msgid ""
 "excluirán todos los track de la animación."
 msgstr ""
 
-#: ../../source/godot/filter_script.rst:47
+#: ../../godot/filter_script.rst:47
 msgid ""
 "A continuación se muestra un script que permite especificar varios "
 "filtros de tracks en animaciones."
 msgstr ""
 
-#: ../../source/godot/filter_script.rst:59
+#: ../../godot/filter_script.rst:59
 msgid "*Figura 2: Otro ejemplo con 2 filtros de tracks de animaciones.*"
 msgstr ""
 
-#: ../../source/godot/filter_script.rst:61
+#: ../../godot/filter_script.rst:61
 msgid ""
 "Puedes crear tantos filtros como quieras, mientras respetes la sintaxis "
 "de script."
 msgstr ""
 
-#: ../../source/godot/filter_script.rst:64
+#: ../../godot/filter_script.rst:64
 msgid ""
 "La documentación oficial la puedes encontrar en este enlace "
 "https://docs.godotengine.org/en/3.1/getting_started/workflow/assets/importing_scenes.html"

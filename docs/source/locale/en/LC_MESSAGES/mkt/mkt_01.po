@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Rdckgames 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 10:21-0400\n"
+"POT-Creation-Date: 2019-09-05 10:34-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/mkt/mkt_01.rst:2
+#: ../../mkt/mkt_01.rst:2
 msgid "Cómo usar marketing digital en videojuegos"
 msgstr ""
 
-#: ../../source/mkt/mkt_01.rst:7
+#: ../../mkt/mkt_01.rst:7
 msgid ""
 "Antes de todo debemos definir qué es Marketing digital, si estás pensando"
 " en integrar ADMOB o monetizar tu videojuegos por medio de DLC, esto no "
@@ -30,41 +30,41 @@ msgid ""
 "difundir el contenido de tu videojuego. Existen 2 principales objetivos:"
 msgstr ""
 
-#: ../../source/mkt/mkt_01.rst:13
+#: ../../mkt/mkt_01.rst:13
 msgid "Lograr por medio de la publicidad tener conversión."
 msgstr ""
 
-#: ../../source/mkt/mkt_01.rst:14
+#: ../../mkt/mkt_01.rst:14
 msgid "Lograr posicionar tu marca."
 msgstr ""
 
-#: ../../source/mkt/mkt_01.rst:16
+#: ../../mkt/mkt_01.rst:16
 msgid ""
 "Qué es la conversión: Es cuando puedes cuantificar las personas que "
 "efectivamente están interesadas en tu videojuego. existen varios niveles."
 msgstr ""
 
-#: ../../source/mkt/mkt_01.rst:19
+#: ../../mkt/mkt_01.rst:19
 msgid "Adoptantes temprano."
 msgstr ""
 
-#: ../../source/mkt/mkt_01.rst:20
+#: ../../mkt/mkt_01.rst:20
 msgid "Mayoría temprana."
 msgstr ""
 
-#: ../../source/mkt/mkt_01.rst:21
+#: ../../mkt/mkt_01.rst:21
 msgid "Mayoría tardía."
 msgstr ""
 
-#: ../../source/mkt/mkt_01.rst:22
+#: ../../mkt/mkt_01.rst:22
 msgid "Rezagados."
 msgstr ""
 
-#: ../../source/mkt/mkt_01.rst:25
+#: ../../mkt/mkt_01.rst:25
 msgid "Los Adoptantes temprano"
 msgstr ""
 
-#: ../../source/mkt/mkt_01.rst:27
+#: ../../mkt/mkt_01.rst:27
 msgid ""
 "Son tus principales aliados, son aquellos gamers que están dispuesto a "
 "jugar a tu videojuego o pagar lo que sea necesario sin haber visto nada, "
@@ -74,11 +74,11 @@ msgid ""
 "principio del crecimiento."
 msgstr ""
 
-#: ../../source/mkt/mkt_01.rst:35
+#: ../../mkt/mkt_01.rst:35
 msgid "La Mayoría Temprana"
 msgstr ""
 
-#: ../../source/mkt/mkt_01.rst:37
+#: ../../mkt/mkt_01.rst:37
 msgid ""
 "Son aquellos gamers que normalmente esperan una Review del videojuego y "
 "solo están seguros de adquirirlo si ya tiene una cantidad de personas que"
@@ -87,11 +87,11 @@ msgid ""
 " cima del crecimiento."
 msgstr ""
 
-#: ../../source/mkt/mkt_01.rst:43
+#: ../../mkt/mkt_01.rst:43
 msgid "La Mayoría Tardía"
 msgstr ""
 
-#: ../../source/mkt/mkt_01.rst:45
+#: ../../mkt/mkt_01.rst:45
 msgid ""
 "Son aquellos gamers que adquieren el videojuego porque es moda, y a moda "
 "nos referimos a que la mayoría de personas juega el videojuego. Acá "
@@ -99,18 +99,18 @@ msgid ""
 "Aquí ya estás al inicio de la disminución."
 msgstr ""
 
-#: ../../source/mkt/mkt_01.rst:51
+#: ../../mkt/mkt_01.rst:51
 msgid "Los Rezagados"
 msgstr ""
 
-#: ../../source/mkt/mkt_01.rst:53
+#: ../../mkt/mkt_01.rst:53
 msgid ""
 "Son gamers que adquieren el videojuego, cuando ya el videojuego ha "
 "mantenido una popularidad poco variante en el tiempo. Acá estás en la "
 "parte final de la disminución."
 msgstr ""
 
-#: ../../source/mkt/mkt_01.rst:58
+#: ../../mkt/mkt_01.rst:58
 msgid ""
 "Puedes visitar nuestra `página de facebook Rdckgames "
 "<http://facebook.me/rdckgames>`_ por si tienes dudas o deseas conversar "

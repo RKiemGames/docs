@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Rdckgames 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-05 10:21-0400\n"
+"POT-Creation-Date: 2019-09-05 10:34-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/prog_05.rst:2
+#: ../../prog_05.rst:2
 msgid "Introducción a los objetos"
 msgstr ""
 
-#: ../../source/prog_05.rst:7
+#: ../../prog_05.rst:7
 msgid ""
 "Todo lo que nos rodea en la vida lo podemos denominar un **objeto**, como"
 " por ejemplo una taza, un árbol, una mesa, una puerta, etc…, todo estos "
@@ -33,35 +33,35 @@ msgid ""
 " solo vive en la memoria de un computador y se muestra en una pantalla."
 msgstr ""
 
-#: ../../source/prog_05.rst:16
+#: ../../prog_05.rst:16
 msgid ""
 "Pero hace muchos años atrás, por el año 1967, unos programadores "
 "quisieron cambiar esto y darle vida a los **objetos** con la programación"
 " y poder representar cosas como en el mundo real."
 msgstr ""
 
-#: ../../source/prog_05.rst:20
+#: ../../prog_05.rst:20
 msgid ""
 "Normalmente cuando hablamos de un **objeto** lo hacemos para **objetos** "
 "inanimados, como los descritos anteriormente, pero también hay objetos "
 "que tienen funciones, como un vehículo o un aparato electrónico."
 msgstr ""
 
-#: ../../source/prog_05.rst:24
+#: ../../prog_05.rst:24
 msgid ""
 "Si nos centramos en los vehículos, estos tienen varias características "
 "comunes, una de ellas es que tienen ruedas, hay de 1 de 2 de 3 y 4 ruedas"
 " o más, dependiendo de su uso o fin."
 msgstr ""
 
-#: ../../source/prog_05.rst:28
+#: ../../prog_05.rst:28
 msgid ""
 "También tienen algunas funciones como: retroceder, avanzar, acelerar, "
 "frenar, prender luces, tocar el claxón, activar el limpia parabrisa, "
 "rociar con agua, cargar combustible, etc..."
 msgstr ""
 
-#: ../../source/prog_05.rst:32
+#: ../../prog_05.rst:32
 msgid ""
 "Hay otro vehículos que tienen lo mismo pero le agregan algo más como un "
 "descapotable, puertas que se abren hacia arriba, luces que se salen desde"
@@ -72,11 +72,11 @@ msgid ""
 "vehículo, porque conocemos cómo es un vehículo."
 msgstr ""
 
-#: ../../source/prog_05.rst:41
+#: ../../prog_05.rst:41
 msgid "¿Qué es la pertenencia?"
 msgstr ""
 
-#: ../../source/prog_05.rst:43
+#: ../../prog_05.rst:43
 msgid ""
 "El concepto de pertenencia de un objeto es aquello que es característico "
 "o propio de ese objeto y que no es de ningún otro más, por ejemplo que un"
@@ -87,82 +87,82 @@ msgid ""
 "definir a cuál objeto pertenecen esos elementos."
 msgstr ""
 
-#: ../../source/prog_05.rst:53
+#: ../../prog_05.rst:53
 msgid "ATRIBUTOS"
 msgstr ""
 
-#: ../../source/prog_05.rst:53
+#: ../../prog_05.rst:53
 msgid "FUNCIONES"
 msgstr ""
 
-#: ../../source/prog_05.rst:55
+#: ../../prog_05.rst:55
 msgid "Teclado"
 msgstr ""
 
-#: ../../source/prog_05.rst:55
+#: ../../prog_05.rst:55
 msgid "Acelerar"
 msgstr ""
 
-#: ../../source/prog_05.rst:57
+#: ../../prog_05.rst:57
 msgid "Claxón"
 msgstr ""
 
-#: ../../source/prog_05.rst:57
+#: ../../prog_05.rst:57
 msgid "Sumar"
 msgstr ""
 
-#: ../../source/prog_05.rst:59
+#: ../../prog_05.rst:59
 msgid "Mouse"
 msgstr ""
 
-#: ../../source/prog_05.rst:59
+#: ../../prog_05.rst:59
 msgid "Retroceder"
 msgstr ""
 
-#: ../../source/prog_05.rst:61
+#: ../../prog_05.rst:61
 msgid "Rueda"
 msgstr ""
 
-#: ../../source/prog_05.rst:61
+#: ../../prog_05.rst:61
 msgid "Mover puntero"
 msgstr ""
 
-#: ../../source/prog_05.rst:63
+#: ../../prog_05.rst:63
 msgid "Monitor"
 msgstr ""
 
-#: ../../source/prog_05.rst:63
+#: ../../prog_05.rst:63
 msgid "Frenar"
 msgstr ""
 
-#: ../../source/prog_05.rst:65
+#: ../../prog_05.rst:65
 msgid "Volante"
 msgstr ""
 
-#: ../../source/prog_05.rst:65
+#: ../../prog_05.rst:65
 msgid "Mostrar imagen"
 msgstr ""
 
-#: ../../source/prog_05.rst:67
+#: ../../prog_05.rst:67
 msgid "Motor"
 msgstr ""
 
-#: ../../source/prog_05.rst:67
+#: ../../prog_05.rst:67
 msgid "Activar alarma"
 msgstr ""
 
-#: ../../source/prog_05.rst:70
+#: ../../prog_05.rst:70
 msgid ""
 "Tomando los atributos y funciones anteriores, haz una tabla con los "
 "elementos que le corresponden al objeto **Vehículo** y al objeto "
 "**Computadora**."
 msgstr ""
 
-#: ../../source/prog_05.rst:74
+#: ../../prog_05.rst:74
 msgid "¿Que es un atributo?"
 msgstr ""
 
-#: ../../source/prog_05.rst:76
+#: ../../prog_05.rst:76
 msgid ""
 "Los atributos de un objeto son las características del objeto que lo "
 "distinguen de otro, determinan su forma y como se vé. Imagina en este "
@@ -170,11 +170,11 @@ msgid ""
 "denomina atributo."
 msgstr ""
 
-#: ../../source/prog_05.rst:81
+#: ../../prog_05.rst:81
 msgid "¿Que es un método?"
 msgstr ""
 
-#: ../../source/prog_05.rst:83
+#: ../../prog_05.rst:83
 msgid ""
 "Cuando al objeto queremos darle vida, animarlo, sacarlo de ese estado "
 "inanimado o estático, debemos agregarle funciones, a estas funciones se "
@@ -184,7 +184,7 @@ msgid ""
 " de programación que se les ha dado una utilidad en los **objetos**."
 msgstr ""
 
-#: ../../source/prog_05.rst:90
+#: ../../prog_05.rst:90
 msgid ""
 "Ya teniendo claro estos 3 conceptos, pertenencia, atributo y método "
 "podemos construir nuestro primer objeto, ahora ya no tendremos una "
@@ -192,11 +192,11 @@ msgid ""
 " que el personaje va a tener la función de correr como parte de él."
 msgstr ""
 
-#: ../../source/prog_05.rst:109
+#: ../../prog_05.rst:109
 msgid "¿Que es class?"
 msgstr ""
 
-#: ../../source/prog_05.rst:111
+#: ../../prog_05.rst:111
 msgid ""
 "Como puedes ver en el código anterior nosotros hemos ocupado la palabra "
 "**class** que en español significa **clase**, esta palabra nos sirve para"
@@ -213,7 +213,7 @@ msgid ""
 "**instancia**."
 msgstr ""
 
-#: ../../source/prog_05.rst:124
+#: ../../prog_05.rst:124
 msgid ""
 "Volviendo al ejemplo, como puedes ver, el personaje tiene la acción "
 "correr y a la velocidad de 2 metros por segundo, todo esto es algo que "
@@ -221,19 +221,19 @@ msgid ""
 " videojuego."
 msgstr ""
 
-#: ../../source/prog_05.rst:128
+#: ../../prog_05.rst:128
 msgid "Es aquí donde hemos creado la instancia de objeto:"
 msgstr ""
 
-#: ../../source/prog_05.rst:135
+#: ../../prog_05.rst:135
 msgid "Es como llamar a un comando, pero con el nombre de la clase."
 msgstr ""
 
-#: ../../source/prog_05.rst:139
+#: ../../prog_05.rst:139
 msgid "¿Que es la herencia?"
 msgstr ""
 
-#: ../../source/prog_05.rst:141
+#: ../../prog_05.rst:141
 msgid ""
 "La herencia es capacidad que tienen los objetos de adoptar los atributos "
 "y funciones de otro objeto y hacerlo parte de él, además de conservar sus"
@@ -244,7 +244,7 @@ msgid ""
 "como la capacidad de herencia en los objetos."
 msgstr ""
 
-#: ../../source/prog_05.rst:167
+#: ../../prog_05.rst:167
 msgid ""
 "Como puedes ver la fusión de **Goku** con **Vegeta** (**Vegeta** adopta "
 "la forma de **Goku** en este caso) hizo aumentar el **ki** a 180.000, y "
@@ -258,25 +258,25 @@ msgid ""
 "fusión de Goku con Vegeta en una forma tan simple."
 msgstr ""
 
-#: ../../source/prog_05.rst:177
+#: ../../prog_05.rst:177
 msgid ""
 "Por ahora lo dejaremos simple, existen otros conceptos sobre objetos que "
 "veremos más adelante, pero ya con esto puedes empezar a trabajar con "
 "ellos de una forma simple y práctica."
 msgstr ""
 
-#: ../../source/prog_05.rst:182
+#: ../../prog_05.rst:182
 msgid "¿Qué es una API?"
 msgstr ""
 
-#: ../../source/prog_05.rst:184
+#: ../../prog_05.rst:184
 msgid ""
 "Es la sigla en inglés de 'Application Programming Interface', que en "
 "español es 'Interfaz de Programación de Aplicaciones', pero bueno, "
 "entonces ¿Qué significa eso?."
 msgstr ""
 
-#: ../../source/prog_05.rst:188
+#: ../../prog_05.rst:188
 msgid ""
 "para explicartelo simple una API te provee un conjunto de funciones y "
 "clases ya previamente programadas por otros programadores, que te ayudan "
@@ -294,11 +294,11 @@ msgid ""
 "que pagar una licencia para poder usarla)."
 msgstr ""
 
-#: ../../source/prog_05.rst:203
+#: ../../prog_05.rst:203
 msgid "Usado una API"
 msgstr ""
 
-#: ../../source/prog_05.rst:205
+#: ../../prog_05.rst:205
 msgid ""
 "Para usar una API es mejor cuando usamos la API de un motor para "
 "videojuegos, porque con ella podemos hacer que nuestra idea de videojuego"
@@ -306,7 +306,7 @@ msgid ""
 "videojuego."
 msgstr ""
 
-#: ../../source/prog_05.rst:209
+#: ../../prog_05.rst:209
 msgid ""
 "Si tienes dudas y necesitas una guía más personalizada contáctanos a "
 "través de nuestra `página de facebook Rdckgames "
