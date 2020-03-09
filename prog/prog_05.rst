@@ -207,5 +207,5 @@ porque con ella podemos hacer que nuestra idea de videojuego sea haga real, así
 que en el siguiente artículo empezaremos a crear un videojuego.
 
 Si tienes dudas y necesitas una guía más personalizada contáctanos a través de
-nuestra `página de facebook Rdckgames <http://facebook.me/rdckgames>`_.
+nuestra `página de facebook RKiemGames <http://facebook.me/RKiemGames>`_.
 

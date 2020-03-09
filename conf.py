@@ -19,9 +19,9 @@ import sys
 
 # -- Project information -----------------------------------------------------
 
-project = 'Rdckgames'
-copyright = 'Rdckgmes 2019'
-author = 'Rdckgmes'
+project = 'RKiemGames'
+copyright = 'RKiemGames 2019'
+author = 'RKiemGames'
 
 # The short X.Y version
 version = '1.0'
@@ -116,7 +116,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Rdckgamesdoc'
+htmlhelp_basename = 'RKiemGamesdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -143,8 +143,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Rdckgames.tex', u'Documentación Rdckgames',
-     u'Rdckgmes', 'manual'),
+    (master_doc, 'RKiemGames.tex', u'Documentación RKiemGames',
+     u'RKiemGames', 'manual'),
 ]
 
 
@@ -153,7 +153,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'rdckgames', u'Documentación Rdckgames',
+    (master_doc, 'RKiemGames', u'Documentación RKiemGames',
      [author], 1)
 ]
 
@@ -164,8 +164,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Rdckgames', u'Documentación Rdckgames',
-     author, 'Rdckgames', u'Documentación para desarrollo de videojuegos',
+    (master_doc, 'RKiemGames', u'Documentación RKiemGames',
+     author, 'RKiemGames', u'Documentación para desarrollo de videojuegos',
      'Miscelanea'),
 ]
 

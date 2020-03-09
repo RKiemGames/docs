@@ -187,4 +187,4 @@ simplemente el programa ejecutará todo lo contenido en **else** si no se cumple
 la condición en **if**.
 
 Si tienes dudas o requieres una guía más personalizada contáctanos a través de
-nuestra `página de facebook Rdckgames <http://facebook.me/rdckgames>`_.
+nuestra `página de facebook RKiemGames <http://facebook.me/RKiemGames>`_.

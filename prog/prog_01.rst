@@ -213,5 +213,5 @@ tutorial, te explicaremos cómo tomar decisiones usando tus **variables**.
 Si quieres darnos tu opinión sobre este artículo te invitamos a `contestar esta encuesta <https://forms.gle/WgxAGbshiTJATxaE9>`_
 
 Si tienes dudas o requieres una guía más personalizada hablemos a través de
-nuestra `página de facebook Rdckgames <http://facebook.me/rdckgames>`_.
+nuestra `página de facebook RKiemGames <http://facebook.me/RKiemGames>`_.
 

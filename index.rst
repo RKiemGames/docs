@@ -1,4 +1,4 @@
-Bienvenido a la documentación de Rdckgames
+Bienvenido a la documentación de RKiemGames
 ==========================================
 
 .. image:: img/portada.jpg
@@ -73,5 +73,5 @@ Próximamente agregaremos más contenido, así que quedate al tanto de las
 novedades.
 
 Puedes visitar nuestra
-`página de facebook Rdckgames <http://facebook.me/rdckgames>`_ por si
+`página de facebook RKiemGames <http://facebook.me/RKiemGames>`_ por si
 tienes dudas o deseas conversar con nosotros.

@@ -782,5 +782,5 @@ nos estamos acercando más a cómo desarrollar un videojuego, lo bueno que está
 todo en una sola página y te sirve de referencia rápida si se te olvida algo.
 aun así, si tienes dudas y necesitas una guía más personalizada contáctanos a
 través de nuestra
-`página de facebook Rdckgames <http://facebook.me/rdckgames>`_.
+`página de facebook RKiemGames <http://facebook.me/RKiemGames>`_.
 

@@ -264,5 +264,5 @@ funciones, digamos que son dos formas de usar listas y es cosa de gustos.
 
 Este artículo ha sido un poquito más complejo que los anteriores, por lo mismo
 queremos ayudarte a que resuelvas tus dudas,  así que si necesitas una guía
-más personalizada contáctanos a través de nuestra `página de facebook Rdckgames <http://facebook.me/rdckgames>`_.
+más personalizada contáctanos a través de nuestra `página de facebook RKiemGames <http://facebook.me/RKiemGames>`_.
 

@@ -56,5 +56,5 @@ disminución.
 
 
 Puedes visitar nuestra
-`página de facebook Rdckgames <http://facebook.me/rdckgames>`_ por si tienes
+`página de facebook RKiemGames <http://facebook.me/RKiemGames>`_ por si tienes
 dudas o deseas conversar con nosotros.
